@@ -9,7 +9,7 @@ var animation = bodymovin.loadAnimation({
 particlesJS("particles-js",
 {"particles":
 {"number":
-{"value":150,"density":
+{"value":200,"density":
 {"enable":true,"value_area":1000}},
 "color":{"value":"#ffffff"},
 "shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},
