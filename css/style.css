@@ -48,11 +48,11 @@ html, body {
   left:0;
 }
 
-
-.wrapper {
+/*------------Nav------------*/
+.wrapper{
   margin: 0px 30px;
+  float:right;
 }
-
 a {
   font-family: sans-serif;
   text-transform: uppercase;
@@ -97,6 +97,7 @@ a {
 
 .btn.three ul li a {
   position: relative;
+
 }
 
 .btn.three ul li a:after {
@@ -124,7 +125,6 @@ a {
 }
 
 .btn.three a:hover {
-  /*   background: #E5D4CE; */
   color: white;
   transition: all 1s;
 }
