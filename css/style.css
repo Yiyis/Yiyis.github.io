@@ -120,7 +120,7 @@ p{
   margin: auto;
   width: 0%;
   height: 1px;
-  background: #aaa;
+  background: none;
   margin-bottom: 0px;
   color: transparent;
   content: "";
@@ -239,23 +239,21 @@ a, a:hover {
   position:absolute;
   z-index:3;
   width:100%;
-  top:500px;
-  bottom:0;
-  right:0;
-  left:0;
+  top:70%;
   text-align: center;
-
+  align-items:center;
 }
 
 .socialbtns, .socialbtns ul, .socialbtns li {
   margin: 0;
   padding: 5px;
+    align-items:center;
 }
 
 .socialbtns li {
     list-style: none outside none;
     display: inline-block;
-
+align-items:center;
 }
 
 .socialbtns .fa {
@@ -264,7 +262,7 @@ a, a:hover {
 	color: white;
 	background-color: none;
 	border: 1px solid white;
-	/* padding-top: 12px; */
+	padding-top: 12px;
 	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
