@@ -1,0 +1,69 @@
+*{
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+}
+
+
+/*This is where the magic is. The process works by creating a div with a height and width of 100% of the window size. You then set that div's position to fixed so it's always in the right spot on loading. Give the div a background image of whatever you like*/
+
+/*To scroll with the page, just set the position to absolute instead of fixed*/
+#full-image { 		background:url('../Projects/RABBOT/RABBOT_1.jpg') no-repeat center;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+#full-image h1 {
+  color: white;
+  font-size: 6em;
+  margin-top: 25%;
+  text-align: center;
+  text-shadow: 0 0 30px #000;
+}
+
+#full-image p {
+  color: white;
+  font-size: 2em;
+  margin-top: 2%;
+  text-align: center;
+  text-shadow: 0 0 20px #000;
+}
+
+/*The content underneath the div is positioned absolutely and has a large top offset of 100% which hides it below the full image. */
+#content {
+	background: white;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 100%;
+}
+
+img.img_small {
+  float: left;
+  width: 30%;
+  margin: 2%;
+  margin-left: 10%;
+}
+
+#content h1 {
+  float: left;
+  font-size: 4.5em;
+  line-height: 252px;
+  text-align: center;
+}
+
+#content h2,
+#content p {
+  clear: both;
+  margin: 0 auto;
+  padding: 10px;
+  width: 80%;
+}
+
+.footer {
+  float: none;
+  margin-left: 36%;
+  text-align: center;
+}

@@ -33,13 +33,6 @@ html, body {
   top: -100px;
   /* z-index:2; */
 }
-#into{
-  position:absolute;
-  text-align:center;
-  border: 3px solid white;
-  top:500px;
-  z-index:2;
-}
 .block{
   font-family: "Roboto";
   position:absolute;
@@ -237,4 +230,49 @@ h2 {
 .info-wrapper .date {
   color: white;
   font-size: 14px;
+}
+/*------------social media icons------------*/
+a, a:hover {
+	text-decoration: none;
+}
+#icons{
+  position:absolute;
+  z-index:3;
+  width:100%;
+  top:500px;
+  bottom:0;
+  right:0;
+  left:0;
+  text-align: center;
+
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+
+}
+
+.socialbtns .fa {
+	width: 30px;
+  height: 28px;
+	color: white;
+	background-color: none;
+	border: 1px solid white;
+	/* padding-top: 12px; */
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.socialbtns .fa:hover {
+	color: black;
+	background-color: white;
+	border: 1px solid white;
 }
