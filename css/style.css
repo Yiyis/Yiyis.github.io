@@ -37,10 +37,10 @@ html, body {
   font-family: "Roboto";
   position:absolute;
   height: 150px;
-  width:500px;
+  width:50%;
   margin:auto;
   color: white;
-  top:2;
+  top:80%;
   bottom:0;
   right:0;
   left:0;
@@ -241,19 +241,18 @@ a, a:hover {
   width:100%;
   top:70%;
   text-align: center;
-  align-items:center;
 }
 
 .socialbtns, .socialbtns ul, .socialbtns li {
   margin: 0;
   padding: 5px;
-    align-items:center;
+
 }
 
 .socialbtns li {
     list-style: none outside none;
     display: inline-block;
-align-items:center;
+
 }
 
 .socialbtns .fa {
@@ -261,6 +260,7 @@ align-items:center;
   height: 28px;
 	color: white;
 	background-color: none;
+  font-size: 30px;
 	border: 1px solid white;
 	padding-top: 12px;
 	border-radius: 50%;
