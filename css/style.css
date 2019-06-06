@@ -12,7 +12,7 @@ html, body {
   width: 100%;
   height: 100%;
   /* background-color: #232741; */
-  background-image: url("");
+  /* background-image: url(""); */
   background-repeat: no-repeat;
   background-size: 20%;
   background-position: 50% 50%;
@@ -47,17 +47,11 @@ html, body {
 }
 
 /*------------Nav------------*/
-/* #topbar{
-  /* margin: 0px 30px; */
-  float:right;
-  top:auto;
-  display:block;
-  padding: 20px;
-} */
+
 #btnwrapper{
   overflow: hidden;
 }
-a {
+#wrapper {
   font-family: "Roboto";
   text-transform: uppercase;
   font-size: 100 px;
@@ -74,14 +68,20 @@ p{
 /* UNDERLINE */
 
 .btn.three a {
-  background: black;
+  background: none;
   color: white;
   font-size: .72rem;
   letter-spacing: .05rem;
   transition: all 1.1s 100ms;
   position:absolute;
   z-index:2;
-
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-size: 100 px;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  padding: 10px;
 }
 
 .btn.three ul {
@@ -120,7 +120,7 @@ p{
   margin: auto;
   width: 0%;
   height: 1px;
-  background: none;
+  background: #aaa;
   margin-bottom: 0px;
   color: transparent;
   content: "";
@@ -232,6 +232,10 @@ h2 {
   font-size: 14px;
 }
 /*------------social media icons------------*/
+#introcontainer{
+  width:100%;
+  text-align:center;
+}
 a, a:hover {
 	text-decoration: none;
 }
@@ -242,35 +246,31 @@ a, a:hover {
   top:70%;
   text-align: center;
 }
-
 .socialbtns, .socialbtns ul, .socialbtns li {
-  margin: 0;
+  margin: 0 auto;
   padding: 5px;
-
 }
 
 .socialbtns li {
     list-style: none outside none;
     display: inline-block;
-
 }
 
 .socialbtns .fa {
-	width: 30px;
+	width: 40px;
   height: 28px;
-	color: white;
-	background-color: none;
-  font-size: 30px;
-	border: 1px solid white;
+	color: #000;
+	background-color: #FFF;
+	border: 1px solid #000;
 	padding-top: 12px;
-	border-radius: 50%;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-o-border-radius: 50%;
+	border-radius: 22px;
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	-o-border-radius: 22px;
 }
 
 .socialbtns .fa:hover {
-	color: black;
-	background-color: white;
+	color: #FFF;
+	background-color: #000;
 	border: 1px solid white;
 }
