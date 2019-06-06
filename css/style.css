@@ -274,3 +274,14 @@ a, a:hover {
 	background-color: #000;
 	border: 1px solid white;
 }
+.footer{
+  position: fixed;
+  font-family: "Roboto";
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  color:white;
+  text-align: center;
+  z-index: 3;
+}
