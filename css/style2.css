@@ -10,13 +10,18 @@
 /*This is where the magic is. The process works by creating a div with a height and width of 100% of the window size. You then set that div's position to fixed so it's always in the right spot on loading. Give the div a background image of whatever you like*/
 
 /*To scroll with the page, just set the position to absolute instead of fixed*/
-#full-image { 		background:url('../Projects/RABBOT/RABBOT_1.jpg') no-repeat center;
+#RABBOT { background:url('../Projects/RABBOT/RABBOT_1.jpg') no-repeat center;
   background-size: cover;
   position: fixed;
   height: 100%;
   width: 100%;
 }
-
+#DiveIntoDigital { background:url('../Projects/DiveIntoDigital/DiveIntoDigital_1.JPG') no-repeat center;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
 #full-image h1 {
   color: white;
   font-size: 6em;
