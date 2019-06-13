@@ -10,13 +10,67 @@
 /*This is where the magic is. The process works by creating a div with a height and width of 100% of the window size. You then set that div's position to fixed so it's always in the right spot on loading. Give the div a background image of whatever you like*/
 
 /*To scroll with the page, just set the position to absolute instead of fixed*/
-#RABBOT { background:url('../Projects/RABBOT/RABBOT_1.jpg') no-repeat center;
+#RABBOT { background:url('../Projects/RABBOT/RABBOT_L.jpg') no-repeat center;
   background-size: cover;
   position: fixed;
   height: 100%;
   width: 100%;
 }
 #DiveIntoDigital { background:url('../Projects/DiveIntoDigital/DiveIntoDigital_1.JPG') no-repeat center;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+#TheHats{ background:url('../Projects/TheHats/TheHats_L.jpg') no-repeat center;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+#UniverseConcert{ background:url('../Projects/UniverseConcert/UniverseConcert_L.JPG') no-repeat center;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+#Sleepers{ background:url('../Projects/Sleepers/Sleepers_L.JPG') no-repeat center;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+#MoonGaze{ background:url('../Projects/MoonGaze/MoonGaze_L.JPG') no-repeat center;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+#LovMeLovU{ background:url('../Projects/LovMeLovU/LovMeLovU_L.jpg') no-repeat center;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+#PollHuetion{ background:url('../Projects/PollHuetion/PollHuetion_L.JPG') no-repeat center;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+#Teleportation{ background:url('../Projects/Teleportation/Teleportation_L.jpg') no-repeat center;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+#EmoLace{ background:url('../Projects/EmoLace/EmoLace_L.jpg') no-repeat center;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+#Mai{ background:url('../Projects/Mai/Mai_L.jpg') no-repeat center;
   background-size: cover;
   position: fixed;
   height: 100%;
@@ -205,4 +259,30 @@ label {
 
 .outer:hover .inner:after {
   bottom: 0;
+}
+/***************Responsive video****************/
+.video-wrapper {
+    position: relative;
+    padding-bottom: 74.25%; /* 4:3 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+}
+
+.video-wrapper-narrow {
+    padding-bottom: 40%;
+}
+
+iframe,object,embed,video,.videoWrapper,.video-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-js, img.vjs-poster {
+    width: 100% !important;
+    height: 100% !important; //these need !important because IE
+    max-width: 100%;
 }
