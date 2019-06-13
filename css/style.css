@@ -219,17 +219,17 @@ h2 {
 }
 .info-wrapper .name {
   color: white;
-  font-size: 20px;
+  font-size: 1.5vw;
   margin-bottom: 5px;
 }
 .info-wrapper .memo {
   color: #ddd;
-  font-size: 14px;
+  font-size: 0.8vw;
   margin-bottom: 8px;
 }
 .info-wrapper .date {
   color: white;
-  font-size: 14px;
+  font-size: 0.8vw;
 }
 /*------------social media icons------------*/
 #introcontainer{
