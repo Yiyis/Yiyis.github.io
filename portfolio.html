@@ -6,7 +6,22 @@
   <title>Yiyi Shao</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="preload" href="js/portfolio.js" as="script">
+  <!-- <link rel="preload" href="Projects/RABBOT/RABBOT_1.jpg" as="image">
+  <link rel="preload" href="Projects/DiveIntoDigital/DiveIntoDigital_1.JPG" as="image">
+  <link rel="preload" href="Projects/UniverseConcert/UniverseConcert_1.JPG" as="image">
+  <link rel="preload" href="Projects/MoonGaze/MoonGaze.JPG" as="image">
+  <link rel="preload" href="Projects/LovMeLovU/LovMeLovU.JPG" as="image">
+  <link rel="preload" href="Projects/PollHUEtion/PollHUEtion.JPG" as="image">
+  <link rel="preload" href="Projects/Teleportation/Teleportation.jpg" as="image">
+  <link rel="preload" href="Projects/EmoLace/EmoLace.jpg" as="image"> -->
+  <script>function preload(sources)
+{
+  var images = [];
+  for (i = 0, length = sources.length; i < length; ++i) {
+    images[i] = new Image();
+    images[i].src = sources[i];
+  }
+}</script>
 </head>
 
 <body>
@@ -116,12 +131,11 @@
   </div>
   <div class="grid-item"><img src="" alt=""/></div>
 </div>
+
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-<script src='https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js'></script>
-
-
-
-    <script  src="js/portfolio.js"></script>
+  <script src='https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js'></script>
+  <script  src="js/portfolio.js"></script>
 
 
 
