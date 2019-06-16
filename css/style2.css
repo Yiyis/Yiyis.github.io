@@ -128,6 +128,12 @@ img.img_medium {
   padding: 10px;
   width: 80%;
 }
+ul{
+  list-style-type:disc;  clear: both;
+  margin: 0 auto;
+  padding: 10px;
+  width: 80%;
+}
 
 .footer {
   float: none;
@@ -137,6 +143,7 @@ img.img_medium {
 .caption{
   text-align: center;
 }
+
 /*------------scrolling animation------------*/
 @-webkit-keyframes scroll-inner {
   0% {
