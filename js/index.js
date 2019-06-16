@@ -41,8 +41,8 @@ particlesJS("particles-js",
         "events":{
           "onhover":{
             "enable":true,
-            "mode":"bubble"},
-            "onclick":{"enable":true,
+            "mode":"repulse"},
+            "onclick":{"enable":false,
             "mode":"repulse"},
             "resize":true},
             "modes":{
@@ -57,7 +57,7 @@ particlesJS("particles-js",
                   "opacity":0,
                   "speed":3},
                   "repulse":{
-                    "distance":400,
+                    "distance":200,
                     "duration":0.4},
                     "push":{
                       "particles_nb":4},
