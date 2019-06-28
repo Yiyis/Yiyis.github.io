@@ -120,6 +120,16 @@ img.img_medium {
   margin-left: auto;
   margin-right: auto;
 }
+img.img_smallgif{
+  position: relative;
+  float: left;
+  width:  auto;
+  height: 100px;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+  margin-left: 10%;
+}
 #content h1 {
   float: left;
   font-size: 4.5em;
