@@ -76,6 +76,12 @@
   height: 100%;
   width: 100%;
 }
+#MaidenPink{ background:url('../Projects/MaidenPink/MaidenPink_L.jpg') no-repeat center;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
 #full-image h1 {
   color: white;
   font-size: 6em;
