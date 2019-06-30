@@ -1,7 +1,7 @@
 /*This stylesheet is for all the project display*/
 
 *{
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }

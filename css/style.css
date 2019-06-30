@@ -34,7 +34,7 @@ html, body {
   /* z-index:2; */
 }
 .block{
-  font-family: "Roboto";
+  font-family:'Roboto', sans-serif;
   position:absolute;
   height: 150px;
   width:50%;
@@ -52,7 +52,7 @@ html, body {
   overflow: hidden;
 }
 #wrapper {
-  font-family: "Roboto";
+  font-family:'Roboto', sans-serif;
   text-transform: uppercase;
   font-size: 100 px;
   font-weight: bold;
@@ -75,7 +75,7 @@ p{
   transition: all 1.1s 100ms;
   position:absolute;
   z-index:2;
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-size: 100 px;
   font-weight: bold;
@@ -145,7 +145,7 @@ p{
 /*------------portfolio------------*/
 h2 {
   font-size: 100px;
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   padding: 20px 20px;
   color: #333;
 }
@@ -205,7 +205,7 @@ h2 {
 
 .info-wrapper {
   position: absolute;
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   left: 5px;
   bottom: 0;
   padding: 78px 16px 16px 16px;
@@ -276,7 +276,7 @@ a, a:hover {
 }
 .footer{
   position: fixed;
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   right: 0;
   bottom: 0;
   left: 0;
