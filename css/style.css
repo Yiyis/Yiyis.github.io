@@ -35,12 +35,12 @@ html, body {
 }
 .block{
   font-family:'Roboto', sans-serif;
-  position:absolute;
+  position: absolute;
+  top:85%;
   height: 150px;
   width:50%;
   margin:auto;
   color: white;
-  top:80%;
   bottom:0;
   right:0;
   left:0;
@@ -284,4 +284,11 @@ a, a:hover {
   color:white;
   text-align: center;
   z-index: 3;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+   .wrapper,.socialbtns,.block {
+    width:100%;
+  }
 }
