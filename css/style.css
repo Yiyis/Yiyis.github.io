@@ -296,13 +296,17 @@ a, a:hover {
 
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
-   .wrapper,.socialbtns,.block,.button-group, {
+   .wrapper,.block,.button-group, {
     width:100%;
+  }
+  .socialbtns{
+    width:100%;
+
   }
   .btn-filter {
     margin-right: 5px;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 12px;
     min-width: 50px;
     cursor: pointer;
     outline: none;
@@ -310,18 +314,14 @@ a, a:hover {
     background-color: transparent;
     color: #555;
   }
+  #icons{
+    top:60%;
+  }
   #bm{
-    zoom: 2; /* IE */
-    -moz-transform: scale(2); /* Firefox */
-    -moz-transform-origin: 0 0;
-    -o-transform: scale(2); /* Opera */
-    -o-transform-origin: 0 0;
-    -webkit-transform: scale(2); /* Safari And Chrome */
-    -webkit-transform-origin: 0 0;
-    transform: scale(2); /* Standard Property */
-    transform-origin: 0 0;  /* Standard Property */
-right:500px;
-display:block;
-bottom:500px;
+    top:70%;
+  }
+  .block{
+    top:0;
+    width:80%;
   }
 }
