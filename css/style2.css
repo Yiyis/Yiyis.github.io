@@ -131,12 +131,16 @@ img.img_smallgif{
   margin-left: 10%;
 }
 #content h1 {
-  float: left;
   font-size: 4.5em;
-  line-height: 252px;
-  text-align: center;
+  line-height: 2;
+  text-align: left;
 }
-
+#content h3{
+  text-align: left;
+  line-height: 1.6;
+  margin: 0 auto;
+  padding: 10px;
+}
 #content h2,
 #content p {
   clear: both;
