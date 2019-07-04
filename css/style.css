@@ -301,7 +301,6 @@ a, a:hover {
   }
   .socialbtns{
     width:100%;
-
   }
   .btn-filter {
     margin-right: 5px;
@@ -315,13 +314,14 @@ a, a:hover {
     color: #555;
   }
   #icons{
-    top:60%;
+    top:45%;
   }
   #bm{
     top:70%;
   }
   .block{
     top:0;
+    height: 40%;
     width:80%;
   }
 }
