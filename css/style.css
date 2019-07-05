@@ -195,7 +195,7 @@ h2 {
   box-sizing: border-box;
 }
 .grid-item:hover .info-wrapper {
-  transform: translateY(0px);
+  transform: translateY(0vw);
   opacity: 1;
 }
 .grid-item img {
@@ -236,7 +236,6 @@ h2 {
   z-index:4;
   width:50%;
   height:auto;
-  margin: 2%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -261,7 +260,6 @@ h2 {
   text-align: left;
   line-height: 150%;
   margin:0, auto;
-  padding-top: 1%;
   padding-left: 3%;
 }
 #introcontainer{
@@ -438,25 +436,35 @@ a, a:hover {
    .wrapper,.block,.button-group{
     width:100%;
   }
-  .socialbtns{
-    width:100%;
-  }
   .container{
     width:100%;
   }
-  .btn-filter {
-    margin-right: 5px;
-    padding: 10px 20px;
-    font-size: 12px;
-    min-width: 50px;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    background-color: transparent;
-    color: #555;
-  }
   .square {
     font-size:5em;
-}
+  }
+  #logo{
+    display:none
+  }
+  .button-group {
+    padding: 0;
+  }
+  .btn-filter {
+    margin-right: 0;
+    padding: 5px 10px;
+    font-size: 0.5em;
+    min-width: 40px;
+  }
+  .info-wrapper {
+    padding: 78px 16px 16px 16px;
+    height:25vw;
+  }
+  #AboutTextContainer{
+    width:100%;
+    left:0;
+    top:50%;
+  }
+  #img_yiyi{
+    width:100%;
+  }
 
 }
