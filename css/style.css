@@ -563,10 +563,18 @@ a, a:hover {
   #AboutTextContainer{
     width:100%;
     left:0;
-    top:50%;
+    top:60%;
   }
   #img_yiyi{
     width:100%;
+  }
+  #icons{
+    position:absolute;
+    z-index:999;
+    text-align: center;
+    width:100%;
+    top:40%;
+    left:0;
   }
 
 }
