@@ -82,6 +82,12 @@
   height: 100%;
   width: 100%;
 }
+#CourseIcon{ background:url('../Projects/CourseIcon/CourseIcon_2.png') no-repeat center;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
 #full-image h1 {
   color: white;
   font-size: 6em;
