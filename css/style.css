@@ -254,7 +254,7 @@ h2 {
   /* height: 150px; */
   padding-right: 10%;
   margin-top: 2.5em;
-margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 #AboutContainer{
   margin-top: 5%;
@@ -283,14 +283,17 @@ a, a:hover {
 #icons{
   position:absolute;
   z-index:3;
-  width:100%;
-  top:70%;
-  right:30%;
+  float:left;
+  /* width:100%; */
+
+  /* top:70%;
+  right:30%; */
   text-align: center;
 }
 .socialbtns, .socialbtns ul, .socialbtns li {
   margin: 0 auto;
   padding: 5px;
+  padding-left: 0;
 }
 
 .socialbtns li {
