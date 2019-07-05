@@ -1,6 +1,7 @@
 /* ---- reset ---- */
 html, body {
   background-color: #000;
+  font-family:'Roboto', sans-serif;
   width:100%;
   height:100%;
   margin:0;
@@ -12,8 +13,6 @@ html, body {
   position:absolute;
   width: 100%;
   height: 100%;
-  /* background-color: #232741; */
-  /* background-image: url(""); */
   background-repeat: no-repeat;
   background-size: 20%;
   background-position: 50% 50%;
@@ -31,21 +30,21 @@ html, body {
   width: 100%;
   height: 100%;
   position: absolute;
+  /* z-index:999; */
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
-  /* position:relative;
+  /*
   width: 100%;
   height: 100%;
   top: -100px; */
 }
 .block{
-  font-family:'Roboto', sans-serif;
   position: absolute;
-  top:85%;
-  height: 150px;
+  top:60%;
+  height: 80px;
   width:50%;
   margin:auto;
   color: white;
@@ -240,6 +239,38 @@ h2 {
   font-size: 0.8vw;
 }
 /*------------social media icons------------*/
+#img_yiyi{
+  position:absolute;
+  z-index:4;
+  width:50%;
+  height:auto;
+  margin: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.About{
+  font-size: 1em;
+  /* height: 150px; */
+  padding-right: 10%;
+  margin-top: 2.5em;
+margin-bottom: 2em;
+}
+#AboutContainer{
+  margin-top: 5%;
+}
+#AboutTextContainer{
+  position: absolute;
+  color:white;
+  z-index: 5;
+  width:50%;
+  left:50%;
+  text-align: left;
+  line-height: 150%;
+  margin:0, auto;
+  padding-top: 1%;
+  padding-left: 3%;
+}
 #introcontainer{
   width:100%;
   text-align:center;
@@ -252,6 +283,7 @@ a, a:hover {
   z-index:3;
   width:100%;
   top:70%;
+  right:30%;
   text-align: center;
 }
 .socialbtns, .socialbtns ul, .socialbtns li {
@@ -289,13 +321,127 @@ a, a:hover {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  color:white;
+  color:grey;
   text-align: center;
   z-index: 3;
 }
+/*------------Name Animation------------*/
 
+.container {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  width:100vw;
+  max-width:100%;
+  height:80vh;
+}
+
+
+.line {
+  display:flex;
+  position:relative;
+  z-index:3;
+}
+
+.square {
+  font-size:100px;
+  font-weight:500;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  cursor:default;
+  transition:all 0.3s;
+  color:rgba(175,146,204,0.5);
+}
+
+.square:hover {
+  color:#FF00C3;
+}
+
+@-webkit-keyframes rubberBand {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, .75, 1);
+    transform: scale3d(1.25, .75, 1)
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1)
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, .85, 1);
+    transform: scale3d(1.15, .85, 1)
+  }
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(.95, 1.05, 1)
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+    transform: scale3d(1.05, .95, 1)
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+}
+@keyframes rubberBand {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, .75, 1);
+    -ms-transform: scale3d(1.25, .75, 1);
+    transform: scale3d(1.25, .75, 1)
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    -ms-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1)
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, .85, 1);
+    -ms-transform: scale3d(1.15, .85, 1);
+    transform: scale3d(1.15, .85, 1)
+  }
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+    -ms-transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(.95, 1.05, 1)
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+    -ms-transform: scale3d(1.05, .95, 1);
+    transform: scale3d(1.05, .95, 1)
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+}
+.rubberBand {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand
+}
+
+
+@keyframes movement
+{
+  from { -webkit-transform: rotate(-1turn) translateY(-50px); transform: rotate(-1turn) translateY(-50px); }
+    to { -webkit-transform: none; transform: none; }
+}
+
+
+
+
+/*------------For mobile phones------------*/
 @media only screen and (max-width:620px) {
-  /* For mobile phones: */
    .wrapper,.block,.button-group, {
     width:100%;
   }

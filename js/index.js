@@ -1,3 +1,4 @@
+// ----------Logo Animation-------------
 var animation = bodymovin.loadAnimation({
   container: document.getElementById('bm'),
   renderer: 'svg',
@@ -5,8 +6,18 @@ var animation = bodymovin.loadAnimation({
   autoplay: true,
   path: 'data.json'
 })
+// ----------Name Animation-------------
+var square = document.getElementsByClassName('square');
 
-
+for(var i = 0; i<square.length; i++){
+  square[i].addEventListener('mouseenter', function(){
+    this.classList.add("rubberBand");
+    this.addEventListener("animationend", function(){
+      this.classList.remove("rubberBand");
+    }, false);
+  })
+}
+// ----------Particle Animation-------------
 particlesJS("particles-js",
 {"particles":
 {"number":
