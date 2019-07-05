@@ -69,7 +69,7 @@ html, body {
 }
 
 p{
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
 }
 
 /* UNDERLINE */
@@ -284,10 +284,6 @@ a, a:hover {
   position:absolute;
   z-index:3;
   float:left;
-  /* width:100%; */
-
-  /* top:70%;
-  right:30%; */
   text-align: center;
 }
 .socialbtns, .socialbtns ul, .socialbtns li {
