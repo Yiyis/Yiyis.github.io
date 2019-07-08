@@ -344,7 +344,7 @@ a, a:hover {
   animation-duration: 1s;
   cursor:default;
   transition:all 0.3s;
-  color:rgba(175,146,204,0.5);
+  color:rgba(164,75,249,0.1);
 }
 
 .square:hover {
