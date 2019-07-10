@@ -1,0 +1,455 @@
+/* Must be equal to the number of li.small-circle elements in the DOM */
+/* Hide the small circles and lines by switching this to false */
+html,
+body {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-size: 200%;
+}
+body {
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans';
+  overflow: hidden;
+  justify-content: center;
+  background: linear-gradient(-45deg, #8d66f5, #a6f3c9, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.circle {
+  width: 50vmin;
+  height: 50vmin;
+  border-radius: 50%;
+  position: relative;
+  background-color: white;
+  -webkit-transition: background-color 2s, -webkit-transform 2s;
+  transition: background-color 2s, transform 2s;
+  z-index: 1;
+}
+.circle:hover {
+  background-color: #23a6d5;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+.small-circle {
+  color: transparent;
+  border: 1px solid currentColor;
+  width: 25vmin;
+  height: 25vmin;
+  border-radius: 50%;
+  position: absolute;
+  top: 12.5vmin;
+  left: 12.5vmin;
+  -webkit-transform-origin: center;
+  -moz-transform-origin: center;
+  -ms-transform-origin: center;
+  -o-transform-origin: center;
+  transform-origin: center;
+  -webkit-transform: rotate(0deg) translateX(25vmin);
+  -moz-transform: rotate(0deg) translateX(25vmin);
+  -ms-transform: rotate(0deg) translateX(25vmin);
+  -o-transform: rotate(0deg) translateX(25vmin);
+  transform: rotate(0deg) translateX(25vmin);
+}
+.small-circle {
+  -webkit-animation: fade 4s infinite;
+  -moz-animation: fade 4s infinite;
+  -ms-animation: fade 4s infinite;
+  -o-animation: fade 4s infinite;
+  animation: fade 4s infinite;
+}
+.small-circle::before,
+.small-circle::after {
+  content: "";
+  display: block;
+  background: white;
+  position: absolute;
+}
+.small-circle::before {
+  background: #fff;
+  width: 1vmin;
+  height: 1vmin;
+  border-radius: 50%;
+  top: -0.5vmin;
+  left: 12vmin;
+  box-shadow: 0vmin 25vmin #fff;
+  -webkit-transform-origin: 0.5vmin 13vmin;
+  -moz-transform-origin: 0.5vmin 13vmin;
+  -ms-transform-origin: 0.5vmin 13vmin;
+  -o-transform-origin: 0.5vmin 13vmin;
+  transform-origin: 0.5vmin 13vmin;
+  -webkit-animation: half-rotation 4s infinite;
+  -moz-animation: half-rotation 4s infinite;
+  -ms-animation: half-rotation 4s infinite;
+  -o-animation: half-rotation 4s infinite;
+  animation: half-rotation 4s infinite;
+}
+.small-circle::after {
+  border-left: 1px solid currentColor;
+  height: 100%;
+  left: 12.5vmin;
+  -webkit-animation: half-rotation 4s infinite;
+  -moz-animation: half-rotation 4s infinite;
+  -ms-animation: half-rotation 4s infinite;
+  -o-animation: half-rotation 4s infinite;
+  animation: half-rotation 4s infinite;
+}
+@-webkit-keyframes half-rotation {
+  50% {
+    -webkit-transform: rotate(0.5turn);
+    -moz-transform: rotate(0.5turn);
+    -ms-transform: rotate(0.5turn);
+    -o-transform: rotate(0.5turn);
+    transform: rotate(0.5turn);
+  }
+  100% {
+    -webkit-transform: rotate(0.5turn);
+    -moz-transform: rotate(0.5turn);
+    -ms-transform: rotate(0.5turn);
+    -o-transform: rotate(0.5turn);
+    transform: rotate(0.5turn);
+  }
+}
+@-ms-keyframes half-rotation {
+  50% {
+    -webkit-transform: rotate(0.5turn);
+    -moz-transform: rotate(0.5turn);
+    -ms-transform: rotate(0.5turn);
+    -o-transform: rotate(0.5turn);
+    transform: rotate(0.5turn);
+  }
+  100% {
+    -webkit-transform: rotate(0.5turn);
+    -moz-transform: rotate(0.5turn);
+    -ms-transform: rotate(0.5turn);
+    -o-transform: rotate(0.5turn);
+    transform: rotate(0.5turn);
+  }
+}
+@-o-keyframes half-rotation {
+  50% {
+    -webkit-transform: rotate(0.5turn);
+    -moz-transform: rotate(0.5turn);
+    -ms-transform: rotate(0.5turn);
+    -o-transform: rotate(0.5turn);
+    transform: rotate(0.5turn);
+  }
+  100% {
+    -webkit-transform: rotate(0.5turn);
+    -moz-transform: rotate(0.5turn);
+    -ms-transform: rotate(0.5turn);
+    -o-transform: rotate(0.5turn);
+    transform: rotate(0.5turn);
+  }
+}
+@keyframes half-rotation {
+  50% {
+    -webkit-transform: rotate(0.5turn);
+    -moz-transform: rotate(0.5turn);
+    -ms-transform: rotate(0.5turn);
+    -o-transform: rotate(0.5turn);
+    transform: rotate(0.5turn);
+  }
+  100% {
+    -webkit-transform: rotate(0.5turn);
+    -moz-transform: rotate(0.5turn);
+    -ms-transform: rotate(0.5turn);
+    -o-transform: rotate(0.5turn);
+    transform: rotate(0.5turn);
+  }
+}
+@-webkit-keyframes fade {
+  0% {
+    color: transparent;
+  }
+  15% {
+    color: #fff;
+  }
+  30% {
+    color: transparent;
+  }
+}
+@-ms-keyframes fade {
+  0% {
+    color: transparent;
+  }
+  15% {
+    color: #fff;
+  }
+  30% {
+    color: transparent;
+  }
+}
+@-o-keyframes fade {
+  0% {
+    color: transparent;
+  }
+  15% {
+    color: #fff;
+  }
+  30% {
+    color: transparent;
+  }
+}
+@keyframes fade {
+  0% {
+    color: transparent;
+  }
+  15% {
+    color: #fff;
+  }
+  30% {
+    color: transparent;
+  }
+}
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.small-circle:nth-child(14) {
+  -webkit-transform: rotate(334.28571429deg) translateX(25vmin);
+  -moz-transform: rotate(334.28571429deg) translateX(25vmin);
+  -ms-transform: rotate(334.28571429deg) translateX(25vmin);
+  -o-transform: rotate(334.28571429deg) translateX(25vmin);
+  transform: rotate(334.28571429deg) translateX(25vmin);
+}
+.small-circle:nth-child(14),
+.small-circle:nth-child(14)::before,
+.small-circle:nth-child(14)::after {
+  -webkit-animation-delay: 1.3s;
+  -moz-animation-delay: 1.3s;
+  -ms-animation-delay: 1.3s;
+  -o-animation-delay: 1.3s;
+  animation-delay: 1.3s;
+}
+.small-circle:nth-child(13) {
+  -webkit-transform: rotate(308.57142857deg) translateX(25vmin);
+  -moz-transform: rotate(308.57142857deg) translateX(25vmin);
+  -ms-transform: rotate(308.57142857deg) translateX(25vmin);
+  -o-transform: rotate(308.57142857deg) translateX(25vmin);
+  transform: rotate(308.57142857deg) translateX(25vmin);
+}
+.small-circle:nth-child(13),
+.small-circle:nth-child(13)::before,
+.small-circle:nth-child(13)::after {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+  -ms-animation-delay: 1.2s;
+  -o-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+.small-circle:nth-child(12) {
+  -webkit-transform: rotate(282.85714286deg) translateX(25vmin);
+  -moz-transform: rotate(282.85714286deg) translateX(25vmin);
+  -ms-transform: rotate(282.85714286deg) translateX(25vmin);
+  -o-transform: rotate(282.85714286deg) translateX(25vmin);
+  transform: rotate(282.85714286deg) translateX(25vmin);
+}
+.small-circle:nth-child(12),
+.small-circle:nth-child(12)::before,
+.small-circle:nth-child(12)::after {
+  -webkit-animation-delay: 1.1s;
+  -moz-animation-delay: 1.1s;
+  -ms-animation-delay: 1.1s;
+  -o-animation-delay: 1.1s;
+  animation-delay: 1.1s;
+}
+.small-circle:nth-child(11) {
+  -webkit-transform: rotate(257.14285714deg) translateX(25vmin);
+  -moz-transform: rotate(257.14285714deg) translateX(25vmin);
+  -ms-transform: rotate(257.14285714deg) translateX(25vmin);
+  -o-transform: rotate(257.14285714deg) translateX(25vmin);
+  transform: rotate(257.14285714deg) translateX(25vmin);
+}
+.small-circle:nth-child(11),
+.small-circle:nth-child(11)::before,
+.small-circle:nth-child(11)::after {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.small-circle:nth-child(10) {
+  -webkit-transform: rotate(231.42857143deg) translateX(25vmin);
+  -moz-transform: rotate(231.42857143deg) translateX(25vmin);
+  -ms-transform: rotate(231.42857143deg) translateX(25vmin);
+  -o-transform: rotate(231.42857143deg) translateX(25vmin);
+  transform: rotate(231.42857143deg) translateX(25vmin);
+}
+.small-circle:nth-child(10),
+.small-circle:nth-child(10)::before,
+.small-circle:nth-child(10)::after {
+  -webkit-animation-delay: 0.9s;
+  -moz-animation-delay: 0.9s;
+  -ms-animation-delay: 0.9s;
+  -o-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+}
+.small-circle:nth-child(9) {
+  -webkit-transform: rotate(205.71428571deg) translateX(25vmin);
+  -moz-transform: rotate(205.71428571deg) translateX(25vmin);
+  -ms-transform: rotate(205.71428571deg) translateX(25vmin);
+  -o-transform: rotate(205.71428571deg) translateX(25vmin);
+  transform: rotate(205.71428571deg) translateX(25vmin);
+}
+.small-circle:nth-child(9),
+.small-circle:nth-child(9)::before,
+.small-circle:nth-child(9)::after {
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  -ms-animation-delay: 0.8s;
+  -o-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+.small-circle:nth-child(8) {
+  -webkit-transform: rotate(180deg) translateX(25vmin);
+  -moz-transform: rotate(180deg) translateX(25vmin);
+  -ms-transform: rotate(180deg) translateX(25vmin);
+  -o-transform: rotate(180deg) translateX(25vmin);
+  transform: rotate(180deg) translateX(25vmin);
+}
+.small-circle:nth-child(8),
+.small-circle:nth-child(8)::before,
+.small-circle:nth-child(8)::after {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  -ms-animation-delay: 0.7s;
+  -o-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+.small-circle:nth-child(7) {
+  -webkit-transform: rotate(154.28571429deg) translateX(25vmin);
+  -moz-transform: rotate(154.28571429deg) translateX(25vmin);
+  -ms-transform: rotate(154.28571429deg) translateX(25vmin);
+  -o-transform: rotate(154.28571429deg) translateX(25vmin);
+  transform: rotate(154.28571429deg) translateX(25vmin);
+}
+.small-circle:nth-child(7),
+.small-circle:nth-child(7)::before,
+.small-circle:nth-child(7)::after {
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  -ms-animation-delay: 0.6s;
+  -o-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+.small-circle:nth-child(6) {
+  -webkit-transform: rotate(128.57142857deg) translateX(25vmin);
+  -moz-transform: rotate(128.57142857deg) translateX(25vmin);
+  -ms-transform: rotate(128.57142857deg) translateX(25vmin);
+  -o-transform: rotate(128.57142857deg) translateX(25vmin);
+  transform: rotate(128.57142857deg) translateX(25vmin);
+}
+.small-circle:nth-child(6),
+.small-circle:nth-child(6)::before,
+.small-circle:nth-child(6)::after {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -ms-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+.small-circle:nth-child(5) {
+  -webkit-transform: rotate(102.85714286deg) translateX(25vmin);
+  -moz-transform: rotate(102.85714286deg) translateX(25vmin);
+  -ms-transform: rotate(102.85714286deg) translateX(25vmin);
+  -o-transform: rotate(102.85714286deg) translateX(25vmin);
+  transform: rotate(102.85714286deg) translateX(25vmin);
+}
+.small-circle:nth-child(5),
+.small-circle:nth-child(5)::before,
+.small-circle:nth-child(5)::after {
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  -ms-animation-delay: 0.4s;
+  -o-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+.small-circle:nth-child(4) {
+  -webkit-transform: rotate(77.14285714deg) translateX(25vmin);
+  -moz-transform: rotate(77.14285714deg) translateX(25vmin);
+  -ms-transform: rotate(77.14285714deg) translateX(25vmin);
+  -o-transform: rotate(77.14285714deg) translateX(25vmin);
+  transform: rotate(77.14285714deg) translateX(25vmin);
+}
+.small-circle:nth-child(4),
+.small-circle:nth-child(4)::before,
+.small-circle:nth-child(4)::after {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  -ms-animation-delay: 0.3s;
+  -o-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+.small-circle:nth-child(3) {
+  -webkit-transform: rotate(51.42857143deg) translateX(25vmin);
+  -moz-transform: rotate(51.42857143deg) translateX(25vmin);
+  -ms-transform: rotate(51.42857143deg) translateX(25vmin);
+  -o-transform: rotate(51.42857143deg) translateX(25vmin);
+  transform: rotate(51.42857143deg) translateX(25vmin);
+}
+.small-circle:nth-child(3),
+.small-circle:nth-child(3)::before,
+.small-circle:nth-child(3)::after {
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -ms-animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+.small-circle:nth-child(2) {
+  -webkit-transform: rotate(25.71428571deg) translateX(25vmin);
+  -moz-transform: rotate(25.71428571deg) translateX(25vmin);
+  -ms-transform: rotate(25.71428571deg) translateX(25vmin);
+  -o-transform: rotate(25.71428571deg) translateX(25vmin);
+  transform: rotate(25.71428571deg) translateX(25vmin);
+}
+.small-circle:nth-child(2),
+.small-circle:nth-child(2)::before,
+.small-circle:nth-child(2)::after {
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  -ms-animation-delay: 0.1s;
+  -o-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
