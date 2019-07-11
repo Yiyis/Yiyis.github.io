@@ -100,6 +100,12 @@
   height: 100%;
   width: 100%;
 }
+#Flyer{ background:url('../Projects/Flyer/Flyer_3.jpg') no-repeat center;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
 #full-image h1 {
   color: white;
   font-size: 6em;
