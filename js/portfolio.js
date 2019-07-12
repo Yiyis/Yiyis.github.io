@@ -1,18 +1,12 @@
 var $wrap = $('.wrap');
-$wrap.isotope({
+$wrap.imagesLoaded({
+  $wrap.isotope({
   itemSelector: '.grid-item',
     percentPosition: true,
     masonry: {
         columnWidth: '.grid-sizer'
     },
-    //getSortData :{
-    //    name:function( itemElem ){
-     //       return $( itemElem ).find('.name').text();
-     //   },
-     //   date:function( itemElem ){
-     //       return Date.parse($( itemElem ).find('.date').text());
-   //     }
-  //  }
+})
 });
 
 $('.filters-button-group').on( 'click', 'button', function() {
