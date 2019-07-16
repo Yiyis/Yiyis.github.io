@@ -20,6 +20,7 @@ $('.button-group').each( function( i, buttonGroup ) {
     $( this ).addClass('active');
   });
 });
+
 $wrap.imagesLoaded().progress( function() {
   $wrap.isotope('layout');
 });
