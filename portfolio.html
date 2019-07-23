@@ -1,255 +1,285 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Yiyi Shao</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="logo_White.png" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Yiyi Shao</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="logo_White.png">
-</head>
+  <body>
+    <div id="topbar" style="width = 100%">
+      <a href="index.html">
+        <div id="logo">
+          <img src="logo_White.png" style="width:100%; height:100%;" />
+        </div>
+      </a>
+      <div id="btnwrapper">
+        <nav class="btn three">
+          <ul>
+            <li><a href="index.html">Hello!</a></li>
+            <li><a href="portfolio.html" id="active">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="button-group filters-button-group">
+      <button class="btn-filter active" data-filter=".grid-item">All</button>
+      <button class="btn-filter" data-filter=".Wearables">Wearables</button>
+      <button class="btn-filter" data-filter=".Game">Game</button>
+      <button class="btn-filter" data-filter=".MR">Mixed Reality</button>
+      <button class="btn-filter" data-filter=".GraphicDesign">Graphic Design</button>
+      <button class="btn-filter" data-filter=".Animation">Animation</button>
+      <button class="btn-filter" data-filter=".Installation">Installation</button>
+    </div>
+    <div class="wrap">
+      <div class="grid-sizer"></div>
+      <a href="RABBOT.html">
+        <div class="grid-item MR Wearables Game">
+          <img src="Projects/RABBOT/RABBOT.jpg" alt="" />
+          <div class="info-wrapper">
+            <div class="name">RABBOT</div>
+            <div class="memo">Thesis project</div>
+            <div class="date">2019 April</div>
+          </div>
+        </div>
+      </a>
+      <a href="DiveIntoDigital.html">
+        <div class="grid-item MR">
+          <img src="Projects/DiveIntoDigital/DiveIntoDigital.JPG" alt="" />
+          <div class="info-wrapper">
+            <div class="name">DiveIntoDigital</div>
+            <div class="memo">OCAD University, Toronto</div>
+            <div class="date">2018 March</div>
+          </div>
+        </div>
+      </a>
+      <a href="MaidenPink.html">
+        <div class="grid-item Game Animation">
+          <img src="Projects/MaidenPink/MaidenPink.gif" alt="" />
+          <div class="info-wrapper">
+            <div class="name">MaidenPink</div>
+            <div class="memo">OCAD University, Toronto</div>
+            <div class="date">2018 April</div>
+          </div>
+        </div>
+      </a>
+      <a href="TheHats.html">
+        <div class="grid-item Wearables">
+          <img src="Projects/TheHats/TheHats.jpg" alt="" />
+          <div class="info-wrapper">
+            <div class="name">The Hats</div>
+            <div class="memo">OCAD University, Toronto</div>
+            <div class="date">2018 April</div>
+          </div>
+        </div>
+      </a>
+      <a href="UniverseConcert.html">
+        <div class="grid-item MR">
+          <img src="Projects/UniverseConcert/UniverseConcert.JPG" alt="" />
+          <div class="info-wrapper">
+            <div class="name">Universe Concert</div>
+            <div class="memo">Plymouth University, UK</div>
+            <div class="date">2015</div>
+          </div>
+        </div>
+      </a>
+      <a href="Sleepers.html">
+        <div class="grid-item Wearables IoT">
+          <img src="Projects/Sleepers/Sleepers.JPG" alt="" />
+          <div class="info-wrapper">
+            <div class="name">Sleepers</div>
+            <div class="memo">Social Body Lab, Toronto</div>
+            <div class="date">2018 April</div>
+          </div>
+        </div>
+      </a>
+      <a href="MoonGaze.html">
+        <div class="grid-item Wearables">
+          <img src="Projects/MoonGaze/MoonGaze.JPG" alt="" />
+          <div class="info-wrapper">
+            <div class="name">MoonGaze</div>
+            <div class="memo">OCAD University, Toronto</div>
+            <div class="date">2017 November</div>
+          </div>
+        </div>
+      </a>
+      <div class="grid-item Animation">
+        <img src="Projects/Animations/Animation_3.gif" alt="" />
+        <div class="info-wrapper">
+          <div class="name">AfterEffects Animation</div>
+          <div class="memo">Shanghai</div>
+          <div class="date">2016</div>
+        </div>
+      </div>
+      <a href="LovMeLovU.html">
+        <div class="grid-item Wearables IoT">
+          <img src="Projects/LovMeLovU/LovMeLovU.JPG" alt="" />
+          <div class="info-wrapper">
+            <div class="name">LovMeLovU</div>
+            <div class="memo">OCAD University, Toronto</div>
+            <div class="date">2017 December</div>
+          </div>
+        </div>
+      </a>
+      <a href="PollHUEtion.html">
+        <div class="grid-item Installation">
+          <img src="Projects/PollHUEtion/PollHUEtion.JPG" alt="" />
+          <div class="info-wrapper">
+            <div class="name">PollHUEtion</div>
+            <div class="memo">OCAD University, Toronto</div>
+            <div class="date">2018 February</div>
+          </div>
+        </div>
+      </a>
+      <a href="Teleportation.html">
+        <div class="grid-item Installation">
+          <img src="Projects/Teleportation/Teleportation.jpg" alt="" />
+          <div class="info-wrapper">
+            <div class="name">Teleportation</div>
+            <div class="memo">OCAD University, Toronto</div>
+            <div class="date">2017 November</div>
+          </div>
+        </div>
+      </a>
+      <a href="EmoLace.html">
+        <div class="grid-item Wearables">
+          <img src="Projects/EmoLace/EmoLace.jpg" alt="" />
+          <div class="info-wrapper">
+            <div class="name">Emolace</div>
+            <div class="memo">OCAD University, Toronto</div>
+            <div class="date">2017 December</div>
+          </div>
+        </div>
+      </a>
+      <a href="Mai.html">
+        <div class="grid-item Installation">
+          <img src="Projects/Mai/Mai.gif" alt="" />
+          <div class="info-wrapper">
+            <div class="name">Mai</div>
+            <div class="memo">UG Thesis project, UK</div>
+            <div class="date">2016</div>
+          </div>
+        </div>
+        <a href="ScholarshipPromotion.html">
+          <div class="grid-item GraphicDesign">
+            <img
+              src="Projects/ScholarshipPromotion/ScholarshipPromotionPoster_3.jpg"
+              alt=""
+            />
+            <div class="info-wrapper">
+              <div class="name">Scholarship Promotion Design</div>
+              <div class="memo">
+                In-house Design Studio, Plymouth University, UK
+              </div>
+              <div class="date">2015</div>
+            </div>
+          </div>
+        </a>
+      </a>
+      <a href="Sleepy.html">
+        <div class="grid-item Animation">
+          <img src="Projects/Sleepy/Sleepy2.gif" alt="" />
+          <div class="info-wrapper">
+            <div class="name">Sleepy Motion Graphics</div>
+            <div class="memo">OCAD University, Toronto</div>
+            <div class="date">2018</div>
+          </div>
+        </div>
+      </a>
+      <div class="grid-item Animation">
+        <img src="Projects/Animations/Animation_4.gif" alt="" />
+        <div class="info-wrapper">
+          <div class="name">C4D Animation</div>
+          <div class="memo">Shanghai</div>
+          <div class="date">2016</div>
+        </div>
+      </div>
+      <a href="CourseIcon.html">
+        <div class="grid-item GraphicDesign">
+          <img src="Projects/CourseIcon/CourseIcon_2.png" alt="" />
+          <div class="info-wrapper">
+            <div class="name">Course Icon</div>
+            <div class="memo">
+              In-house Design Studio, Plymouth University, UK
+            </div>
+            <div class="date">2015</div>
+          </div>
+        </div>
+      </a>
+      <a href="Flyer.html">
+        <div class="grid-item GraphicDesign">
+          <img src="Projects/Flyer/Flyer_1.png" alt="" />
+          <div class="info-wrapper">
+            <div class="name">Flyer Design</div>
+            <div class="memo">
+              In-house Design Studio, Plymouth University, UK
+            </div>
+            <div class="date">2015</div>
+          </div>
+        </div>
+      </a>
+      <a href="Leaflets.html">
+        <div class="grid-item GraphicDesign">
+          <img src="Projects/Leaflets/Trifold_Leaflet.jpg" alt="" />
+          <div class="info-wrapper">
+            <div class="name">Leaflet Design</div>
+            <div class="memo">
+              In-house Design Studio, Plymouth University, UK
+            </div>
+            <div class="date">2015</div>
+          </div>
+        </div>
+      </a>
+      <div class="grid-item Animation">
+        <img src="Projects/Animations/Animation_1.gif" alt="" />
+        <div class="info-wrapper">
+          <div class="name">Blender Animation</div>
+          <div class="memo">Shanghai</div>
+          <div class="date">2016</div>
+        </div>
+      </div>
+      <div class="grid-item Animation">
+        <img src="Projects/Animations/Animation_2.gif" alt="" />
+        <div class="info-wrapper">
+          <div class="name">Blender Animation</div>
+          <div class="memo">Shanghai</div>
+          <div class="date">2016</div>
+        </div>
+      </div>
+      <div class="grid-item Animation">
+        <img src="Projects/Animations/Animation_5.gif" alt="" />
+        <div class="info-wrapper">
+          <div class="name">AfterEffects Animation</div>
+          <div class="memo">Shanghai</div>
+          <div class="date">2016</div>
+        </div>
+      </div>
+      <a href="FloralWatercolour.html">
+        <div class="grid-item GraphicDesign">
+          <img
+            src="Projects/FloralWatercolour/FloralWatercolour_1.jpg"
+            alt=""
+          />
+          <div class="info-wrapper">
+            <div class="name">Floral watercolour</div>
+            <div class="memo">Shanghai & Singapore</div>
+            <div class="date">2016</div>
+          </div>
+        </div>
+      </a>
+    </div>
 
-<body>
-
-  <div id ="topbar" style ="width = 100%">
-    <a href="index.html">
-    <div id ="logo">
-      <img src="logo_White.png" style="width:100%; height:100%;">
-    </div>
-    </a>
-    <div id="btnwrapper">
-    <nav class="btn three">
-      <ul>
-        <li><a href="index.html">Hello!</a></li>
-        <li><a href="portfolio.html" id="active">Portfolio</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-    </div>
-  </div>
-<div class="button-group filters-button-group">
-  <button class="btn-filter active" data-filter=".grid-item">All</button>
-  <button class="btn-filter" data-filter=".Wearables">Wearables</button>
-  <button class="btn-filter" data-filter=".Game">Game</button>
-  <button class="btn-filter" data-filter=".MR">Mixed Reality</button>
-  <button class="btn-filter" data-filter=".GraphicDesign">Graphic Design</button>
-  <button class="btn-filter" data-filter=".Animation">Animation</button>
-  <button class="btn-filter" data-filter=".Installation">Installation</button>
-
-</div>
-<div class="wrap">
-  <div class="grid-sizer"></div>
-  <a href="RABBOT.html">
-  <div class="grid-item MR Wearables Game"><img src="Projects/RABBOT/RABBOT.jpg" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">RABBOT</div>
-      <div class="memo">Thesis project</div>
-      <div class="date">2019 April</div>
-    </div>
-  </div>
-  </a>
-  <a href="DiveIntoDigital.html">
-  <div class="grid-item MR"><img src="Projects/DiveIntoDigital/DiveIntoDigital.JPG" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">DiveIntoDigital</div>
-      <div class="memo">OCAD University, Toronto</div>
-      <div class="date">2018 March</div>
-    </div>
-  </div>
-  </a>
-  <a href="MaidenPink.html">
-  <div class="grid-item Game Animation"><img src="Projects/MaidenPink/MaidenPink.gif" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">MaidenPink</div>
-      <div class="memo">OCAD University, Toronto</div>
-      <div class="date">2018 April</div>
-    </div>
-  </div>
-  </a>
-  <a href="TheHats.html">
-  <div class="grid-item Wearables"><img src="Projects/TheHats/TheHats.jpg" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">The Hats</div>
-      <div class="memo">OCAD University, Toronto</div>
-      <div class="date">2018 April</div>
-    </div>
-  </div>
-  </a>
-  <a href="UniverseConcert.html">
-  <div class="grid-item MR"><img src="Projects/UniverseConcert/UniverseConcert.JPG" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">Universe Concert</div>
-      <div class="memo">Plymouth University, UK</div>
-      <div class="date">2015</div>
-    </div>
-  </div>
-  </a>
-  <a href="Sleepers.html">
-  <div class="grid-item Wearables IoT"><img src="Projects/Sleepers/Sleepers.JPG" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">Sleepers</div>
-      <div class="memo">Social Body Lab, Toronto</div>
-      <div class="date">2018 April</div>
-    </div>
-  </div>
-  </a>
-  <a href="MoonGaze.html">
-  <div class="grid-item Wearables"><img src="Projects/MoonGaze/MoonGaze.JPG" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">MoonGaze</div>
-      <div class="memo">OCAD University, Toronto</div>
-      <div class="date">2017 November</div>
-    </div>
-  </div>
-  </a>
-  <div class="grid-item Animation"><img src="Projects/Animations/Animation_3.gif" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">AfterEffects Animation</div>
-      <div class="memo">Shanghai</div>
-      <div class="date">2016</div>
-    </div>
-  </div>
-  <a href="LovMeLovU.html">
-  <div class="grid-item Wearables IoT"><img src="Projects/LovMeLovU/LovMeLovU.JPG" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">LovMeLovU</div>
-      <div class="memo">OCAD University, Toronto</div>
-      <div class="date">2017 December</div>
-    </div>
-  </div>
-  </a>
-  <a href="PollHUEtion.html">
-  <div class="grid-item Installation"><img src="Projects/PollHUEtion/PollHUEtion.JPG" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">PollHUEtion</div>
-      <div class="memo">OCAD University, Toronto</div>
-      <div class="date">2018 February</div>
-    </div>
-  </div>
-  </a>
-  <a href="Teleportation.html">
-  <div class="grid-item Installation"><img src="Projects/Teleportation/Teleportation.jpg" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">Teleportation</div>
-      <div class="memo">OCAD University, Toronto</div>
-      <div class="date">2017 November</div>
-    </div>
-  </div>
-  </a>
-  <a href="EmoLace.html">
-  <div class="grid-item Wearables"><img src="Projects/EmoLace/EmoLace.jpg" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">Emolace</div>
-      <div class="memo">OCAD University, Toronto</div>
-      <div class="date">2017 December</div>
-    </div>
-  </div>
-  </a>
-  <a href="Mai.html">
-  <div class="grid-item Installation"><img src="Projects/Mai/Mai.gif" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">Mai</div>
-      <div class="memo">UG Thesis project, UK</div>
-      <div class="date">2016</div>
-    </div>
-  </div>
-  <a href="ScholarshipPromotion.html">
-  <div class="grid-item GraphicDesign"><img src="Projects/ScholarshipPromotion/ScholarshipPromotionPoster_3.jpg" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">Scholarship Promotion Design</div>
-      <div class="memo">In-house Design Studio, Plymouth University, UK</div>
-      <div class="date">2015</div>
-    </div>
-  </div>
-  </a>
-  </a>
-  <a href="Sleepy.html">
-  <div class="grid-item Animation"><img src="Projects/Sleepy/Sleepy2.gif" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">Sleepy Motion Graphics</div>
-      <div class="memo">OCAD University, Toronto</div>
-      <div class="date">2018</div>
-    </div>
-  </div>
-  </a>
-  <div class="grid-item Animation"><img src="Projects/Animations/Animation_4.gif" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">C4D Animation</div>
-      <div class="memo">Shanghai</div>
-      <div class="date">2016</div>
-    </div>
-  </div>
-  </a>
-  <a href="CourseIcon.html">
-  <div class="grid-item GraphicDesign"><img src="Projects/CourseIcon/CourseIcon_2.png" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">Course Icon</div>
-      <div class="memo">In-house Design Studio, Plymouth University, UK</div>
-      <div class="date">2015</div>
-    </div>
-  </div>
-  </a>
-  <a href="Flyer.html">
-  <div class="grid-item GraphicDesign"><img src="Projects/Flyer/Flyer_1.png" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">Flyer Design</div>
-      <div class="memo">In-house Design Studio, Plymouth University, UK</div>
-      <div class="date">2015</div>
-    </div>
-  </div>
-  </a>
-  <a href="Leaflets.html">
-  <div class="grid-item GraphicDesign"><img src="Projects/Leaflets/Trifold_Leaflet.jpg" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">Leaflet Design</div>
-      <div class="memo">In-house Design Studio, Plymouth University, UK</div>
-      <div class="date">2015</div>
-    </div>
-  </div>
-  </a>
-  <div class="grid-item Animation"><img src="Projects/Animations/Animation_1.gif" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">Blender Animation</div>
-      <div class="memo">Shanghai</div>
-      <div class="date">2016</div>
-    </div>
-  </div>
-  <div class="grid-item Animation"><img src="Projects/Animations/Animation_2.gif" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">Blender Animation</div>
-      <div class="memo">Shanghai</div>
-      <div class="date">2016</div>
-    </div>
-  </div>
-  <div class="grid-item Animation"><img src="Projects/Animations/Animation_5.gif" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">AfterEffects Animation</div>
-      <div class="memo">Shanghai</div>
-      <div class="date">2016</div>
-    </div>
-  </div>
-  <a href="FloralWatercolour.html">
-  <div class="grid-item GraphicDesign"><img src="Projects/FloralWatercolour/FloralWatercolour_1.jpg" alt=""/>
-    <div class="info-wrapper">
-      <div class="name">Floral watercolour</div>
-      <div class="memo">Shanghai & Singapore</div>
-      <div class="date">2016</div>
-    </div>
-  </div>
-  </a>
-</div>
-
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-  <script src='https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js'></script>
-  <script src='https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script>
-  <script src='https://npmcdn.com/imagesloaded@4/imagesloaded.pkgd.js'></script>
-  <script  src="js/portfolio.js"></script>
-
-
-
-
-</body>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="https://npmcdn.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+    <script src="js/portfolio.js"></script>
+  </body>
 </html>
