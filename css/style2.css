@@ -1,112 +1,133 @@
 /*This stylesheet is for all the project display*/
 
-*{
-  font-family: 'Roboto', sans-serif;
+* {
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
 }
 
-
 /*This is where the magic is. The process works by creating a div with a height and width of 100% of the window size. You then set that div's position to fixed so it's always in the right spot on loading. Give the div a background image of whatever you like*/
 
 /*To scroll with the page, just set the position to absolute instead of fixed*/
-#RABBOT { background:url('../Projects/RABBOT/RABBOT_L.jpg') no-repeat center;
+#RABBOT {
+  background: url("../Projects/RABBOT/RABBOT_L.jpg") no-repeat center;
   background-size: cover;
   position: fixed;
   height: 100%;
   width: 100%;
 }
-#DiveIntoDigital { background:url('../Projects/DiveIntoDigital/DiveIntoDigital_1.JPG') no-repeat center;
+#DiveIntoDigital {
+  background: url("../Projects/DiveIntoDigital/DiveIntoDigital_1.JPG") no-repeat
+    center;
   background-size: cover;
   position: fixed;
   height: 100%;
   width: 100%;
 }
-#TheHats{ background:url('../Projects/TheHats/TheHats_L.jpg') no-repeat center;
+#TheHats {
+  background: url("../Projects/TheHats/TheHats_L.jpg") no-repeat center;
   background-size: cover;
   position: fixed;
   height: 100%;
   width: 100%;
 }
-#UniverseConcert{ background:url('../Projects/UniverseConcert/UniverseConcert_L.JPG') no-repeat center;
+#UniverseConcert {
+  background: url("../Projects/UniverseConcert/UniverseConcert_L.JPG") no-repeat
+    center;
   background-size: cover;
   position: fixed;
   height: 100%;
   width: 100%;
 }
-#Sleepers{ background:url('../Projects/Sleepers/Sleepers_L.JPG') no-repeat center;
+#Sleepers {
+  background: url("../Projects/Sleepers/Sleepers_L.JPG") no-repeat center;
   background-size: cover;
   position: fixed;
   height: 100%;
   width: 100%;
 }
-#MoonGaze{ background:url('../Projects/MoonGaze/MoonGaze_L.JPG') no-repeat center;
+#MoonGaze {
+  background: url("../Projects/MoonGaze/MoonGaze_L.JPG") no-repeat center;
   background-size: cover;
   position: fixed;
   height: 100%;
   width: 100%;
 }
-#LovMeLovU{ background:url('../Projects/LovMeLovU/LovMeLovU_L.jpg') no-repeat center;
+#LovMeLovU {
+  background: url("../Projects/LovMeLovU/LovMeLovU_L.jpg") no-repeat center;
   background-size: cover;
   position: fixed;
   height: 100%;
   width: 100%;
 }
-#PollHuetion{ background:url('../Projects/PollHuetion/PollHuetion_L.JPG') no-repeat center;
+#PollHuetion {
+  background: url("../Projects/PollHuetion/PollHuetion_L.JPG") no-repeat center;
   background-size: cover;
   position: fixed;
   height: 100%;
   width: 100%;
 }
-#Teleportation{ background:url('../Projects/Teleportation/Teleportation_L.jpg') no-repeat center;
+#Teleportation {
+  background: url("../Projects/Teleportation/Teleportation_L.jpg") no-repeat
+    center;
   background-size: cover;
   position: fixed;
   height: 100%;
   width: 100%;
 }
-#EmoLace{ background:url('../Projects/EmoLace/EmoLace_L.jpg') no-repeat center;
+#EmoLace {
+  background: url("../Projects/EmoLace/EmoLace_L.jpg") no-repeat center;
   background-size: cover;
   position: fixed;
   height: 100%;
   width: 100%;
 }
-#Mai{ background:url('../Projects/Mai/Mai_L.jpg') no-repeat center;
+#Mai {
+  background: url("../Projects/Mai/Mai_L.jpg") no-repeat center;
   background-size: cover;
   position: fixed;
   height: 100%;
   width: 100%;
 }
-#MaidenPink{ background:url('../Projects/MaidenPink/MaidenPink_L.jpg') no-repeat center;
+#MaidenPink {
+  background: url("../Projects/MaidenPink/MaidenPink_L.jpg") no-repeat center;
   background-size: cover;
   position: fixed;
   height: 100%;
   width: 100%;
 }
-#CourseIcon{ background:url('../Projects/CourseIcon/CourseIcon_2.png') no-repeat center;
+#CourseIcon {
+  background: url("../Projects/CourseIcon/CourseIcon_2.png") no-repeat center;
   background-size: cover;
   position: fixed;
   height: 100%;
   width: 100%;
 }
-#Leaflets{ background:url('../Projects/Leaflets/Trifold_Leaflet.jpg') no-repeat center;
+#Leaflets {
+  background: url("../Projects/Leaflets/Trifold_Leaflet.jpg") no-repeat center;
   background-size: cover;
   position: fixed;
   height: 100%;
   width: 100%;
 }
-#ScholarshipPromotion{ background:url('../Projects/ScholarshipPromotion/ScholarshipPromotionPoster_3.jpg') no-repeat center;
+#ScholarshipPromotion {
+  background: url("../Projects/ScholarshipPromotion/ScholarshipPromotionPoster_3.jpg")
+    no-repeat center;
   background-size: cover;
   position: fixed;
   height: 100%;
   width: 100%;
 }
-#Flyer{ background:url('../Projects/Flyer/Flyer_3.jpg') no-repeat center;
+#Flyer {
+  background: url("../Projects/Flyer/Flyer_3.jpg") no-repeat center;
   background-size: cover;
   position: fixed;
   height: 100%;
   width: 100%;
 }
-#FloralWatercolour{ background:url('../Projects/FloralWatercolour/FloralWatercolour_3.jpg') no-repeat center;
+#FloralWatercolour {
+  background: url("../Projects/FloralWatercolour/FloralWatercolour_3.jpg")
+    no-repeat center;
   background-size: cover;
   position: fixed;
   height: 100%;
@@ -130,7 +151,7 @@
 
 /*The content underneath the div is positioned absolutely and has a large top offset of 100% which hides it below the full image. */
 #content {
-	background: white;
+  background: white;
   width: 100%;
   margin: 0 auto;
   position: absolute;
@@ -145,20 +166,27 @@ img.img_small {
   margin-left: 10%;
 }
 img.img_medium {
-  display:block;
+  display: block;
   width: 50%;
   margin: 2%;
   margin-left: auto;
   margin-right: auto;
 }
-img.img_smallgif{
+img.img_large {
+  display: block;
+  width: 100%;
+  margin: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.img_smallgif {
   position: relative;
   float: left;
-  width:  auto;
+  width: auto;
   height: 100px;
   background-position: 50% 50%;
-  background-repeat:   no-repeat;
-  background-size:     cover;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-left: 10%;
 }
 #content h1 {
@@ -166,21 +194,25 @@ img.img_smallgif{
   line-height: 2;
   text-align: left;
 }
-#content h3{
+
+#content h3 {
   text-align: left;
   line-height: 1.6;
   margin: 0 auto;
   padding: 10px;
 }
-#content h2,
-#content p {
+
+#content p,
+h2,
+h4 {
   clear: both;
   margin: 0 auto;
   padding: 10px;
   width: 80%;
 }
-ul{
-  list-style-type:disc;  clear: both;
+ul {
+  list-style-type: disc;
+  clear: both;
   margin: 0 auto;
   padding: 10px;
   width: 80%;
@@ -191,7 +223,7 @@ ul{
   margin-left: 36%;
   text-align: center;
 }
-.caption{
+.caption {
   text-align: center;
 }
 
@@ -239,7 +271,7 @@ ul{
   height: 50px;
   border: solid 2px #fff;
   border-radius: 20px;
-  opacity: .4;
+  opacity: 0.4;
 }
 .mouse .scroll-down {
   display: block;
@@ -261,18 +293,18 @@ ul{
   margin: 0;
   box-sizing: border-box;
 }
- #closeicon{
-  position:sticky;
+#closeicon {
+  position: sticky;
   height: 100%;
-  top:0px;
+  top: 0px;
 }
 .outer {
-  position:absolute;
-  z-index:999;
+  position: absolute;
+  z-index: 999;
   margin: auto;
   width: 70px;
   margin-top: 10px;
-  right:0px;
+  right: 0px;
   cursor: pointer;
 }
 
@@ -282,23 +314,24 @@ ul{
 }
 
 label {
-  font-size: .8em;
+  font-size: 0.8em;
   line-height: 4em;
   text-transform: uppercase;
   color: black;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
   opacity: 0;
   cursor: pointer;
 }
 
-.inner:before, .inner:after {
+.inner:before,
+.inner:after {
   position: absolute;
-  content: '';
+  content: "";
   height: 1px;
   width: inherit;
   background: black;
   left: 0;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .inner:before {
@@ -329,27 +362,33 @@ label {
 }
 /***************Responsive video****************/
 .video-wrapper {
-    position: relative;
-    padding-bottom: 74.25%; /* 4:3 ratio */
-    padding-top: 30px; /* IE6 workaround*/
-    height: 0;
-    overflow: hidden;
+  position: relative;
+  padding-bottom: 74.25%; /* 4:3 ratio */
+  padding-top: 30px; /* IE6 workaround*/
+  height: 0;
+  overflow: hidden;
 }
 
 .video-wrapper-narrow {
-    padding-bottom: 40%;
+  padding-bottom: 40%;
 }
 
-iframe,object,embed,video,.videoWrapper,.video-js {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+iframe,
+object,
+embed,
+video,
+.videoWrapper,
+.video-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.video-js, img.vjs-poster {
-    width: 100% !important;
-    height: 100% !important; //these need !important because IE
-    max-width: 100%;
+.video-js,
+img.vjs-poster {
+  width: 100% !important;
+  height: 100% !important; //these need !important because IE
+  max-width: 100%;
 }
