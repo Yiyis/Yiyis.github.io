@@ -175,7 +175,6 @@ img.img_medium {
 img.img_large {
   display: block;
   width: 100%;
-  margin: 2%;
   margin-left: auto;
   margin-right: auto;
 }
