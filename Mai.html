@@ -3,9 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <title>Mai</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style2.css" />
     <link rel="icon" href="logo_icon.png" />
   </head>
+
   <body>
     <div class="wrapper">
       <div id="Mai">
@@ -16,10 +26,12 @@
         </div>
       </div>
       <div id="content">
-        <div id="closeicon">
-          <div class="outer">
-            <div class="inner">
-              <a href="portfolio.html"><label>Back</label></a>
+        <div id="iconwrapper">
+          <div id="closeicon">
+            <div class="outer">
+              <div class="inner">
+                <a href="portfolio.html"><label>Back</label></a>
+              </div>
             </div>
           </div>
         </div>
@@ -33,78 +45,113 @@
             allowfullscreen
           ></iframe>
         </div>
-        <img src="Projects/Mai/Mai_1.jpg" class="img_small" />
-        <h1>Mai</h1>
-        <h3>
-          Created using Unity3D, Blender3D, Adobe Photoshop, projector, Arduino,
-          LED, capactive and proximity sensors.
-        </h3>
-        <h2>Summary</h2>
-        <p>
-          Mai is an interactive art installation focusing on the theme of the
-          environmental issue particularly air pollution in China. The
-          visualization in Mai is inspired by traditional Chinese watercolour
-          and projected onto a bamboo canvas showing the daily average of air
-          pollution index between 2012 to 2015 in Shanghai. There were a lantern
-          and a bottle of the plant placed in front of the visualization, which
-          corresponding with the audience's touch and distance to the
-          installation with sound and light. Past data of air pollution is not a
-          waste that people will gradually forget but can be changed into things
-          of value and aesthetical and hopefully help to raise awareness of
-          environmental protection.
-        </p>
-        <h2>Objective</h2>
-        <p>
-          PM2.5 is believed to be the main pollution causing the haze problem.
-          Particles lower than or equal to 10 micrometers in diameter are so
-          small that they can invade the lungs and potentially cause serious
-          health problems. Ten micrometers is smaller than the width of a strand
-          of human hair. Coarse dust particles (PM10) are 2.5 to 10 micrometers
-          in diameter. When PM2.5 becomes higher on a particular day, the ink in
-          the painting will become darker and mountains from distances will
-          transform into shadows resembling smokes. When Pm2.5 lowers on a
-          particular day, the ink will become lighter.I am trying to raise
-          awareness of environmental protection by creating an aesthetic and
-          interactive artwork through this art installation.
-        </p>
-        <p>
-          The mental pain comes from political covering and can be eased though
-          psychological adjustment to transform people’s thinking or with a
-          blind eye to the way of ostrich to escape. However if the environment
-          issues hails from a political covering, not only is it a torture of
-          human’s body but also the spirit. Because this is an infringement of
-          human rights, denying the basic requirement of allowing a human to
-          consume fresh air, for the well-being of their body while living under
-          the jurisdiction of their trusted government, whom they paid taxes to
-          and pledge their loyalty to the nation. Even the government still
-          chose to prohibit some artists or media, “Haze Art” as a trend is
-          gradually helping to raise public awareness these years. People begin
-          to realize the serious problem of the environment. Only when the
-          awareness of mass has been raised, the government will be forced to
-          bow to public pressure and reform the energy structure and eventually
-          solve the problem in the future.
-        </p>
-        <h2>Action</h2>
-        <img src="Projects/Mai/Mai_1.gif" class="img_medium" />
-        <p>
-          In-lieu with a fusion of Chinese calligraphy and arts, the ink
-          resembles smog and polluted air that created with scanner and
-          Photoshop. By visualizing particle matter in the air from 2012 in
-          Shanghai, I want to show how smog influenced the environment in China.
-          The visualization is a scene I composed in Unity3D that looping the
-          XML data.
-        </p>
-        <p>
-          The lantern and a bottle of plant filled with water are controlled by
-          Arduino that having serial communications with Unity3D.
-        </p>
-        <h2>Exhibits</h2>
-        <img src="Projects/Mai/Mai_2.jpg" class="img_medium" />
-        <img src="Projects/Mai/Mai_3.jpg" class="img_medium" />
-        <p class="caption">
-          <i>Digital Arts & Technology Final Projects Show</i>
-        </p>
-        <p class="caption">Plymouth University, 2016</p>
+        <div class="container-fluid" style="background:#C5BFB3;">
+          <div class="row">
+            <div id="projectnormal" class="col-md-6 ">
+              <h1>Mai</h1>
+              <p>
+                Created using Unity3D, Blender3D, Adobe Photoshop, projector,
+                Arduino, LED, capactive and proximity sensors.
+              </p>
+              <h3 style="padding-top:10%;">Summary</h3>
+              <p>
+                Mai is an interactive art installation focusing on the theme of
+                the environmental issue particularly air pollution in China. The
+                visualization in Mai is inspired by traditional Chinese
+                watercolour and projected onto a bamboo canvas showing the daily
+                average of air pollution index between 2012 to 2015 in Shanghai.
+                There were a lantern and a bottle of the plant placed in front
+                of the visualization, which corresponding with the audience's
+                touch and distance to the installation with sound and light.
+                Past data of air pollution is not a waste that people will
+                gradually forget but can be changed into things of value and
+                aesthetical and hopefully help to raise awareness of
+                environmental protection.
+              </p>
+              <h3>Objective</h3>
+              <p>
+                PM2.5 is believed to be the main pollution causing the haze
+                problem. Particles lower than or equal to 10 micrometers in
+                diameter are so small that they can invade the lungs and
+                potentially cause serious health problems. Ten micrometers is
+                smaller than the width of a strand of human hair. Coarse dust
+                particles (PM10) are 2.5 to 10 micrometers in diameter. When
+                PM2.5 becomes higher on a particular day, the ink in the
+                painting will become darker and mountains from distances will
+                transform into shadows resembling smokes. When Pm2.5 lowers on a
+                particular day, the ink will become lighter.I am trying to raise
+                awareness of environmental protection by creating an aesthetic
+                and interactive artwork through this art installation.
+              </p>
+              <p>
+                The mental pain comes from political covering and can be eased
+                though psychological adjustment to transform people’s thinking
+                or with a blind eye to the way of ostrich to escape. However if
+                the environment issues hails from a political covering, not only
+                is it a torture of human’s body but also the spirit. Because
+                this is an infringement of human rights, denying the basic
+                requirement of allowing a human to consume fresh air, for the
+                well-being of their body while living under the jurisdiction of
+                their trusted government, whom they paid taxes to and pledge
+                their loyalty to the nation. Even the government still chose to
+                prohibit some artists or media, “Haze Art” as a trend is
+                gradually helping to raise public awareness these years. People
+                begin to realize the serious problem of the environment. Only
+                when the awareness of mass has been raised, the government will
+                be forced to bow to public pressure and reform the energy
+                structure and eventually solve the problem in the future.
+              </p>
+            </div>
+            <div class="col-md-6 ">
+              <img src="Projects/Mai/Mai_1.jpg" class="img_fluid" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="container-fluid"
+          style="padding-top:10%;padding-bottom:10%;"
+        >
+          <div class="row">
+            <div class="col-md-6 text-center">
+              <h2>Visual Interaction Design</h2>
+              <img
+                src="Projects/Mai/Mai_1.gif"
+                class="img_fluid"
+                style="width:100%; height:auto;"
+              />
+              <p style="padding-top:10%">
+                In-lieu with a fusion of Chinese calligraphy and arts, the ink
+                resembles smog and polluted air that created with scanner and
+                Photoshop. By visualizing particle matter in the air from 2012
+                in Shanghai, I want to show how smog influenced the environment
+                in China. The visualization is a scene I composed in Unity3D
+                that looping the XML data.
+              </p>
+              <p>
+                The lantern and a bottle of plant filled with water are
+                controlled by Arduino that having serial communications with
+                Unity3D.
+              </p>
+              <div id="process">
+                <h2>Exhibits</h2>
+                <img
+                  src="Projects/Mai/Mai_2.jpg"
+                  class="img_fluid"
+                  style="width:100%; height:auto;"
+                />
+                <img
+                  src="Projects/Mai/Mai_3.jpg"
+                  class="img_fluid"
+                  style="width:100%; height:auto;"
+                />
+                <p class="caption">
+                  <i>Digital Arts & Technology Final Projects Show</i>
+                </p>
+                <p class="caption">Plymouth University, 2016</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

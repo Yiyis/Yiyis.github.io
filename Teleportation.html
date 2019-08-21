@@ -3,26 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <title>Teleportation</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style2.css" />
     <link rel="icon" href="logo_icon.png" />
   </head>
 
   <body>
-    <head>
-      <title>Teleportation</title>
-    </head>
-
-    <body>
-      <div class="wrapper">
-        <div id="Teleportation">
-          <div class="mouse-container">
-            <div class="mouse">
-              <span class="scroll-down"></span>
-            </div>
+    <div class="wrapper">
+      <div id="Teleportation">
+        <div class="mouse-container">
+          <div class="mouse">
+            <span class="scroll-down"></span>
           </div>
         </div>
-        <div id="content">
+      </div>
+      <div id="content">
+        <div id="iconwrapper">
           <div id="closeicon">
             <div class="outer">
               <div class="inner">
@@ -30,25 +34,36 @@
               </div>
             </div>
           </div>
-          <img
-            src="Projects/Teleportation/Teleportation.jpg"
-            class="img_small"
-          />
-          <h1>Teleportation</h1>
-          <p>Created using Arduino and P5.js</p>
-          <h2>Summary</h2>
-          <p>
-            According to Moore’s Law, technology is developing so fast these
-            days. We have no idea what the transportation will be like in the
-            future, just like people from 500 years ago have no idea we can
-            cross the Atlantic within a day by airplane. Let’s take a peak from
-            this interactive installation and to feel what’s teleportation or
-            even worse, what if something goes wrong in this process?
-          </p>
-
-          <h1 class="footer">...</h1>
+        </div>
+        <div
+          class="container-fluid"
+          style="background:black; color:lightgrey; padding-bottom:10%;"
+        >
+          <div class="row">
+            <div id="projectnormal" class="col-md-6 ">
+              <h1>Teleportation</h1>
+              <p>Created using Arduino and P5.js</p>
+              <h3 style="padding-top:10%;">Summary</h3>
+              <p>
+                According to Moore’s Law, technology is developing so fast these
+                days. We have no idea what the transportation will be like in
+                the future, just like people from 500 years ago have no idea we
+                can cross the Atlantic within a day by airplane. Let’s take a
+                peak from this interactive installation and to feel what’s
+                teleportation or even worse, what if something goes wrong in
+                this process?
+              </p>
+            </div>
+            <div class="col-md-6 ">
+              <img
+                src="Projects/Teleportation/Teleportation.jpg"
+                class="img_fluid"
+                style="padding-top:20%; width:80%;height:auto;"
+              />
+            </div>
+          </div>
         </div>
       </div>
-    </body>
+    </div>
   </body>
 </html>

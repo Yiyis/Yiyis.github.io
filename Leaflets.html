@@ -3,6 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <title>Leaflets</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style2.css" />
     <link rel="icon" href="logo_icon.png" />
   </head>
@@ -17,23 +26,42 @@
         </div>
       </div>
       <div id="content">
-        <div id="closeicon">
-          <div class="outer">
-            <div class="inner">
-              <a href="portfolio.html"><label>Back</label></a>
+        <div id="iconwrapper">
+          <div id="closeicon">
+            <div class="outer">
+              <div class="inner">
+                <a href="portfolio.html"><label>Back</label></a>
+              </div>
             </div>
           </div>
         </div>
-        <img src="Projects/Leaflets/Leaflet.png" class="img_small" />
-        <h1>Leaflet Design</h1>
-        <h3>Created using Adobe Illustrator, Adobe Photoshop</h3>
-        <h2>Summary</h2>
-        <p>
-          Leaflet design for Care Leavers Service at Plymouth University
-        </p>
-
-        <img src="Projects/Leaflets/Trifold_Leaflet_2.jpg" class="img_medium" />
-        <img src="Projects/Leaflets/Trifold_Leaflet_3.jpg" class="img_medium" />
+        <div class="container-fluid" style="background:#54C3D6; padding:0;">
+          <div class="row">
+            <div id="projectnormal" class="col-md-6 ">
+              <!-- <img src="Projects/Leaflets/Leaflet.png" class="img_small" /> -->
+              <h1>Leaflet Design</h1>
+              <p>Created using Adobe Illustrator, Adobe Photoshop</p>
+              <h3>Summary</h3>
+              <p>
+                Leaflet design for Care Leavers Service at Plymouth University
+              </p>
+            </div>
+            <div class="col-md-6 ">
+              <img
+                src="Projects/Leaflets/Trifold_Leaflet_2.jpg"
+                class="img_fluid"
+                style="width:100%;"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid" style=" padding:0;">
+          <img
+            src="Projects/Leaflets/Trifold_Leaflet_3.jpg"
+            class="img_fluid"
+            style="width:100%;"
+          />
+        </div>
       </div>
     </div>
   </body>

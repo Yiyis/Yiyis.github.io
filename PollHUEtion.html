@@ -3,6 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <title>The Hats</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style2.css" />
     <link rel="icon" href="logo_icon.png" />
   </head>
@@ -17,10 +26,12 @@
         </div>
       </div>
       <div id="content">
-        <div id="closeicon">
-          <div class="outer">
-            <div class="inner">
-              <a href="portfolio.html"><label>Back</label></a>
+        <div id="iconwrapper">
+          <div id="closeicon">
+            <div class="outer">
+              <div class="inner">
+                <a href="portfolio.html"><label>Back</label></a>
+              </div>
             </div>
           </div>
         </div>
@@ -34,73 +45,104 @@
             allowfullscreen
           ></iframe>
         </div>
-        <img src="Projects/PollHUEtion/PollHUEtion.JPG" class="img_small" />
-        <h1>PollHUEtion</h1>
-        <h3>Created using Arduino, C, and Adobe Illustrator</h3>
-        <h2>Summary</h2>
-        <p>
-          An installation perceived data from YYZ airport departures,
-          controlling three hairdryers to melt crayons by Arduino and p5.js.
-        </p>
-        <p>Group members: Yiyi Shao, Feng Yuan, Jad Rabbaa</p>
-        <p>My responsibilities: concept developing, coding</p>
+        <div
+          class="container-fluid"
+          style="background:#E7E2DF; padding-bottom:10%;"
+        >
+          <div class="row">
+            <div id="projectnormal" class="col-md-6 ">
+              <h1>PollHUEtion</h1>
+              <p>Created using Arduino, C, and Adobe Illustrator</p>
+              <h3 style="padding-top:10%;">Summary</h3>
+              <p>
+                An installation perceived data from YYZ airport departures,
+                controlling three hairdryers to melt crayons by Arduino and
+                p5.js.
+              </p>
+              <p>Group members: Yiyi Shao, Feng Yuan, Jad Rabbaa</p>
+              <p>My responsibilities: concept developing, coding</p>
 
-        <h2>Objective</h2>
-        <p>
-          We aim to turn pollutions into a piece of artwork and to promote this
-          message to people who travel a lot to do more in daily life to set off
-          their carbon prints.
-        </p>
-
-        <h2>Action</h2>
-        <img src="Projects/PollHUEtion/PollHUEtion_1.JPG" class="img_medium" />
-        <p>THE PROBLEMS WE FACED:</p>
-        <p></p>
-        <p>
-          1. Design an ending for reading the data. Since we currently using a
-          manually json data which only contain 2~3 hours flight datas, we
-          decide a ending for reading the data which will let us and the
-          audience know “here is the ending of the datas.” Using the below
-          function to know the length of the data array. This callback function
-          will only run at the first time the json file be read.
-        </p>
-        <p>
-          2. Read the json from server. Our original plan was putting the json
-          file in webspace server. However, on the day we did the final testing,
-          the server we used was block for some system maintain issues( not sure
-          ). Then we decided to create a js file (DATA.js) to storage all the
-          json datas.
-        </p>
-        <p>
-          3. Send Data: It’s time to connect p5.js to arduino, we used a bridge
-          called p5.serialcontrol to send data to serial port so arduino can
-          read it and write to relevant pins. At the beginning, p5.js just read
-          from the json file and send outbyte to serial port. We sense that will
-          give us trouble so we simply compared the data within p5.js and
-          directly send four numbers to arduino. We tested it when reading json
-          file that been put on webspace, which works perfectly fine.
-        </p>
-        <p>
-          But after we decided to work on local data file we faced some weird
-          problems. When reconnecting the p5.js to arduino, suddenly it’s just
-          not working. We spent a whole afternoon troubleshooting. Initially we
-          thought it’s the problem from p5.js after we wrote some new code to
-          read Data.js as arrays, so we console log out all the number and data
-          types and found there shouldn’t be an issue. Then we commented out all
-          the data but just sent a simple “1” to the serial port in the draw
-          function, interestingly arduino couldn't even read that simple
-          command. So we found an example code from p5.serialcontrol that we
-          know which will definitely work to test with arduino. And…. it works.
-          So we replaced both the arduino code and p5.js code to test with ours
-          to see which part is causing problem. Then we found that probably the
-          differences between digitalwrite and analogwrite in arduino, which
-          obviously make no sense. However, it did only work in analogwrite for
-          some reason. We re-started our laptop and took a deep breath and hope
-          everything become normal. And… it still doesn’t work. Another one hour
-          past, here we come the magical moment, we used another usb cable for
-          arduino board, everything turned out to work! Hallelujah! What a
-          typical day to dealing with digital components.
-        </p>
+              <h3>Objective</h3>
+              <p>
+                We aim to turn pollutions into a piece of artwork and to promote
+                this message to people who travel a lot to do more in daily life
+                to set off their carbon prints.
+              </p>
+            </div>
+            <div class="col-md-6 ">
+              <img
+                src="Projects/PollHUEtion/PollHUEtion.JPG"
+                class="img_fluid"
+                style="width:100%; height:auto; padding-top:10%;"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="container-fluid"
+          style="padding-top:10%;padding-bottom:10%;"
+        >
+          <div class="row">
+            <div class="col-md-6 text-center">
+              <h2>Action</h2>
+              <img
+                src="Projects/PollHUEtion/PollHUEtion_1.JPG"
+                class="img_fluid"
+              />
+              <p>THE PROBLEMS WE FACED:</p>
+              <p></p>
+              <p>
+                1. Design an ending for reading the data. Since we currently
+                using a manually json data which only contain 2~3 hours flight
+                datas, we decide a ending for reading the data which will let us
+                and the audience know “here is the ending of the datas.” Using
+                the below function to know the length of the data array. This
+                callback function will only run at the first time the json file
+                be read.
+              </p>
+              <p>
+                2. Read the json from server. Our original plan was putting the
+                json file in webspace server. However, on the day we did the
+                final testing, the server we used was block for some system
+                maintain issues( not sure ). Then we decided to create a js file
+                (DATA.js) to storage all the json datas.
+              </p>
+              <p>
+                3. Send Data: It’s time to connect p5.js to arduino, we used a
+                bridge called p5.serialcontrol to send data to serial port so
+                arduino can read it and write to relevant pins. At the
+                beginning, p5.js just read from the json file and send outbyte
+                to serial port. We sense that will give us trouble so we simply
+                compared the data within p5.js and directly send four numbers to
+                arduino. We tested it when reading json file that been put on
+                webspace, which works perfectly fine.
+              </p>
+              <p>
+                But after we decided to work on local data file we faced some
+                weird problems. When reconnecting the p5.js to arduino, suddenly
+                it’s just not working. We spent a whole afternoon
+                troubleshooting. Initially we thought it’s the problem from
+                p5.js after we wrote some new code to read Data.js as arrays, so
+                we console log out all the number and data types and found there
+                shouldn’t be an issue. Then we commented out all the data but
+                just sent a simple “1” to the serial port in the draw function,
+                interestingly arduino couldn't even read that simple command. So
+                we found an example code from p5.serialcontrol that we know
+                which will definitely work to test with arduino. And…. it works.
+                So we replaced both the arduino code and p5.js code to test with
+                ours to see which part is causing problem. Then we found that
+                probably the differences between digitalwrite and analogwrite in
+                arduino, which obviously make no sense. However, it did only
+                work in analogwrite for some reason. We re-started our laptop
+                and took a deep breath and hope everything become normal. And…
+                it still doesn’t work. Another one hour past, here we come the
+                magical moment, we used another usb cable for arduino board,
+                everything turned out to work! Hallelujah! What a typical day to
+                dealing with digital components.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

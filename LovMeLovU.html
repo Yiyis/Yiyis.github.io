@@ -3,6 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <title>LovMeLovU</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style2.css" />
     <link rel="icon" href="logo_icon.png" />
   </head>
@@ -17,10 +26,12 @@
         </div>
       </div>
       <div id="content">
-        <div id="closeicon">
-          <div class="outer">
-            <div class="inner">
-              <a href="portfolio.html"><label>Back</label></a>
+        <div id="iconwrapper">
+          <div id="closeicon">
+            <div class="outer">
+              <div class="inner">
+                <a href="portfolio.html"><label>Back</label></a>
+              </div>
             </div>
           </div>
         </div>
@@ -34,52 +45,94 @@
             allowfullscreen
           ></iframe>
         </div>
-        <img src="Projects/LovMeLovU/LovMeLovU_1.jpg" class="img_small" />
-        <h1>LovMeLovU</h1>
-        <h3>Created using Particle photon, C++, REST API and 3D printing</h3>
-        <h2>Summary</h2>
-        <p>
-          LuvMeLuvU is a set of two smart pillows designed for long distance
-          relationship. They can detect and send the user’s missing to their
-          caring one in any corner of the world. The progress bar on the pillows
-          can let them know how much they currently miss each other. When both
-          of the users are in the same Missing Level, synced vibrations from two
-          pillows will get closer to their hearts. The luvMeLuvU pillows
-          incorporated Particle Photon, touch sensing with conductive threads,
-          3D printing and other digital components.
-        </p>
-        <p>Group members: Yiyi Shao, Jad Rabbaa, Sean Harkin</p>
-        <p>
-          Full working diary can be found at
-          <a href="https://trello.com/b/af8zZWfd/luv-me-luv-u-3">here</a>
-        </p>
-        <p>My responsibilities: coding</p>
+        <div class="container-fluid">
+          <div class="row">
+            <div id="projectnormal" class="col-md-6 ">
+              <h1>LovMeLovU</h1>
+              <p>
+                Created using Particle photon, C++, REST API and 3D printing
+              </p>
+              <h3 style="padding-top:10%;">Summary</h3>
+              <p>
+                LuvMeLuvU is a set of two smart pillows designed for long
+                distance relationship. They can detect and send the user’s
+                missing to their caring one in any corner of the world. The
+                progress bar on the pillows can let them know how much they
+                currently miss each other. When both of the users are in the
+                same Missing Level, synced vibrations from two pillows will get
+                closer to their hearts. The luvMeLuvU pillows incorporated
+                Particle Photon, touch sensing with conductive threads, 3D
+                printing and other digital components.
+              </p>
+              <p>Group members: Yiyi Shao, Jad Rabbaa, Sean Harkin</p>
+              <p>
+                Full working diary can be found
+                <a
+                  href="https://trello.com/b/af8zZWfd/luv-me-luv-u-3"
+                  class="alert-link"
+                  >here</a
+                >
+              </p>
+              <p>My responsibilities: concept design, coding</p>
+            </div>
+            <div class="col-md-6 ">
+              <img
+                src="Projects/LovMeLovU/LovMeLovU_1.jpg"
+                class="img_fluid"
+                style="width:100%; height:auto;"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="container-fluid"
+          style="padding-top:10%;padding-bottom:10%;"
+        >
+          <div class="row">
+            <div class="col-md-6 text-center">
+              <h2>Objective</h2>
+              <p>
+                This project is trying to present the idea of calm technology
+                and also finding a way to embed rigid hardware in a soft and
+                ubiquitous object in daily life by using Internet of Things
+                technology.
+              </p>
 
-        <h2>Objective</h2>
-        <p>
-          This project is trying to present the idea of calm technology and also
-          finding a way to embed rigid hardware in a soft and ubiquitous object
-          in daily life by using Internet of Things technology.
-        </p>
-
-        <h2>Action</h2>
-        <p>
-          Each photon board connected to one potentiometer sensor and three LED.
-          One potentiometer will control the other one's LED. We set three range
-          of values from potentiometer sensor, which represents the three
-          different levels.
-        </p>
-        <ul>
-          <li>Level 1: LED1 blinks</li>
-          <li>Level 2: LED1 LED2 blinks</li>
-          <li>Level 3: LED1 LED2 LED3 blinks</li>
-        </ul>
-        <img src="Projects/LovMeLovU/LovMeLovU_2.JPG" class="img_medium" />
-        <img src="Projects/LovMeLovU/LovMeLovU_3.JPG" class="img_medium" />
-        <h2>Exhibits</h2>
-        <img src="Projects/LovMeLovU/LovMeLovU_4.JPG" class="img_medium" />
-        <p class="caption"><i>DF Open Show</i></p>
-        <p class="caption">OCAD University, February 2018</p>
+              <h2>Action</h2>
+              <p>
+                Each photon board connected to one potentiometer sensor and
+                three LED. One potentiometer will control the other one's LED.
+                We set three range of values from potentiometer sensor, which
+                represents the three different levels.
+              </p>
+              <ul>
+                <li>Level 1: LED1 blinks</li>
+                <li>Level 2: LED1 LED2 blinks</li>
+                <li>Level 3: LED1 LED2 LED3 blinks</li>
+              </ul>
+              <img
+                src="Projects/LovMeLovU/LovMeLovU_2.JPG"
+                class="img_fluid"
+                style="width:100%; height:auto;"
+              />
+              <img
+                src="Projects/LovMeLovU/LovMeLovU_3.JPG"
+                class="img_fluid"
+                style="width:100%; height:auto;"
+              />
+              <div id="process">
+                <h2>Exhibits</h2>
+                <img
+                  src="Projects/LovMeLovU/LovMeLovU_4.JPG"
+                  class="img_fluid"
+                  style="width:100%; height:auto;"
+                />
+                <p class="caption"><i>DF Open Show</i></p>
+                <p class="caption">OCAD University, February 2018</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

@@ -3,6 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <title>Dream World AR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style2.css" />
     <link rel="icon" href="logo_icon.png" />
   </head>
@@ -17,48 +26,67 @@
         </div>
       </div>
       <div id="content">
-        <div id="closeicon">
-          <div class="outer">
-            <div class="inner">
-              <a href="portfolio.html"><label>Back</label></a>
+        <div id="iconwrapper">
+          <div id="closeicon">
+            <div class="outer">
+              <div class="inner">
+                <a href="portfolio.html"><label>Back</label></a>
+              </div>
             </div>
           </div>
         </div>
-        <img src="Projects/DreamWorld/DreamWorld.JPG" class="img_small" />
-        <h1>DreamWorld AR</h1>
-        <h3>
-          Created for iPhones using Unity3D, ARFoundation, ARKit, XCode, Adobe
-          Illustrator, Adobe Photoshop
-        </h3>
-        <h2>Summary</h2>
-        <p>
-          DreamWorld AR is an experimental project exploring the boundary
-          between virtual and real worlds.
-        </p>
-        <h2>Goal</h2>
-        <p>
-          Design an user-friendly interface for the AR app. Inspired by Vishnu
-          Ganti's UI/UX for hand-held AR and Tevfik Ufuk DEMİRBAŞ's AR Portal.
-        </p>
-        <h2>Action</h2>
-        <h4>1.User Flow</h4>
-
-        <img src="Projects/DreamWorld/UserFlow.jpg" class="img_medium" />
-
-        <h4>2.Animation Design</h4>
-        <div style="background-color:#ECCCDA;">
-          <img src="Projects/DreamWorld/UI_2.gif" class="img_medium" />
+        <div
+          class="container-fluid"
+          style="background:black; color: lightgrey; padding:10%;"
+        >
+          <div class="row">
+            <div id="projectnormal" class="col-md-6 ">
+              <h1>DreamWorld AR</h1>
+              <p>
+                Created for iPhones using Unity3D, ARFoundation, ARKit, XCode,
+                Adobe Illustrator, Adobe Photoshop
+              </p>
+              <h3 style="padding-top:10%;">Summary</h3>
+              <p>
+                DreamWorld AR is an experimental project exploring the boundary
+                between virtual and real worlds.
+              </p>
+              <h3>Goal</h3>
+              <p>
+                Design an user-friendly interface for the AR app. Inspired by
+                Vishnu Ganti's UI/UX for hand-held AR and Tevfik Ufuk DEMİRBAŞ's
+                AR Portal.
+              </p>
+            </div>
+            <div class="col-md-6 ">
+              <div class="video-wrapper">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/_gRENmGkTjg"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
         </div>
-        <h2>Result</h2>
-        <div class="video-wrapper">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/_gRENmGkTjg"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+        <div
+          class="container-fluid"
+          style="background-color:#ECCCDA; padding:10%; "
+        >
+          <div class="row">
+            <div class="col-md-8 text-center">
+              <h4>1.User Flow</h4>
+
+              <img src="Projects/DreamWorld/UserFlow.jpg" class="img-fluid" />
+
+              <h4>2.Animation Design</h4>
+
+              <img src="Projects/DreamWorld/UI_2.gif" class="img-fluid" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

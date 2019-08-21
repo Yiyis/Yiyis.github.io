@@ -140,21 +140,6 @@
   height: 100%;
   width: 100%;
 }
-#full-image h1 {
-  color: white;
-  font-size: 6em;
-  margin-top: 25%;
-  text-align: center;
-  text-shadow: 0 0 30px #000;
-}
-
-#full-image p {
-  color: white;
-  font-size: 2em;
-  margin-top: 2%;
-  text-align: center;
-  text-shadow: 0 0 20px #000;
-}
 
 /*The content underneath the div is positioned absolutely and has a large top offset of 100% which hides it below the full image. */
 #content {
@@ -163,15 +148,8 @@
   margin: 0 auto;
   position: absolute;
   top: 100%;
-  line-height: 200%;
 }
 
-img.img_small {
-  float: left;
-  width: 30%;
-  margin: 2%;
-  margin-left: 10%;
-}
 img.img_medium {
   display: block;
   width: 50%;
@@ -184,6 +162,8 @@ img.img_large {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 img.img_smallgif {
   position: relative;
@@ -195,33 +175,13 @@ img.img_smallgif {
   background-size: cover;
   margin-left: 10%;
 }
-#content h1 {
-  font-size: 4.5em;
-  line-height: 2;
-  text-align: left;
-}
 
-#content h3 {
-  text-align: left;
-  line-height: 1.6;
-  margin: 0 auto;
-  padding: 10px;
-}
-
-#content p,
-h2,
-h4 {
-  clear: both;
-  margin: 0 auto;
-  padding: 10px;
-  width: 80%;
-}
 ul {
   list-style-type: disc;
-  clear: both;
-  margin: 0 auto;
-  padding: 10px;
+  text-align: left;
+  margin: auto;
   width: 80%;
+  padding: 10px;
 }
 
 .footer {
@@ -299,14 +259,20 @@ ul {
   margin: 0;
   box-sizing: border-box;
 }
+
+#iconwrapper {
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  height: 100%;
+  width: 10%;
+}
 #closeicon {
   position: sticky;
-  height: 100%;
   top: 0px;
 }
 .outer {
   position: absolute;
-  z-index: 999;
   margin: auto;
   width: 70px;
   margin-top: 10px;
@@ -323,7 +289,7 @@ label {
   font-size: 0.8em;
   line-height: 4em;
   text-transform: uppercase;
-  color: black;
+  color: grey;
   transition: all 0.3s ease-in;
   opacity: 0;
   cursor: pointer;
@@ -335,7 +301,7 @@ label {
   content: "";
   height: 1px;
   width: inherit;
-  background: black;
+  background: grey;
   left: 0;
   transition: all 0.3s ease-in;
 }
@@ -397,4 +363,96 @@ img.vjs-poster {
   width: 100% !important;
   height: 100% !important; //these need !important because IE
   max-width: 100%;
+}
+
+/***********Cutomize Bootstap***************/
+/* .container-fluid {
+  height: auto;
+} */
+#content p,
+h1,
+h2,
+h3 {
+  text-align: left;
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+#projectnormal {
+  padding-top: 10%;
+  padding-left: 10%;
+}
+.col-md-8 {
+  padding-top: 5%;
+}
+.col-md-6 #Rabbot {
+  background: black;
+  color: lightgrey;
+  padding-bottom: 10%;
+}
+#IntroMain {
+  background: black;
+  color: lightgrey;
+  padding-top: 40%;
+  padding-bottom: 10%;
+}
+.text-center {
+  width: 60%;
+  margin: auto;
+}
+#process h4,
+h2 {
+  margin: auto;
+  padding: 3%;
+  text-align: center;
+}
+#process p {
+  margin: auto;
+  text-align: center;
+}
+
+#process {
+  padding-top: 5%;
+}
+#HeadsetTop {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+#HeadsetTop img.resize {
+  width: 100%;
+  height: auto;
+}
+#HeadsetUnder {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+#HeadsetUnder img {
+  padding-top: 3%;
+  width: 58%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container#feedback {
+  text-align: left;
+}
+
+/*------------For mobile phones------------*/
+@media only screen and (max-width: 620px) {
+  .text-center {
+    width: 100%;
+    padding-top: 0;
+  }
+  .container-fluid {
+    padding-top: 0;
+  }
+}
+/*------------For iPad------------*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .text-center {
+    width: 100%;
+  }
 }

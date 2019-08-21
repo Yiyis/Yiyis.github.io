@@ -3,6 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <title>Scholarship Promotion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style2.css" />
     <link rel="icon" href="logo_icon.png" />
   </head>
@@ -17,25 +26,38 @@
         </div>
       </div>
       <div id="content">
-        <div id="closeicon">
-          <div class="outer">
-            <div class="inner">
-              <a href="portfolio.html"><label>Back</label></a>
+        <div id="iconwrapper">
+          <div id="closeicon">
+            <div class="outer">
+              <div class="inner">
+                <a href="portfolio.html"><label>Back</label></a>
+              </div>
             </div>
           </div>
         </div>
-        <img
-          src="Projects/ScholarshipPromotion/ScholarshipPromotion.png"
-          class="img_small"
-        />
-        <h1>Scholarship Promotion Design</h1>
-        <h3>Created using Adobe Illustrator, Adobe Photoshop</h3>
-        <h2>Summary</h2>
-        <p>
-          Poster and postcard design for Scholarship Promotion at Plymouth
-          University
-        </p>
-
+        <div
+          class="container-fluid"
+          style="background:#373B73;color:lightgrey;"
+        >
+          <div class="row">
+            <div id="projectnormal" class="col-md-6 ">
+              <h1>Scholarship Promotion Design</h1>
+              <p>Created using Adobe Illustrator, Adobe Photoshop</p>
+              <h3 style="padding-top:10%;">Summary</h3>
+              <p>
+                Poster and postcard design for Scholarship Promotion at Plymouth
+                University
+              </p>
+            </div>
+            <div class="col-md-6 ">
+              <img
+                src="Projects/ScholarshipPromotion/ScholarshipPromotion.png"
+                class="img_fluid"
+                style="width:100%; height:auto; padding-top:10%;"
+              />
+            </div>
+          </div>
+        </div>
         <img
           src="Projects/ScholarshipPromotion/ScholarshipPromotionPoster_2.jpg"
           class="img_medium"
