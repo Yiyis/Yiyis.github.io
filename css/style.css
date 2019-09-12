@@ -551,59 +551,35 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-.Loader {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  max-width: 14.6rem;
-  margin-top: 7.3rem;
-  margin-bottom: 7.3rem;
-}
-.Loader:before,
-.Loader:after {
-  content: "";
-  position: absolute;
+#loader {
+  width: 70px;
+  height: 70px;
+  border-style: solid;
+  border-top-color: #fff;
+  border-right-color: #fff;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
   border-radius: 50%;
-  animation-duration: 1.8s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  filter: drop-shadow(0 0 0.7555555556rem rgba(255, 255, 255, 0.75));
+  box-sizing: border-box;
+  animation: rotate 3s ease-in-out infinite;
+  transform: rotate(-200deg);
 }
-.Loader:before {
-  width: 100%;
-  padding-bottom: 100%;
-  box-shadow: inset 0 0 0 1.7rem #fff;
-  animation-name: pulsA;
-}
-.Loader:after {
-  width: calc(100% - 1.7rem * 2);
-  padding-bottom: calc(100% - 1.7rem * 2);
-  box-shadow: 0 0 0 0 #fff;
-  animation-name: pulsB;
-}
-
-@keyframes pulsA {
+@keyframes rotate {
   0% {
-    box-shadow: inset 0 0 0 1.7rem #fff;
-    opacity: 1;
+    border-width: 10px;
   }
-  50%,
-  100% {
-    box-shadow: inset 0 0 0 0 #fff;
-    opacity: 0;
+  25% {
+    border-width: 3px;
   }
-}
-@keyframes pulsB {
-  0%,
   50% {
-    box-shadow: 0 0 0 0 #fff;
-    opacity: 0;
+    transform: rotate(115deg);
+    border-width: 10px;
+  }
+  75% {
+    border-width: 3px;
   }
   100% {
-    box-shadow: 0 0 0 1.7rem #fff;
-    opacity: 1;
+    border-width: 10px;
   }
 }
 
