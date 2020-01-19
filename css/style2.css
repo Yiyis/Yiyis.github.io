@@ -140,6 +140,13 @@
   height: 100%;
   width: 100%;
 }
+#CakeLogo {
+  background: url("../Projects/CakeLogo/mockup.jpg") no-repeat center;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
 
 /*The content underneath the div is positioned absolutely and has a large top offset of 100% which hides it below the full image. */
 #content {
