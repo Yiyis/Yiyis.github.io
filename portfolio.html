@@ -14,6 +14,7 @@
   </head>
 
   <body>
+    <div id="loader"></div>
     <div id="topbar" style="width = 100%">
       <a href="index.html">
         <div id="logo">
@@ -308,16 +309,32 @@
         </div>
       </a>
     </div>
-    <div class="loader-wrapper">
-      <div id="loader">
-        <div id="box"></div>
-      </div>
-    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
     <script src="https://npmcdn.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
     <script src="js/portfolio.js"></script>
+    <script type="text/javascript">
+      var loader;
+      function loadNow(opacity) {
+        if (opacity <= 0) {
+          displayContent();
+        } else {
+          loader.style.opacity = opacity;
+          window.setTimeout(function() {
+            loadNow(opacity - 0.05);
+          }, 100);
+        }
+      }
+      function displayContent() {
+        loader.style.display = "none";
+        document.getElementById("content").style.display = "block";
+      }
+      document.addEventListener("DOMContentLoaded", function() {
+        loader = document.getElementById("loader");
+        loadNow(1);
+      });
+    </script>
   </body>
 </html>
