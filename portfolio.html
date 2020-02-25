@@ -10,7 +10,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="logo_icon.png" />
-    <script src="jquery-2.1.4.js"></script>
   </head>
 
   <body>
@@ -316,25 +315,14 @@
     <script src="https://npmcdn.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
     <script src="js/portfolio.js"></script>
     <script type="text/javascript">
-      var loader;
-      function loadNow(opacity) {
-        if (opacity <= 0) {
-          displayContent();
-        } else {
-          loader.style.opacity = opacity;
-          window.setTimeout(function() {
-            loadNow(opacity - 0.05);
-          }, 100);
-        }
+      function hideLoader() {
+        $("#loader").hide();
       }
-      function displayContent() {
-        loader.style.display = "none";
-        document.getElementById("content").style.display = "block";
-      }
-      document.addEventListener("DOMContentLoaded", function() {
-        loader = document.getElementById("loader");
-        loadNow(1);
-      });
+
+      $(window).ready(hideLoader);
+
+      // Strongly recommended: Hide loader after 20 seconds, even if the page hasn't finished loading
+      setTimeout(hideLoader, 20 * 1000);
     </script>
   </body>
 </html>
