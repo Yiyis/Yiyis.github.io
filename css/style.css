@@ -560,7 +560,7 @@ a:hover {
   z-index: 999;
   overflow: visible;
   opacity: 0.8;
-  background: #000 url("../logo.gif") no-repeat center center;
+  background: #000 url("../Logo.gif") no-repeat center center;
 }
 
 /*------------For mobile phones------------*/
