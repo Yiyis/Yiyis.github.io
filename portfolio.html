@@ -13,6 +13,9 @@
   </head>
 
   <body>
+    <div id="loading">
+      <img id="loading-image" img src="Logo.gif" alt="Loading..." />
+    </div>
     <div id="topbar" style="width = 100%">
       <a href="index.html">
         <div id="logo">
@@ -307,16 +310,16 @@
         </div>
       </a>
     </div>
-    <div class="loader-wrapper">
-      <div id="loader">
-        <div id="box"></div>
-      </div>
-    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
     <script src="https://npmcdn.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
     <script src="js/portfolio.js"></script>
+    <script>
+      $(window).on("load", function() {
+        $("#loading").hide();
+      });
+    </script>
   </body>
 </html>
