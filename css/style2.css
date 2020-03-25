@@ -185,9 +185,7 @@ img.img_smallgif {
 
 ul {
   list-style-type: disc;
-  text-align: left;
   margin: auto;
-  width: 80%;
   padding: 10px;
 }
 
@@ -260,85 +258,7 @@ ul {
   -webkit-animation-timing-function: ease;
   animation-timing-function: ease;
 }
-/*************Close icon**************/
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 
-#iconwrapper {
-  position: absolute;
-  z-index: 999;
-  right: 0;
-  height: 100%;
-  width: 10%;
-}
-#closeicon {
-  position: sticky;
-  top: 0px;
-}
-.outer {
-  position: absolute;
-  margin: auto;
-  width: 70px;
-  margin-top: 10px;
-  right: 0px;
-  cursor: pointer;
-}
-
-.inner {
-  width: inherit;
-  text-align: center;
-}
-
-label {
-  font-size: 0.8em;
-  line-height: 4em;
-  text-transform: uppercase;
-  color: grey;
-  transition: all 0.3s ease-in;
-  opacity: 0;
-  cursor: pointer;
-}
-
-.inner:before,
-.inner:after {
-  position: absolute;
-  content: "";
-  height: 1px;
-  width: inherit;
-  background: grey;
-  left: 0;
-  transition: all 0.3s ease-in;
-}
-
-.inner:before {
-  top: 50%;
-  transform: rotate(45deg);
-}
-
-.inner:after {
-  bottom: 50%;
-  transform: rotate(-45deg);
-}
-
-.outer:hover label {
-  opacity: 1;
-}
-
-.outer:hover .inner:before,
-.outer:hover .inner:after {
-  transform: rotate(0);
-}
-
-.outer:hover .inner:before {
-  top: 0;
-}
-
-.outer:hover .inner:after {
-  bottom: 0;
-}
 /***************Responsive video****************/
 .video-wrapper {
   position: relative;
