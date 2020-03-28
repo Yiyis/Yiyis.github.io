@@ -41,19 +41,32 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
     <link rel="icon" href="logo_icon.png" />
   </head>
 
   <body>
-    <div>
-      <nav class="btn three">
+    <!-- /Menu-->
+    <div id="header-nav">
+      <!-- Small screen menu button -->
+      <a href="#menu" class="menu-link">
+        <span class="bar1"></span>
+        <span class="bar2"></span>
+        <span class="bar3"></span>
+      </a>
+      <!-- /Small screen menu button -->
+
+      <!-- Menu Items -->
+      <nav id="menu" class="navbutton three" role="navigation">
         <ul>
-          <li><a href="index.html" id="active">Hello!</a></li>
+          <li><a href="index.html">Hello!</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="about.html">About</a></li>
         </ul>
       </nav>
+      <!-- /Menu Items -->
     </div>
+    <!-- /Menu -->
 
     <div id="introcontainer">
       <p class="block">
@@ -88,6 +101,7 @@
       src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"
     ></script>
     <script src="js/index.js"></script>
+    <script src="js/navbar.js"></script>
     <footer>
       <div class="footer">
         <small
