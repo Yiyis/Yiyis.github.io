@@ -1,0 +1,242 @@
+// Global Styles
+
+@white: #fff;
+@gray: #999;
+
+a {
+  text-decoration: none;
+  color: #fff;
+
+  &:hover {
+    color: @white;
+  }
+}
+
+// Nav styles
+
+#header-nav {
+  position: fixed;
+  top: 0;
+  display: block;
+  width: 100%;
+  background: black;
+  z-index: 999;
+  //background-color: rgba(0, 0, 0, 0.1);
+
+  // On Scroll animation
+  -webkit-transition: -webkit-transform 0.7s 0.3s ease;
+  -moz-transition: -moz-transform 0.7s 0.3s ease;
+  -ms-transition: -ms-transform 0.7s 0.3s ease;
+  transition: transform 0.7s 0.3s ease;
+
+  // Stop animation flicker
+
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+#header-nav.hide-nav-bar {
+  -webkit-transform: translate(0, -100%);
+  -moz-transform: translate(0, -100%);
+  -ms-transform: translate(0, -100%);
+  transform: translate(0, -100%);
+  -webkit-backface-visibility: hidden;
+}
+
+// Small screen styles
+
+a.menu-link {
+  float: right;
+  display: block;
+  padding: 1em;
+}
+nav[role="navigation"] {
+  clear: right;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.js nav[role="navigation"] {
+  overflow: hidden;
+  max-height: 0;
+}
+nav[role="navigation"].active {
+  max-height: 15em;
+}
+nav[role="navigation"] ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+  padding: 0.7em 0;
+}
+nav[role="navigation"] li a {
+  display: block;
+  padding: 0.8em;
+  //  padding: 0.4em;
+  font-size: 0.9em;
+}
+
+.menu-link {
+  height: 30px;
+  width: 33px;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  margin-top: 3px;
+  background: @gray;
+  width: 33px;
+  height: 4px;
+  position: absolute;
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+}
+
+.bar2 {
+  margin-top: 13px;
+}
+.bar3 {
+  margin-top: 23px;
+
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+.myBrand {
+  float: left;
+  margin-left: 1em;
+  padding: 1em;
+  h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  a {
+    //.link-style;
+  }
+}
+
+@media screen and (min-width: 48.25em) {
+  a.menu-link {
+    display: none;
+  }
+  .js nav[role="navigation"] {
+    max-height: none;
+  }
+  nav[role="navigation"] ul {
+    margin: 0 0 0 -0.25em;
+    border: 0;
+    float: right;
+  }
+
+  nav[role="navigation"] li {
+    display: inline-block;
+    margin: 0 0.25em;
+  }
+  nav[role="navigation"] li a {
+    border: 0;
+  }
+}
+
+// Small screen menu bar icon
+
+/* Menu Bar */
+#logo {
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding: 20px;
+}
+
+*------------Nav------------*/ #btnwrapper {
+  overflow: hidden;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+/* UNDERLINE */
+
+.navbutton.three a {
+  background: none;
+  color: white;
+  font-size: 0.72rem;
+  letter-spacing: 0.05rem;
+  transition: all 1.1s 100ms;
+  position: absolute;
+  z-index: 2;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 100 px;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbutton.three ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+.navbutton.three li {
+  float: right;
+  padding: 20px;
+}
+
+.navbutton.three li a {
+  display: inline;
+}
+
+.navbutton.three {
+  transition: all 1s ease-in-out;
+}
+
+.navbutton.three ul li a {
+  position: relative;
+}
+
+.navbutton.three ul li a:after {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  height: 1px;
+  background: #aaa;
+  margin-bottom: 0px;
+  color: transparent;
+  content: "";
+  visibility: hidden;
+  transition: all 1.1s 100ms;
+}
+
+.navbutton.three ul li a:hover:after {
+  visibility: visible;
+  width: 100%;
+  transition: all 1s;
+}
+
+.navbutton.three a:hover {
+  color: white;
+  transition: all 1s;
+}
+
+.navbutton.three #active {
+  border: 1px solid white;
+}
+/* Menu Bar */

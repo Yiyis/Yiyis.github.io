@@ -6,26 +6,37 @@
     <title>Yiyi Shao</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
     <link rel="icon" href="logo_icon.png" />
   </head>
 
   <body>
-    <div style="width = 100%">
-      <a href="index.html">
-        <div id="logo">
+    <!-- /Menu-->
+    <div id="header-nav">
+      <div class="myBrand" id="logo">
+        <a href="index.html">
           <img src="logo_White.png" style="width:100%; height:100%;" />
-        </div>
-      </a>
-      <div id="btnwrapper">
-        <nav class="btn three">
-          <ul>
-            <li><a href="index.html">Hello!</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="about.html" id="active">About</a></li>
-          </ul>
-        </nav>
+        </a>
       </div>
+      <!-- Small screen menu button -->
+      <a href="#menu" class="menu-link">
+        <span class="bar1"></span>
+        <span class="bar2"></span>
+        <span class="bar3"></span>
+      </a>
+      <!-- /Small screen menu button -->
+
+      <!-- Menu Items -->
+      <nav id="menu" class="navbutton three" role="navigation">
+        <ul>
+          <li><a href="index.html">Hello!</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html" id="active">About</a></li>
+        </ul>
+      </nav>
+      <!-- /Menu Items -->
     </div>
+    <!-- /Menu -->
 
     <div id="AboutContainer">
       <div>
@@ -106,17 +117,14 @@
 
     <!-- particles.js container -->
     <div id="particles-js"></div>
-
     <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.2/lottie.js"
-    ></script>
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"
     ></script>
     <script src="js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/navbar.js"></script>
 
     <footer>
       <div class="footer">
