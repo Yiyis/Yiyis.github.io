@@ -89,6 +89,7 @@ nav[role="navigation"] li a {
   float: left;
   margin-left: 1em;
   padding: 1em;
+  box-sizing: border-box;
 }
 .myBrand h1 {
   margin: 0;
