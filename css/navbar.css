@@ -1,8 +1,8 @@
-a {
+#header-nav a {
   text-decoration: none;
   color: #fff;
 }
-a:hover {
+#header-nav a:hover {
   color: #fff;
 }
 #header-nav {
