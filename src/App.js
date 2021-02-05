@@ -31,7 +31,9 @@ function App() {
       </p>
     </div>
     <div className="container">
-         <Lottie id="bm" options={bodymovinOptions} />
+    <div className="bm">
+         <Lottie options={bodymovinOptions} />
+         </div>
       <div className="line">
         <div className="square" id="square">Y</div>
         <div className="square">I</div>
