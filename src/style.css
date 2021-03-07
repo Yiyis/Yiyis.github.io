@@ -23,7 +23,6 @@ body {
   background-position: 50% 50%;
   z-index: 1;
 }
-
 .bm {
   width: 100%;
   height: 100%;
@@ -155,7 +154,6 @@ h2 {
 }
 .About {
   font-size: 1em;
-  /* height: 150px; */
   padding-right: 10%;
   margin-top: 2.5em;
   margin-bottom: 2em;
@@ -248,9 +246,8 @@ a:hover {
 
 .line {
   display: flex;
-  position: relative;
+  position: absolute;
   z-index: 3;
-  top: 10%;
 }
 
 .square {
@@ -266,6 +263,9 @@ a:hover {
 .square:hover {
   color: #ff00c3;
 }
+#custom-space{
+    margin-left:30px;
+  }
 
 @-webkit-keyframes rubberBand {
   0% {
@@ -513,4 +513,9 @@ a:hover {
     top: 40%;
     left: 0;
   }
+}
+
+#tsparticles{
+  width:100%;
+  z-index:0;
 }
