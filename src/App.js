@@ -26,10 +26,8 @@ class App extends React.Component {
   handleScroll(event) {
     if (window.scrollY === 0 && this.state.scrolling === true) {
       this.setState({ scrolling: false });
-      console.log("scroll");
     } else if (window.scrollY !== 0 && this.state.scrolling !== true) {
       this.setState({ scrolling: true });
-      console.log("not scroll");
     }
   }
   render() {
