@@ -6,31 +6,32 @@ import animation from "./animation.json";
 import Particles from "react-particles-js";
 import LetterAnimation from "./components/letterAnimation";
 import Nav from "./components/nav";
-import * as THREE from "three";
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
-      scrollup: false,
+      scrolling: false,
     };
+    this.handleScroll = this.handleScroll.bind(this);
   }
   componentDidMount() {
-    this.prev = window.scrollY;
-    window.addEventListener("scroll", (e) => this.handleNavigation(e));
+    window.addEventListener("scroll", this.handleScroll);
   }
-  handleNavigation = (e) => {
-    const window = e.currentTarget;
 
-    if (this.prev > window.scrollY) {
-      console.log("scrolling up");
-      this.setState({ scrollup: true });
-    } else if (this.prev < window.scrollY) {
-      console.log("scrolling down");
-      this.setState({ scrollup: false });
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+
+  handleScroll(event) {
+    if (window.scrollY === 0 && this.state.scrolling === true) {
+      this.setState({ scrolling: false });
+      console.log("scroll");
+    } else if (window.scrollY !== 0 && this.state.scrolling !== true) {
+      this.setState({ scrolling: true });
+      console.log("not scroll");
     }
-    this.prev = window.scrollY;
-  };
+  }
   render() {
     const bodymovinOptions = {
       renderer: "svg",
@@ -120,7 +121,7 @@ class App extends React.Component {
     };
     return (
       <div className="App">
-        <Nav />
+        <Nav {...this.state} />
         <div id="introcontainer">
           <p className="block">Maker | Developer | Designer</p>
         </div>

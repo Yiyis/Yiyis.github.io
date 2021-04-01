@@ -5,15 +5,14 @@ class Nav extends React.Component {
     return (
       <div
         id="header-nav"
-        className={this.state.scrollup ? "hide-nav-bar" : ""}
-        onWheel={(e) => this.props.handleNavigation(e)}
+        className={this.props.scrolling ? "" : "hide-nav-bar"}
       >
-        <a href="#menu" class="menu-link">
-          <span class="bar1"></span>
-          <span class="bar2"></span>
-          <span class="bar3"></span>
+        <a href="#menu" className="menu-link">
+          <span className="bar1"></span>
+          <span className="bar2"></span>
+          <span className="bar3"></span>
         </a>
-        <nav id="menu" class="navbutton three" role="navigation">
+        <nav id="menu" className="navbutton three" role="navigation">
           <ul>
             <li>
               <a href="index.html" id="active">
