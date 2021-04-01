@@ -5,7 +5,7 @@ class Nav extends React.Component {
     return (
       <div
         id="header-nav"
-        className={this.props.scrolling ? "" : "hide-nav-bar"}
+        className={this.props.scrolling ? "hide-nav-bar" : ""}
       >
         <a href="#menu" className="menu-link">
           <span className="bar1"></span>
