@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class Nav extends React.Component {
   constructor(props) {
@@ -23,9 +24,9 @@ class Nav extends React.Component {
       >
         {displayLogo ? (
           <div className="myBrand" id="logo">
-            <a href="#">
+            <Link to="/">
               <img className="nav-logo" src="logo/logo_White.png" />
-            </a>
+            </Link>
           </div>
         ) : (
           ""
@@ -38,10 +39,10 @@ class Nav extends React.Component {
         <nav id="menu" className="navbutton three" role="navigation">
           <ul className="d-none d-lg-block d-xl-block d-md-block">
             <li>
-              <a href="#">Portfolio</a>
+              <Link to="/portfolio">Portfolio</Link>
             </li>
             <li>
-              <a href="#">About</a>
+              <Link to="/about">About</Link>
             </li>
           </ul>
           <ul
