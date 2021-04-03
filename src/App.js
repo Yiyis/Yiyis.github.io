@@ -1,3 +1,4 @@
+import "./assets/bootstrap.css";
 import "./assets/style.css";
 import "./assets/navbar.css";
 import React from "react";
@@ -119,7 +120,7 @@ class App extends React.Component {
     };
     return (
       <div className="App">
-        <Nav {...this.state} />
+        <Nav {...this.state} displayLogo={false} />
         <div id="introcontainer">
           <p className="block">Maker | Developer | Designer</p>
         </div>

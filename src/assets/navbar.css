@@ -38,10 +38,6 @@ nav[role="navigation"] {
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.js nav[role="navigation"] {
-  overflow: hidden;
-  max-height: 0;
-}
 nav[role="navigation"].active {
   max-height: 15em;
 }
@@ -95,6 +91,17 @@ nav[role="navigation"] li a {
   margin: 0;
   font-size: 1.5em;
 }
+.bar-1 {
+  transform: rotate(-45deg);
+  margin-top: 13px;
+}
+.bar-2 {
+  opacity: 0;
+}
+.bar-3 {
+  transform: rotate(45deg);
+  margin-top: 13px;
+}
 @media screen and (min-width: 48.25em) {
   a.menu-link {
     display: none;
@@ -123,16 +130,7 @@ nav[role="navigation"] li a {
   padding: 20px;
 }
 
-*------------Nav------------*/ #btnwrapper {
-  overflow: hidden;
-}
-
-p {
-  font-family: "Roboto", sans-serif;
-}
-
 /* UNDERLINE */
-
 .navbutton.three a {
   background: none;
   color: white;
@@ -206,6 +204,10 @@ p {
 
 .navbutton.three #active {
   border: 1px solid white;
+}
+.nav-logo {
+  height: 100%;
+  width: 100%;
 }
 /* Menu Bar */
 

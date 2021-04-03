@@ -1,29 +1,61 @@
 import React from "react";
 
 class Nav extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      open: false,
+      show: false,
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick() {
+    this.setState({ open: !this.state.open });
+  }
+
   render() {
+    const displayLogo = this.props.displayLogo;
     return (
       <div
         id="header-nav"
         className={this.props.scrolling ? "hide-nav-bar" : ""}
       >
-        <a href="#menu" className="menu-link">
-          <span className="bar1"></span>
-          <span className="bar2"></span>
-          <span className="bar3"></span>
+        {displayLogo ? (
+          <div className="myBrand" id="logo">
+            <a href="#">
+              <img className="nav-logo" src="logo/logo_White.png" />
+            </a>
+          </div>
+        ) : (
+          ""
+        )}
+        <a href="#menu" className="menu-link" onClick={this.handleClick}>
+          <span className={this.state.open ? "bar1 bar-1" : "bar1"}></span>
+          <span className={this.state.open ? "bar2 bar-2" : "bar2"}></span>
+          <span className={this.state.open ? "bar3 bar-3" : "bar3"}></span>
         </a>
         <nav id="menu" className="navbutton three" role="navigation">
-          <ul>
+          <ul className="d-none d-lg-block d-xl-block d-md-block">
             <li>
-              <a href="index.html" id="active">
-                Hello!
-              </a>
+              <a href="#">Portfolio</a>
             </li>
             <li>
-              <a href="portfolio.html">Portfolio</a>
+              <a href="#">About</a>
+            </li>
+          </ul>
+          <ul
+            className={
+              this.state.open
+                ? "d-block d-lg-none d-xl-none d-md-none"
+                : "d-none"
+            }
+          >
+            <li>
+              <a href="#">Portfolio</a>
             </li>
             <li>
-              <a href="about.html">About</a>
+              <a href="#">About</a>
             </li>
           </ul>
         </nav>
