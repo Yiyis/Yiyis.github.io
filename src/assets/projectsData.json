@@ -5,7 +5,6 @@
     "memo": "Thesis project",
     "date": "2019 April",
     "tags": "MR Wearables Game",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
     "mainPhoto": "pics/projects/RABBOT/RABBOT.jpg"
   },
   {
@@ -14,7 +13,6 @@
     "memo": "OCAD University, Toronto",
     "date": "2018 March",
     "tags": "MR",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
     "mainPhoto": "pics/projects/DiveIntoDigital/DiveIntoDigital.JPG"
   },
   {
@@ -22,8 +20,23 @@
     "name": "DreamWorld AR",
     "memo": "Toronto",
     "date": "2018 March",
-    "tags": "2019 July",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+    "tags": "MR Animation",
     "mainPhoto": "pics/projects/DreamWorld/DreamWorld_L.jpg"
+  },
+  {
+    "key": 4,
+    "name": "MaidenPink",
+    "memo": "OCAD University, Toronto",
+    "date": "2018 April",
+    "tags": "Game Animation",
+    "mainPhoto": "pics/projects/MaidenPink/MaidenPink_L.jpg"
+  },
+  {
+    "key": 5,
+    "name": "The Hats",
+    "memo": "OCAD University, Toronto",
+    "date": "2018 April",
+    "tags": "Wearables",
+    "mainPhoto": "pics/projects/TheHats/TheHats.jpg"
   }
 ]

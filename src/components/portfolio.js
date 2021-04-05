@@ -65,7 +65,7 @@ function Portfolio() {
       <div className="wrap">
         <div className="grid-sizer"></div>
         {data.map((project) => (
-          <div className={`${project.tags} grid-item`}>
+          <div className={`${project.tags} grid-item`} key={project.key}>
             <img src={project.mainPhoto} alt="" />
             <div className="info-wrapper">
               <div className="name">{project.name}</div>
