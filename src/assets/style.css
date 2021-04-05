@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
 }
-/* canvas{ display: block; vertical-align: bottom; } */
+
 /* ---- particles.js container ---- */
 #particles-js {
   position: absolute;
@@ -113,7 +113,6 @@ h2 {
 .info-wrapper {
   position: absolute;
   font-family: "Roboto", sans-serif;
-  left: 5px;
   bottom: 0;
   padding: 78px 16px 16px 16px;
   box-sizing: border-box;
@@ -122,7 +121,7 @@ h2 {
     rgba(0, 0, 0, 0) 0%,
     rgba(0, 0, 0, 0.49) 98%
   );
-  width: calc(100% - 10px);
+  width: inherit;
   height: 160px;
   opacity: 0;
   transform: translateY(30px);
@@ -263,9 +262,9 @@ a:hover {
 .square:hover {
   color: #ff00c3;
 }
-#custom-space{
-    margin-left:30px;
-  }
+#custom-space {
+  margin-left: 30px;
+}
 
 @-webkit-keyframes rubberBand {
   0% {
@@ -515,7 +514,7 @@ a:hover {
   }
 }
 
-#tsparticles{
-  width:100%;
-  z-index:0;
+#tsparticles {
+  width: 100%;
+  z-index: 0;
 }

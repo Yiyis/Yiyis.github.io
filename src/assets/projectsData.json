@@ -1,0 +1,29 @@
+[
+  {
+    "key": 1,
+    "name": "RABBOT",
+    "memo": "Thesis project",
+    "date": "2019 April",
+    "tags": "MR Wearables Game",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+    "mainPhoto": "pics/projects/RABBOT/RABBOT.jpg"
+  },
+  {
+    "key": 2,
+    "name": "DiveIntoDigital",
+    "memo": "OCAD University, Toronto",
+    "date": "2018 March",
+    "tags": "MR",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+    "mainPhoto": "pics/projects/DiveIntoDigital/DiveIntoDigital.JPG"
+  },
+  {
+    "key": 3,
+    "name": "DreamWorld AR",
+    "memo": "Toronto",
+    "date": "2018 March",
+    "tags": "2019 July",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+    "mainPhoto": "pics/projects/DreamWorld/DreamWorld_L.jpg"
+  }
+]
