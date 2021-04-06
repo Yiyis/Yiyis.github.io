@@ -31,6 +31,7 @@ class Portfolio extends React.Component {
         },
       });
     }
+    this.isotope.layout();
   }
 
   handleFilterKeyChange(key) {
