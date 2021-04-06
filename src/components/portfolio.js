@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "./nav";
 import ReactDOM from "react-dom";
 import Isotope from "isotope-layout";
+import { Link } from "react-router-dom";
 import data from "../assets/projectsData.json";
 
 class Portfolio extends React.Component {
@@ -132,7 +133,11 @@ class Portfolio extends React.Component {
         <div className="wrap">
           <div className="grid-sizer"></div>
           {data.map((project) => (
-            <div className={`${project.tags} grid-item`} key={project.key}>
+            <Link
+              to={project.link}
+              className={`${project.tags} grid-item`}
+              key={project.key}
+            >
               <img
                 src={project.mainPhoto}
                 alt=""
@@ -143,7 +148,7 @@ class Portfolio extends React.Component {
                 <div className="memo">{project.memo}</div>
                 <div className="date">{project.date}</div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
