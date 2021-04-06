@@ -42,23 +42,35 @@ function Portfolio() {
         </button>
         <button
           className="btn-filter"
+          onClick={handleFilterKeyChange("Software")}
+        >
+          Software Development
+        </button>
+        <button
+          className="btn-filter"
           onClick={handleFilterKeyChange("Wearables")}
         >
           Wearables
         </button>
-        <button className="btn-filter" data-filter=".Game">
-          Game
-        </button>
-        <button className="btn-filter" data-filter=".MR">
+        <button className="btn-filter" onClick={handleFilterKeyChange("MR")}>
           Mixed Reality
         </button>
-        <button className="btn-filter" data-filter=".GraphicDesign">
+        <button
+          className="btn-filter"
+          onClick={handleFilterKeyChange("GraphicDesign")}
+        >
           Graphic Design
         </button>
-        <button className="btn-filter" data-filter=".Animation">
+        <button
+          className="btn-filter"
+          onClick={handleFilterKeyChange("Animation")}
+        >
           Animation
         </button>
-        <button className="btn-filter" data-filter=".Installation">
+        <button
+          className="btn-filter"
+          onClick={handleFilterKeyChange("Installation")}
+        >
           Installation
         </button>
       </div>

@@ -4,23 +4,23 @@
     "name": "RABBOT",
     "memo": "Thesis project",
     "date": "2019 April",
-    "tags": "MR Wearables Game",
+    "tags": "MR Wearables Software",
     "mainPhoto": "pics/projects/RABBOT/RABBOT.jpg"
   },
   {
     "key": 2,
-    "name": "DiveIntoDigital",
-    "memo": "OCAD University, Toronto",
-    "date": "2018 March",
-    "tags": "MR",
-    "mainPhoto": "pics/projects/DiveIntoDigital/DiveIntoDigital.JPG"
+    "name": "Virtual Platform For Indigenous Art",
+    "memo": "Wapatah Centre, Toronto",
+    "date": "2019-2021",
+    "tags": "Software",
+    "mainPhoto": "pics/projects/VPIA/VPIA.jpg"
   },
   {
     "key": 3,
     "name": "DreamWorld AR",
     "memo": "Toronto",
     "date": "2018 March",
-    "tags": "MR Animation",
+    "tags": "MR Animation Software",
     "mainPhoto": "pics/projects/DreamWorld/DreamWorld_L.jpg"
   },
   {
@@ -28,7 +28,7 @@
     "name": "MaidenPink",
     "memo": "OCAD University, Toronto",
     "date": "2018 April",
-    "tags": "Game Animation",
+    "tags": "Software Animation",
     "mainPhoto": "pics/projects/MaidenPink/MaidenPink_L.jpg"
   },
   {
@@ -38,5 +38,117 @@
     "date": "2018 April",
     "tags": "Wearables",
     "mainPhoto": "pics/projects/TheHats/TheHats.jpg"
+  },
+  {
+    "key": 6,
+    "name": "Sleepers",
+    "memo": "Social Body Lab, Toronto",
+    "date": "2018 April",
+    "tags": "Wearables",
+    "mainPhoto": "pics/projects/Sleepers/Sleepers.JPG"
+  },
+  {
+    "key": 7,
+    "name": "MoonGaze",
+    "memo": "OCAD University, Toronto",
+    "date": "2017 November",
+    "tags": "Wearables",
+    "mainPhoto": "pics/projects/MoonGaze/MoonGaze.JPG"
+  },
+  {
+    "key": 8,
+    "name": "LovMeLovU",
+    "memo": "OCAD University, Toronto",
+    "date": "2017 December",
+    "tags": "Wearables IoT",
+    "mainPhoto": "pics/projects/LovMeLovU/LovMeLovU.JPG"
+  },
+  {
+    "key": 9,
+    "name": "PollHUEtion",
+    "memo": "OCAD University, Toronto",
+    "date": "2018 February",
+    "tags": "Installation",
+    "mainPhoto": "pics/projects/PollHUEtion/PollHUEtion.JPG"
+  },
+  {
+    "key": 10,
+    "name": "Teleportation",
+    "memo": "OCAD University, Toronto",
+    "date": "2017 November",
+    "tags": "Installation",
+    "mainPhoto": "pics/projects/Teleportation/Teleportation.jpg"
+  },
+  {
+    "key": 11,
+    "name": "Emolace",
+    "memo": "OCAD University, Toronto",
+    "date": "2017 December",
+    "tags": "Wearables",
+    "mainPhoto": "pics/projects/EmoLace/EmoLace.jpg"
+  },
+  {
+    "key": 12,
+    "name": "Mai",
+    "memo": "UG Thesis project, UK",
+    "date": "2016",
+    "tags": "Installation",
+    "mainPhoto": "pics/projects/Mai/Mai.gif"
+  },
+  {
+    "key": 13,
+    "name": "Scholarship Promotion Design",
+    "memo": "In-house Design Studio, Plymouth University, UK",
+    "date": "2015",
+    "tags": "GraphicDesign",
+    "mainPhoto": "pics/projects/ScholarshipPromotion/ScholarshipPromotionPoster_3.jpg"
+  },
+  {
+    "key": 14,
+    "name": "Sleepy Motion Graphics",
+    "memo": "OCAD University, Toronto",
+    "date": "2018",
+    "tags": "Animation",
+    "mainPhoto": "pics/projects/Sleepy/Sleepy2.gif"
+  },
+  {
+    "key": 15,
+    "name": "Course Icon",
+    "memo": "In-house Design Studio, Plymouth University, UK",
+    "date": "2015",
+    "tags": "GraphicDesign",
+    "mainPhoto": "pics/projects/CourseIcon/CourseIcon_2.png"
+  },
+  {
+    "key": 16,
+    "name": "Flyer Design",
+    "memo": "In-house Design Studio, Plymouth University, UK",
+    "date": "2015",
+    "tags": "GraphicDesign",
+    "mainPhoto": "pics/projects/Leaflets/Trifold_Leaflet.jpg"
+  },
+  {
+    "key": 17,
+    "name": "Floral watercolour",
+    "memo": "Shanghai & Singapore",
+    "date": "2016",
+    "tags": "GraphicDesign",
+    "mainPhoto": "pics/projects/FloralWatercolour/FloralWatercolour_1.jpg"
+  },
+  {
+    "key": 18,
+    "name": "Bluebell Confectionery Logo Design",
+    "memo": "Toronto",
+    "date": "2019",
+    "tags": "GraphicDesign",
+    "mainPhoto": "pics/projects/CakeLogo/businessmockup.jpg"
+  },
+  {
+    "key": 19,
+    "name": "DiveIntoDigital",
+    "memo": "OCAD University, Toronto",
+    "date": "2018 March",
+    "tags": "MR Software",
+    "mainPhoto": "pics/projects/DiveIntoDigital/DiveIntoDigital.JPG"
   }
 ]

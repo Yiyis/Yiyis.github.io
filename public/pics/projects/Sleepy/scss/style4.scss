@@ -1,0 +1,122 @@
+// This should be the same as in the Jade
+$highestSpokeNum: 5;
+
+// The speed of the largest spoke, the smaller ones move faster
+$fullRotateDur: 8s;
+
+html,body { 
+  height: 100%; 
+  margin: 0; 
+}
+body { background-color: white; }
+// Responsive container
+.container {
+  position: relative;
+  max-width: 100vh;
+  max-height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  
+  &::before {
+    content: "";
+    display: block;
+    margin-top: 100%;
+  }
+}
+
+.layer {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform-origin: center center;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: calc(50% - 2px);
+    left: calc(50% - 2px);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: black;
+  }
+}
+.inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-origin: center center;
+}
+.line {
+  width: 50%;
+  height: 1px;
+  background: black;
+  
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 25%;
+  transform-origin: center center;
+}
+
+
+// Position and add the rotation to each
+$sel: '';
+@for $i from 1 through $highestSpokeNum {
+  $sel: if($i == 1, ".layer", selector-nest($sel, ".layer")) !global;
+  
+  $dur: $fullRotateDur / $i;
+  
+  // Position each layer as needed
+  $numInLayer: $highestSpokeNum - $i + 2;  
+  @for $j from 1 through $numInLayer {
+    $rotAmount: 360 / $numInLayer * ($j - 1);
+    $rotLineAmount: 360 / ($numInLayer - 1) * ($j - 1);
+    
+    // Position the lines
+    #{$sel} .line:nth-child(#{$j}) {
+      transform: rotate(45 + $rotLineAmount + deg) translate(-50%, 0);
+    }
+    
+    // If it's the last layer, add an extra dot at the end
+    @if($i == $highestSpokeNum) {
+      #{$sel} .line:nth-child(#{$j})::before {
+        content: '';
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        width: 2px;
+        height: 2px;
+        border-radius: 50%;
+        background: black;
+      }
+    }
+    
+    // Position the layers
+    #{$sel}:nth-child(#{$j + $numInLayer}) {
+      @if($i != 1) {
+        // The 70.71% comes from sqrt(50%^2 + 50%^2), which is the width/height of each layer
+        transform: rotate($rotAmount + deg) translate(-70.71%, -70.71%);
+      }
+    }
+  }
+    
+  // Rotate each layer as needed
+  #{$sel} .inner {
+    @if($i % 2 == 0) { // If it's even
+      animation: rotateClockwise $dur linear infinite;
+    } @else {
+      animation: rotateCounterClockwise $dur linear infinite;
+    }
+  }
+}
+
+@keyframes rotateClockwise {
+  from { transform: rotate(0); }
+  to { transform: rotate(360deg); }
+}
+@keyframes rotateCounterClockwise {
+  from { transform: rotate(0); }
+  to { transform: rotate(-360deg); }
+}

@@ -1,0 +1,211 @@
+@circle-width: 50vmin;
+@small-circle-width: 25vmin;
+@dot-width: 1vmin;
+@dot-color: #fff;
+@background: #fff;
+@animation-duration: 4s;
+/* Must be equal to the number of li.small-circle elements in the DOM */
+@nb-small-circles: 14;
+@delay-between-small-circles: 0.1s;
+/* Hide the small circles and lines by switching this to false */
+@show-wireframe: true;
+
+.animation(@args) {
+  -webkit-animation: @args;
+  -moz-animation: @args;
+  -ms-animation: @args;
+  -o-animation: @args;
+  animation: @args;
+}
+.animation-delay(@delay) {
+  -webkit-animation-delay: @delay;
+  -moz-animation-delay: @delay;
+  -ms-animation-delay: @delay;
+  -o-animation-delay: @delay;
+  animation-delay: @delay;
+}
+.transform(@args) {
+  -webkit-transform: @args;
+  -moz-transform: @args;
+  -ms-transform: @args;
+  -o-transform: @args;
+  transform: @args;
+}
+.transform-origin(@args) {
+  -webkit-transform-origin: @args;
+  -moz-transform-origin: @args;
+  -ms-transform-origin: @args;
+  -o-transform-origin: @args;
+  transform-origin: @args;
+}
+
+html, body {
+  background: @background;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-size:200%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans';
+  overflow: hidden;
+  justify-content: center;
+  background: linear-gradient(-45deg, #8d66f5, #a6f3c9, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.circle {
+  width: @circle-width;
+  height: @circle-width;
+  border-radius: 50%;
+  position: relative;
+  background-color: white;
+      -webkit-transition: background-color 2s, -webkit-transform 2s;
+    transition: background-color 2s, transform 2s;
+  z-index:1;
+  &:hover{
+    background-color:#23a6d5;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+  }
+}
+
+.small-circle {
+  color: transparent;
+  border: 1px solid currentColor;
+  width: @small-circle-width;
+  height: @small-circle-width;
+  border-radius: 50%;
+  position: absolute;
+  top: @circle-width/2 - @small-circle-width/2;
+  left: @circle-width/2 - @small-circle-width/2;
+  .transform-origin(center);
+  .transform(rotate(0deg) translateX(@circle-width/2));
+}
+
+.showWireframe(@show-wireframe) when (@show-wireframe = true) {
+  .small-circle {
+    .animation(fade @animation-duration infinite);
+    
+  }
+}
+
+.showWireframe(@show-wireframe);
+
+.small-circle::before,
+.small-circle::after {
+  content: "";
+  display: block;
+  background: white;
+  position: absolute;
+}
+
+.small-circle::before {
+  background: @dot-color;
+  width: @dot-width;
+  height: @dot-width;
+  border-radius: 50%;
+  top: -1*@dot-width/2;
+  left: @small-circle-width/2 - @dot-width/2;
+  box-shadow: 0vmin @small-circle-width @dot-color;
+  .transform-origin(@dot-width/2 @small-circle-width/2+@dot-width/2);
+  .animation(half-rotation @animation-duration infinite); 
+}
+
+.small-circle::after {
+  border-left: 1px solid currentColor;
+  height: 100%;
+  left: @small-circle-width/2;
+  .animation(half-rotation @animation-duration infinite);
+}
+
+.rotationFrames() {
+  50% {
+    .transform(rotate(.5turn));
+  }
+  100% {
+    .transform(rotate(.5turn));
+  }
+}
+@-webkit-keyframes half-rotation {.rotationFrames();}
+@-ms-keyframes half-rotation {.rotationFrames();}
+@-o-keyframes half-rotation {.rotationFrames();}
+@keyframes half-rotation {.rotationFrames();}
+
+.fadeframes() {
+  0% {
+    color: transparent;
+  }
+  15% {
+    color: @dot-color;
+  }
+  30% {
+    color: transparent;
+  }
+}
+@-webkit-keyframes fade {.fadeframes();}
+@-ms-keyframes fade {.fadeframes();}
+@-o-keyframes fade {.fadeframes();}
+@keyframes fade {.fadeframes();}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.smallCircles(@i) when (@i > 1) {
+  .small-circle:nth-child(@{i}) {
+    .transform(rotate(360deg*(@i - 1)/@nb-small-circles) translateX(@circle-width/2));
+  }
+  .small-circle:nth-child(@{i}),
+  .small-circle:nth-child(@{i})::before,
+  .small-circle:nth-child(@{i})::after {
+    .animation-delay(@delay-between-small-circles*(@i - 1));
+  }
+  .smallCircles((@i - 1));
+}
+
+.smallCircles(@nb-small-circles);
