@@ -7,8 +7,17 @@ import data from "../assets/projectsData.json";
 class Portfolio extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { loaded: false };
+    this.state = { loaded: false, scrolling: false };
     this.handleFilterKeyChange = this.handleFilterKeyChange.bind(this);
+    this.handleScroll = this.handleScroll.bind(this);
+  }
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
   }
 
   componentDidUpdate() {
@@ -41,10 +50,18 @@ class Portfolio extends React.Component {
     }
   }
 
+  handleScroll(event) {
+    if (window.scrollY === 0 && this.state.scrolling === true) {
+      this.setState({ scrolling: false });
+    } else if (window.scrollY !== 0 && this.state.scrolling !== true) {
+      this.setState({ scrolling: true });
+    }
+  }
+
   render() {
     return (
       <div>
-        <Nav displayLogo={true} />
+        <Nav {...this.state} displayLogo={true} />
         <div className="button-group filters-button-group">
           <button
             className="btn-filter active"
