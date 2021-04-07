@@ -1,14 +1,14 @@
 import React from "react";
 import Nav from "./nav";
-import ReactDOM from "react-dom";
 import Isotope from "isotope-layout";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 import data from "../assets/projectsData.json";
 
 class Portfolio extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { loaded: false, scrolling: false, selected: "*" };
+    this.state = { scrolling: false, selected: "*" };
     this.handleFilterKeyChange = this.handleFilterKeyChange.bind(this);
     this.handleScroll = this.handleScroll.bind(this);
   }
@@ -67,7 +67,7 @@ class Portfolio extends React.Component {
 
   render() {
     return (
-      <div>
+      <motion.div initial="initial" animate="animate" exit={{ opacity: 0 }}>
         <Nav {...this.state} displayLogo={true} />
         <div className="button-group filters-button-group">
           <button
@@ -152,7 +152,7 @@ class Portfolio extends React.Component {
             </Link>
           ))}
         </div>
-      </div>
+      </motion.div>
     );
   }
 }

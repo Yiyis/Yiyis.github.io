@@ -3,6 +3,7 @@ import Lottie from "react-lottie";
 import animation from "./animation.json";
 import Particles from "react-particles-js";
 import LetterAnimation from "./letterAnimation";
+import { motion } from "framer-motion";
 import Nav from "./nav";
 
 class Landing extends React.Component {
@@ -116,28 +117,30 @@ class Landing extends React.Component {
       retina_detect: true,
     };
     return (
-      <div className="App">
-        <Nav {...this.state} displayLogo={false} />
-        <div id="introcontainer">
-          <p className="block">Maker | Developer | Designer</p>
-        </div>
-        <div className="container">
-          <Particles params={particlesOptions} />
-          <div className="bm">
-            <Lottie options={bodymovinOptions} />
+      <motion.div initial="initial" animate="animate" exit={{ opacity: 0 }}>
+        <div className="App">
+          <Nav {...this.state} displayLogo={false} />
+          <div id="introcontainer">
+            <p className="block">Maker | Developer | Designer</p>
           </div>
-          <div className="line">
-            <LetterAnimation letter="Y" />
-            <LetterAnimation letter="I" />
-            <LetterAnimation letter="Y" />
-            <LetterAnimation letter="I" />
-            <LetterAnimation letter="S" id="custom-space" />
-            <LetterAnimation letter="H" />
-            <LetterAnimation letter="A" />
-            <LetterAnimation letter="O" />
+          <div className="container">
+            <Particles params={particlesOptions} />
+            <div className="bm">
+              <Lottie options={bodymovinOptions} />
+            </div>
+            <div className="line">
+              <LetterAnimation letter="Y" />
+              <LetterAnimation letter="I" />
+              <LetterAnimation letter="Y" />
+              <LetterAnimation letter="I" />
+              <LetterAnimation letter="S" id="custom-space" />
+              <LetterAnimation letter="H" />
+              <LetterAnimation letter="A" />
+              <LetterAnimation letter="O" />
+            </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     );
   }
 }
