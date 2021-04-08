@@ -297,10 +297,10 @@ class Rabbot extends React.Component {
               alt="exhibition at TMAC"
               className="img_medium"
             />
-            <figcaption class="figure-caption text-center">
+            <figcaption className="figure-caption text-center">
               <i>What the Futures?</i>
             </figcaption>
-            <figcaption class="figure-caption text-center">
+            <figcaption className="figure-caption text-center">
               Toronto Media Arts Centre, April 2019
             </figcaption>
             <img
@@ -308,10 +308,10 @@ class Rabbot extends React.Component {
               alt="exhibition at LevelUP"
               className="img_medium"
             />
-            <figcaption class="figure-caption text-center">
+            <figcaption className="figure-caption text-center">
               <i>LevelUp</i>
             </figcaption>
-            <figcaption class="figure-caption text-center">
+            <figcaption className="figure-caption text-center">
               Design Exchange, April 2019
             </figcaption>
             <img
@@ -319,10 +319,10 @@ class Rabbot extends React.Component {
               alt="exhibition at FITC"
               className="img_medium"
             />
-            <figcaption class="figure-caption text-center">
+            <figcaption className="figure-caption text-center">
               <i>FITC</i>
             </figcaption>
-            <figcaption class="figure-caption text-center">
+            <figcaption className="figure-caption text-center">
               Hilton Toronto, April 2019
             </figcaption>
             <img
@@ -330,10 +330,10 @@ class Rabbot extends React.Component {
               alt="exhibition at GradEX"
               className="img_medium"
             />
-            <figcaption class="figure-caption text-center">
+            <figcaption className="figure-caption text-center">
               <i>GradEX</i>
             </figcaption>
-            <figcaption class="figure-caption text-center">
+            <figcaption className="figure-caption text-center">
               OCAD University, May 2019
             </figcaption>
             <img
@@ -341,10 +341,10 @@ class Rabbot extends React.Component {
               alt="exhibition at Future Education Festival"
               className="img_medium"
             />
-            <figcaption class="figure-caption text-center">
+            <figcaption className="figure-caption text-center">
               <i>Future Education Festival</i>
             </figcaption>
-            <figcaption class="figure-caption text-center pb-4">
+            <figcaption className="figure-caption text-center pb-4">
               Evergreen Brick Works, May 2019
             </figcaption>
           </div>
