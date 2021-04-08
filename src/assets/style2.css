@@ -65,7 +65,13 @@ ul {
   margin-left: 36%;
   text-align: center;
 }
-
+.project-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8rem;
+}
 /***************Responsive video****************/
 .video-wrapper {
   position: relative;

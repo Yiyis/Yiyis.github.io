@@ -13,6 +13,7 @@ class Rabbot extends React.Component {
             alt="RABBOT project as a whole"
           />
           <div className="img-overlay"></div>
+          <h1 className="project-title text-center text-white">RABBOT</h1>
           <ProjectInfo
             year={data[0].date}
             type={data[0].type}
@@ -24,8 +25,10 @@ class Rabbot extends React.Component {
           <div className="container-fluid">
             <div className="row">
               <div id="projectnormal" className="col-md-4">
-                <h1>RABBOT</h1>
-                <p>A three-player AR/VR game</p>
+                <p>
+                  RABBOT is a three-player AR/VR game, which allows people
+                  inside of the VR to play with people outside of the VR.
+                </p>
                 <p>
                   Created for iPads, Andriod phones and Gear VR using Unity3D,
                   Node.js, Socket.IO, Particle API, OculusVR, Vuforia,
