@@ -3,6 +3,7 @@ import Lottie from "react-lottie";
 import animation from "./animation.json";
 import Particles from "react-particles-js";
 import { particlesOptions } from "./particleAnimation";
+import { text } from "./textAnimation";
 import LetterAnimation from "./letterAnimation";
 import { motion } from "framer-motion";
 import Nav from "./nav";
@@ -36,17 +37,6 @@ class Landing extends React.Component {
       loop: false,
       autoplay: true,
       animationData: animation,
-    };
-    const text = {
-      initial: { y: 20, opacity: 0 },
-      animate: {
-        y: 0,
-        opacity: 1,
-        transition: {
-          duration: 0.9,
-          ease: [0.6, -0.05, 0.01, 0.99],
-        },
-      },
     };
 
     return (

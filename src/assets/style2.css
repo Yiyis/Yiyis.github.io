@@ -6,17 +6,26 @@
   padding: 0;
 }
 
-/*This is where the magic is. The process works by creating a div with a height and width of 100% of the window size. You then set that div's position to fixed so it's always in the right spot on loading. Give the div a background image of whatever you like*/
+.project-main {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
 
-/*To scroll with the page, just set the position to absolute instead of fixed*/
-
-/*The content underneath the div is positioned absolutely and has a large top offset of 100% which hides it below the full image. */
 #content {
   background: white;
   width: 100%;
   margin: 0 auto;
   position: absolute;
   top: 100%;
+}
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.35);
 }
 
 img.img_medium {
@@ -156,13 +165,13 @@ img.vjs-poster {
 
 /***********Cutomize Bootstap***************/
 
-#content p,
-h1,
-h2,
-h3 {
+#content p {
   text-align: left;
   margin: auto;
   padding: 3%;
+}
+.bg-black {
+  background: black;
 }
 #projectnormal {
   padding-top: 10%;
@@ -171,20 +180,23 @@ h3 {
 .col-md-8 {
   padding-top: 5%;
 }
-.col-md-6 #Rabbot {
-  background: black;
-  color: lightgrey;
-  padding-bottom: 10%;
-}
 #IntroMain {
   background: black;
-  color: lightgrey;
-  padding-top: 40%;
   padding-bottom: 10%;
+}
+#IntroMain p,
+h3 {
+  color: lightgrey;
 }
 .text-center {
   width: 60%;
   margin: auto;
+}
+.row.padding-custom {
+  padding-top: 40%;
+}
+.row.row-fullwidth {
+  width: 100%;
 }
 #process h4,
 h2 {
@@ -204,6 +216,7 @@ h2 {
   position: absolute;
   width: 100%;
   height: 100%;
+  left: 0;
   z-index: 1;
 }
 #HeadsetTop img.resize {
@@ -214,6 +227,7 @@ h2 {
   position: absolute;
   width: 100%;
   height: 100%;
+  left: 0;
   z-index: 0;
 }
 #HeadsetUnder img {
@@ -225,6 +239,15 @@ h2 {
 .container#feedback {
   text-align: left;
 }
+.img-container {
+  position: relative;
+  height: 100vh;
+}
+.project-info {
+  position: absolute;
+  bottom: 3em;
+}
+
 /*------------Loader------------*/
 .loader-wrapper {
   width: 100%;
