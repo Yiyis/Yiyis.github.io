@@ -297,46 +297,56 @@ class Rabbot extends React.Component {
               alt="exhibition at TMAC"
               className="img_medium"
             />
-            <p className="caption">
+            <figcaption class="figure-caption text-center">
               <i>What the Futures?</i>
-            </p>
-            <p className="caption">Toronto Media Arts Centre, April 2019</p>
+            </figcaption>
+            <figcaption class="figure-caption text-center">
+              Toronto Media Arts Centre, April 2019
+            </figcaption>
             <img
               src="pics/projects/RABBOT/LevelUp.jpg"
               alt="exhibition at LevelUP"
               className="img_medium"
             />
-            <p className="caption">
+            <figcaption class="figure-caption text-center">
               <i>LevelUp</i>
-            </p>
-            <p className="caption">Design Exchange, April 2019</p>
+            </figcaption>
+            <figcaption class="figure-caption text-center">
+              Design Exchange, April 2019
+            </figcaption>
             <img
               src="pics/projects/RABBOT/FITC.jpg"
               alt="exhibition at FITC"
               className="img_medium"
             />
-            <p className="caption">
+            <figcaption class="figure-caption text-center">
               <i>FITC</i>
-            </p>
-            <p className="caption">Hilton Toronto, April 2019</p>
+            </figcaption>
+            <figcaption class="figure-caption text-center">
+              Hilton Toronto, April 2019
+            </figcaption>
             <img
               src="pics/projects/RABBOT/GradEX.jpg"
               alt="exhibition at GradEX"
               className="img_medium"
             />
-            <p className="caption">
+            <figcaption class="figure-caption text-center">
               <i>GradEX</i>
-            </p>
-            <p className="caption">OCAD University, May 2019</p>
+            </figcaption>
+            <figcaption class="figure-caption text-center">
+              OCAD University, May 2019
+            </figcaption>
             <img
               src="pics/projects/RABBOT/FutureEducation.jpg"
               alt="exhibition at Future Education Festival"
               className="img_medium"
             />
-            <p className="caption">
+            <figcaption class="figure-caption text-center">
               <i>Future Education Festival</i>
-            </p>
-            <p className="caption">Evergreen Brick Works, May 2019</p>
+            </figcaption>
+            <figcaption class="figure-caption text-center pb-4">
+              Evergreen Brick Works, May 2019
+            </figcaption>
           </div>
         </div>
       </div>
