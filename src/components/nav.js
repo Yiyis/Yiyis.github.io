@@ -7,12 +7,30 @@ class Nav extends React.Component {
     this.state = {
       open: false,
       show: false,
+      scrolling: false,
     };
     this.handleClick = this.handleClick.bind(this);
+    this.handleScroll = this.handleScroll.bind(this);
   }
 
   handleClick() {
     this.setState({ open: !this.state.open });
+  }
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+
+  handleScroll(event) {
+    if (window.scrollY === 0 && this.state.scrolling === true) {
+      this.setState({ scrolling: false });
+    } else if (window.scrollY !== 0 && this.state.scrolling !== true) {
+      this.setState({ scrolling: true });
+    }
   }
 
   render() {
@@ -20,7 +38,7 @@ class Nav extends React.Component {
     return (
       <div
         id="header-nav"
-        className={this.props.scrolling ? "hide-nav-bar" : ""}
+        className={this.state.scrolling ? "hide-nav-bar" : ""}
       >
         {displayLogo ? (
           <div className="myBrand" id="logo">

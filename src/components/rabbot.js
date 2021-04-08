@@ -6,32 +6,10 @@ import data from "../assets/projectsData.json";
 import { motion } from "framer-motion";
 
 class Rabbot extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { scrolling: false };
-    this.handleScroll = this.handleScroll.bind(this);
-  }
-
-  componentDidMount() {
-    window.addEventListener("scroll", this.handleScroll);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener("scroll", this.handleScroll);
-  }
-
-  handleScroll(event) {
-    if (window.scrollY === 0 && this.state.scrolling === true) {
-      this.setState({ scrolling: false });
-    } else if (window.scrollY !== 0 && this.state.scrolling !== true) {
-      this.setState({ scrolling: true });
-    }
-  }
-
   render() {
     return (
       <motion.div initial="initial" animate="animate" exit={{ opacity: 0 }}>
-        <Nav {...this.state} displayLogo={true} />
+        <Nav displayLogo={true} />
         <div className="img-container">
           <img
             className="project-main img-fluid"
