@@ -14,7 +14,7 @@ class Rabbot extends React.Component {
           <img
             className="project-main img-fluid"
             src="pics/projects/RABBOT/RABBOT_L.jpg"
-            alt="RABBOT photo"
+            alt="RABBOT project as a whole"
           />
           <div className="img-overlay"></div>
           <ProjectInfo
@@ -46,6 +46,7 @@ class Rabbot extends React.Component {
               <div className="col-8 align-self-center">
                 <img
                   src="pics/projects/RABBOT/RabbotShowcase.png"
+                  alt="RABBOT project showcase"
                   className="img-fluid"
                 />
               </div>
@@ -56,6 +57,7 @@ class Rabbot extends React.Component {
             <div id="HeadsetTop">
               <img
                 src="pics/projects/RABBOT/HeadsetFrame.png"
+                alt="VR headset"
                 className="img-fluid"
               />
             </div>
@@ -63,6 +65,7 @@ class Rabbot extends React.Component {
             <div id="HeadsetUnder" className="text-center">
               <img
                 src="pics/projects/RABBOT/GameBG.gif"
+                alt="Game scene"
                 className="img-fluid"
               />
             </div>
@@ -99,6 +102,7 @@ class Rabbot extends React.Component {
 
                 <img
                   src="pics/projects/RABBOT/RabbotIpadDisplay.gif"
+                  alt="Ipad display"
                   className="img-fluid pt-4 pb-4"
                 />
                 <h3>Problem</h3>
@@ -122,9 +126,14 @@ class Rabbot extends React.Component {
 
           <div id="process">
             <h4>1.Ideation</h4>
-            <img src="pics/projects/RABBOT/Sketch.jpg" className="img_medium" />
+            <img
+              src="pics/projects/RABBOT/Sketch.jpg"
+              className="img_medium"
+              alt="project sketch"
+            />
             <img
               src="pics/projects/RABBOT/PostNotes.jpg"
+              alt="UX notes"
               className="img_medium"
             />
             <h4>2.Roadmap</h4>
@@ -133,6 +142,7 @@ class Rabbot extends React.Component {
             </p>
             <img
               src="pics/projects/RABBOT/roadmap.jpg"
+              alt="project roadmap"
               className="img_medium"
             />
             <h4>3.Conceptual Framework</h4>
@@ -142,6 +152,7 @@ class Rabbot extends React.Component {
             </p>
             <img
               src="pics/projects/RABBOT/Methdology.jpg"
+              alt="methdology"
               className="img_medium"
             />
             <h4>4.Prototype Map</h4>
@@ -151,52 +162,66 @@ class Rabbot extends React.Component {
             </p>
             <img
               src="pics/projects/RABBOT/PrototypeMap.jpg"
+              alt="project map"
               className="img_medium"
             />
             <h4>5.System Overview</h4>
             <img
               src="pics/projects/RABBOT/SystemDiagram.jpg"
+              alt="system diagram"
               className="img_medium"
             />
             <h4>6.Workflow</h4>
             <img
               src="pics/projects/RABBOT/Workflow.jpg"
+              alt="Rabbot workflow"
               className="img_large"
             />
             <h4>7.Colors & Typography</h4>
             <img
               src="pics/projects/RABBOT/Background.JPG"
+              alt="game scene"
               className="img_large"
             />
             <img
               src="pics/projects/RABBOT/ColorsTypography.jpg"
+              alt="colors and Typography"
               className="img_medium"
             />
             <h4>8.Branding & UI</h4>
             <img
               src="pics/projects/RABBOT/RabbotBranding.jpg"
+              alt="Rabbot branding design"
               className="img_large pb-0"
             />
             <img
               src="pics/projects/RABBOT/RabbotUI.jpg"
+              alt="Rabbot UI design"
               className="img_large pt-0"
             />
             <img
               src="pics/projects/RABBOT/Rabbot3D.png"
+              alt="Rabbot 3d design"
               className="img_medium"
             />
-            <img src="pics/projects/RABBOT/object.png" className="img_medium" />
+            <img
+              src="pics/projects/RABBOT/object.png"
+              alt="rabbot 3d design object"
+              className="img_medium"
+            />
             <h4>9. Physical Making</h4>
             <div className="row pt-2 pb-2">
               <div className="col-md-6 bg-dark">
                 <img
                   src="pics/projects/RABBOT/Modeling.jpg"
+                  alt="modeling in Blender3D"
                   className="img_medium"
                 />
               </div>
               <div className="col-md-6 bg-light">
                 <img
                   src="pics/projects/RABBOT/Making.jpg"
+                  alt="3d printing and making"
                   className="img_medium"
                 />
               </div>
@@ -204,10 +229,12 @@ class Rabbot extends React.Component {
             <h4>10.User Testing</h4>
             <img
               src="pics/projects/RABBOT/UserTesting.gif"
+              alt="user testing"
               className="img_medium"
             />
             <img
               src="pics/projects/RABBOT/UsertestingResults.png"
+              alt="user testing results"
               className="img_medium"
             />
             <div className="container" id="feedback">
@@ -269,31 +296,45 @@ class Rabbot extends React.Component {
             </div>
 
             <h2>Exhibits</h2>
-            <img src="pics/projects/RABBOT/TMAC.jpg" className="img_medium" />
+            <img
+              src="pics/projects/RABBOT/TMAC.jpg"
+              alt="exhibition at TMAC"
+              className="img_medium"
+            />
             <p className="caption">
               <i>What the Futures?</i>
             </p>
             <p className="caption">Toronto Media Arts Centre, April 2019</p>
             <img
               src="pics/projects/RABBOT/LevelUp.jpg"
+              alt="exhibition at LevelUP"
               className="img_medium"
             />
             <p className="caption">
               <i>LevelUp</i>
             </p>
             <p className="caption">Design Exchange, April 2019</p>
-            <img src="pics/projects/RABBOT/FITC.jpg" className="img_medium" />
+            <img
+              src="pics/projects/RABBOT/FITC.jpg"
+              alt="exhibition at FITC"
+              className="img_medium"
+            />
             <p className="caption">
               <i>FITC</i>
             </p>
             <p className="caption">Hilton Toronto, April 2019</p>
-            <img src="pics/projects/RABBOT/GradEX.jpg" className="img_medium" />
+            <img
+              src="pics/projects/RABBOT/GradEX.jpg"
+              alt="exhibition at GradEX"
+              className="img_medium"
+            />
             <p className="caption">
               <i>GradEX</i>
             </p>
             <p className="caption">OCAD University, May 2019</p>
             <img
               src="pics/projects/RABBOT/FutureEducation.jpg"
+              alt="exhibition at Future Education Festival"
               className="img_medium"
             />
             <p className="caption">
