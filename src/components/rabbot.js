@@ -3,6 +3,7 @@ import ProjectInfo from "./projectInfo";
 import Nav from "./nav";
 import ScrollToTop from "./scrollToTop";
 import data from "../assets/projectsData.json";
+import { motion } from "framer-motion";
 
 class Rabbot extends React.Component {
   constructor(props) {
@@ -29,7 +30,7 @@ class Rabbot extends React.Component {
 
   render() {
     return (
-      <div>
+      <motion.div initial="initial" animate="animate" exit={{ opacity: 0 }}>
         <Nav {...this.state} displayLogo={true} />
         <div className="img-container">
           <img
@@ -374,7 +375,7 @@ class Rabbot extends React.Component {
             <ScrollToTop />
           </div>
         </div>
-      </div>
+      </motion.div>
     );
   }
 }
