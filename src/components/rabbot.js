@@ -1,5 +1,4 @@
 import React from "react";
-import { text } from "./textAnimation";
 import ProjectInfo from "./projectInfo";
 import data from "../assets/projectsData.json";
 

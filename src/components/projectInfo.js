@@ -1,9 +1,16 @@
 import React from "react";
+import { text } from "./textAnimation";
+import { motion } from "framer-motion";
 
 class ProjectInfo extends React.Component {
   render() {
     return (
-      <div className="row row-fullwidth project-info align-items-center">
+      <motion.div
+        initial="initial"
+        animate="animate"
+        variants={text}
+        className="row row-fullwidth project-info align-items-center"
+      >
         <div className="col-3 ">
           <h4 className="text-center text-white">Year</h4>
           <p className="text-center text-white">{this.props.year}</p>
@@ -20,7 +27,7 @@ class ProjectInfo extends React.Component {
           <h4 className="text-center text-white">Role</h4>
           <p className="text-center text-white">{this.props.role}</p>
         </div>
-      </div>
+      </motion.div>
     );
   }
 }
