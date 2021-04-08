@@ -66,67 +66,6 @@ ul {
   text-align: center;
 }
 
-/*------------scrolling animation------------*/
-@-webkit-keyframes scroll-inner {
-  0% {
-    margin-top: 20%;
-    opacity: 1;
-  }
-  90% {
-    margin-top: 60%;
-    opacity: 0;
-  }
-  100% {
-    margin-top: 20%;
-    opacity: 0;
-  }
-}
-@keyframes scroll-inner {
-  0% {
-    margin-top: 20%;
-    opacity: 1;
-  }
-  90% {
-    margin-top: 60%;
-    opacity: 0;
-  }
-  100% {
-    margin-top: 20%;
-    opacity: 0;
-  }
-}
-.mouse-container {
-  position: relative;
-  display: block;
-  height: 100px;
-  top: 80%;
-}
-
-.mouse {
-  position: relative;
-  margin: 0 auto;
-  display: block;
-  width: 30px;
-  height: 50px;
-  border: solid 2px #fff;
-  border-radius: 20px;
-  opacity: 0.4;
-}
-.mouse .scroll-down {
-  display: block;
-  width: 5px;
-  height: 5px;
-  background: #fff;
-  border-radius: 50%;
-  margin: 15% auto auto auto;
-  -webkit-animation: scroll-inner 1.5s;
-  animation: scroll-inner 1.5s;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-timing-function: ease;
-  animation-timing-function: ease;
-}
-
 /***************Responsive video****************/
 .video-wrapper {
   position: relative;

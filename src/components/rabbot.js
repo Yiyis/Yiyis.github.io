@@ -19,12 +19,6 @@ class Rabbot extends React.Component {
             tools={data[0].tools}
             role={data[0].role}
           />
-
-          <div className="mouse-container">
-            <div className="mouse">
-              <span className="scroll-down"></span>
-            </div>
-          </div>
         </div>
         <div id="content">
           <div className="container-fluid">
