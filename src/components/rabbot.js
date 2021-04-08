@@ -3,10 +3,6 @@ import ProjectInfo from "./projectInfo";
 import data from "../assets/projectsData.json";
 
 class Rabbot extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div>
