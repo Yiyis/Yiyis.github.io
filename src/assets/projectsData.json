@@ -6,7 +6,7 @@
     "link": "/rabbot",
     "date": "2019",
     "type": "VR/AR Apps",
-    "tools": "VR/AR Apps",
+    "tools": "Unity, Blender3D",
     "role": "Design & Development",
     "tags": "MR Wearables Software",
     "mainPhoto": "pics/projects/RABBOT/RABBOT.jpg"
@@ -15,7 +15,11 @@
     "key": 2,
     "name": "Virtual Platform For Indigenous Art",
     "memo": "Wapatah Centre, Toronto",
-    "date": "2019-2021",
+    "link": "/vpia",
+    "date": "2021",
+    "type": "Wiki Platform",
+    "tools": "ReactJS, Bootstrap, AWS",
+    "role": "Front-end Development",
     "tags": "Software",
     "mainPhoto": "pics/projects/VPIA/VPIA.jpg"
   },
@@ -23,47 +27,71 @@
     "key": 3,
     "name": "DreamWorld AR",
     "memo": "Toronto",
+    "link": "/dreamworld",
     "date": "2018 March",
+    "type": "AR App",
+    "tools": "Unity",
+    "role": "Development & Design",
     "tags": "MR Animation Software",
     "mainPhoto": "pics/projects/DreamWorld/DreamWorld_L.jpg"
   },
   {
     "key": 4,
     "name": "MaidenPink",
+    "link": "/maidenpink",
     "memo": "OCAD University, Toronto",
     "date": "2018 April",
-    "tags": "Software Animation",
+    "type": "Game",
+    "tools": "Illustrator, Photoshop",
+    "role": "Design",
+    "tags": "Animation",
     "mainPhoto": "pics/projects/MaidenPink/MaidenPink_L.jpg"
   },
   {
     "key": 5,
     "name": "The Hats",
+    "link": "/thehats",
     "memo": "OCAD University, Toronto",
     "date": "2018 April",
+    "type": "Wearables",
+    "tools": "Arduino, lasercutting",
+    "role": "Design & Development",
     "tags": "Wearables",
     "mainPhoto": "pics/projects/TheHats/TheHats.jpg"
   },
   {
     "key": 6,
     "name": "Sleepers",
+    "link": "/sleepers",
     "memo": "Social Body Lab, Toronto",
     "date": "2018 April",
+    "type": "Wearables",
+    "tools": "Arduino, lasercutting",
+    "role": "Design & Development",
     "tags": "Wearables",
     "mainPhoto": "pics/projects/Sleepers/Sleepers.JPG"
   },
   {
     "key": 7,
     "name": "MoonGaze",
+    "link": "/moongaze",
     "memo": "OCAD University, Toronto",
     "date": "2017 November",
+    "type": "Wearables",
+    "tools": "Arduino",
+    "role": "Design",
     "tags": "Wearables",
     "mainPhoto": "pics/projects/MoonGaze/MoonGaze.JPG"
   },
   {
     "key": 8,
     "name": "LovMeLovU",
+    "link": "/lovemeloveyou",
     "memo": "OCAD University, Toronto",
     "date": "2017 December",
+    "type": "Wearables",
+    "tools": "Arduino",
+    "role": "Design & Development",
     "tags": "Wearables IoT",
     "mainPhoto": "pics/projects/LovMeLovU/LovMeLovU.JPG"
   },
@@ -77,14 +105,6 @@
   },
   {
     "key": 10,
-    "name": "Teleportation",
-    "memo": "OCAD University, Toronto",
-    "date": "2017 November",
-    "tags": "Installation",
-    "mainPhoto": "pics/projects/Teleportation/Teleportation.jpg"
-  },
-  {
-    "key": 11,
     "name": "Emolace",
     "memo": "OCAD University, Toronto",
     "date": "2017 December",
@@ -92,7 +112,7 @@
     "mainPhoto": "pics/projects/EmoLace/EmoLace.jpg"
   },
   {
-    "key": 12,
+    "key": 11,
     "name": "Mai",
     "memo": "UG Thesis project, UK",
     "date": "2016",
@@ -100,7 +120,7 @@
     "mainPhoto": "pics/projects/Mai/Mai.gif"
   },
   {
-    "key": 13,
+    "key": 12,
     "name": "Scholarship Promotion Design",
     "memo": "In-house Design Studio, Plymouth University, UK",
     "date": "2015",
@@ -108,7 +128,7 @@
     "mainPhoto": "pics/projects/ScholarshipPromotion/ScholarshipPromotionPoster_3.jpg"
   },
   {
-    "key": 14,
+    "key": 13,
     "name": "Sleepy Motion Graphics",
     "memo": "OCAD University, Toronto",
     "date": "2018",
@@ -116,7 +136,7 @@
     "mainPhoto": "pics/projects/Sleepy/Sleepy2.gif"
   },
   {
-    "key": 15,
+    "key": 14,
     "name": "Course Icon",
     "memo": "In-house Design Studio, Plymouth University, UK",
     "date": "2015",
@@ -124,7 +144,7 @@
     "mainPhoto": "pics/projects/CourseIcon/CourseIcon_2.png"
   },
   {
-    "key": 16,
+    "key": 15,
     "name": "Flyer Design",
     "memo": "In-house Design Studio, Plymouth University, UK",
     "date": "2015",
@@ -132,7 +152,7 @@
     "mainPhoto": "pics/projects/Leaflets/Trifold_Leaflet.jpg"
   },
   {
-    "key": 17,
+    "key": 16,
     "name": "Floral watercolour",
     "memo": "Shanghai & Singapore",
     "date": "2016",
@@ -140,7 +160,7 @@
     "mainPhoto": "pics/projects/FloralWatercolour/FloralWatercolour_1.jpg"
   },
   {
-    "key": 18,
+    "key": 17,
     "name": "Bluebell Confectionery Logo Design",
     "memo": "Toronto",
     "date": "2019",
@@ -148,7 +168,7 @@
     "mainPhoto": "pics/projects/CakeLogo/businessmockup.jpg"
   },
   {
-    "key": 19,
+    "key": 18,
     "name": "DiveIntoDigital",
     "memo": "OCAD University, Toronto",
     "date": "2018 March",
