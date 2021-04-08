@@ -1,11 +1,36 @@
 import React from "react";
 import ProjectInfo from "./projectInfo";
+import Nav from "./nav";
+import ScrollToTop from "./scrollToTop";
 import data from "../assets/projectsData.json";
 
 class Rabbot extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { scrolling: false };
+    this.handleScroll = this.handleScroll.bind(this);
+  }
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+
+  handleScroll(event) {
+    if (window.scrollY === 0 && this.state.scrolling === true) {
+      this.setState({ scrolling: false });
+    } else if (window.scrollY !== 0 && this.state.scrolling !== true) {
+      this.setState({ scrolling: true });
+    }
+  }
+
   render() {
     return (
       <div>
+        <Nav {...this.state} displayLogo={true} />
         <div className="img-container">
           <img
             className="project-main img-fluid"
@@ -344,6 +369,9 @@ class Rabbot extends React.Component {
             <figcaption className="figure-caption text-center pb-4">
               Evergreen Brick Works, May 2019
             </figcaption>
+          </div>
+          <div className="col text-center pb-5">
+            <ScrollToTop />
           </div>
         </div>
       </div>
