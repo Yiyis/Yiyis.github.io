@@ -111,14 +111,9 @@ img.vjs-poster {
 #content p {
   text-align: left;
   margin: auto;
-  padding: 3%;
 }
 .bg-black {
   background: black;
-}
-#projectnormal {
-  padding-top: 10%;
-  padding-left: 10%;
 }
 .col-md-8 {
   padding-top: 5%;
@@ -189,7 +184,12 @@ h2 {
   z-index: 2;
   bottom: 3em;
 }
-
+.bg-pink {
+  background-color: #ecccda;
+}
+.p-custom {
+  padding: 10%;
+}
 /*------------For mobile phones------------*/
 @media only screen and (max-width: 620px) {
   .text-center {
