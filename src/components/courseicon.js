@@ -12,14 +12,12 @@ class CourseIcon extends React.Component {
         <Nav displayLogo={true} />
         <div className="img-container">
           <img
-            className="project-main img-fluid"
+            className="project-main img-fluid cover"
             src="pics/projects/CourseIcon/CourseIcon_2.png"
             alt="VPIA Platform"
           />
           <div className="img-overlay"></div>
-          <h1 className="project-title text-center text-white">
-            Icons design for Online Courses
-          </h1>
+
           <ProjectInfo
             year={data[12].date}
             type={data[12].type}

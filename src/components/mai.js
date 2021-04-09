@@ -12,7 +12,7 @@ class Mai extends React.Component {
         <Nav displayLogo={true} />
         <div className="img-container">
           <img
-            className="project-main img-fluid"
+            className="project-main img-fluid cover"
             src="pics/projects/Mai/Mai_L.jpg"
             alt="VPIA Platform"
           />

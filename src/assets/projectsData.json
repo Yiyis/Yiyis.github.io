@@ -137,7 +137,7 @@
     "link": "/scholarshippromotion",
     "memo": "In-house Design Studio, Plymouth University, UK",
     "date": "2015",
-    "type": "Icons",
+    "type": "Flyers and posters",
     "tools": "Illustrator",
     "role": "Design",
     "tags": "GraphicDesign",
@@ -149,6 +149,9 @@
     "link": "/courseicon",
     "memo": "In-house Design Studio, Plymouth University, UK",
     "date": "2015",
+    "type": "Icons",
+    "tools": "Illustrator",
+    "role": "Design",
     "tags": "GraphicDesign",
     "mainPhoto": "pics/projects/CourseIcon/CourseIcon_2.png"
   },

@@ -12,7 +12,7 @@ class Lovemeloveyou extends React.Component {
         <Nav displayLogo={true} />
         <div className="img-container">
           <img
-            className="project-main img-fluid"
+            className="project-main img-fluid cover"
             src="pics/projects/LovMeLovU/LovMeLovU_L.jpg"
             alt="VPIA Platform"
           />
