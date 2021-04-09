@@ -19,6 +19,11 @@ import Emolace from "./components/emolace";
 import Mai from "./components/mai";
 import ScholarshipPromotion from "./components/scholarshipPromotion";
 import CourseIcon from "./components/courseicon";
+import LeafletsDesign from "./components/leafletsdesign";
+import FloralWatercolour from "./components/floralWatercolour";
+import CakeLogo from "./components/cakelogo";
+import DiveIntoDigital from "./components/diveIntoDigital";
+import UniverseConcert from "./components/universeConcert";
 import { AnimatePresence } from "framer-motion";
 import { Route, Switch, useLocation } from "react-router-dom";
 
@@ -43,6 +48,11 @@ function App() {
         <Route path="/mai" component={Mai} />
         <Route path="/scholarshippromotion" component={ScholarshipPromotion} />
         <Route path="/courseicon" component={CourseIcon} />
+        <Route path="/leafletsdesign" component={LeafletsDesign} />
+        <Route path="/FloralWatercolour" component={FloralWatercolour} />
+        <Route path="/CakeLogo" component={CakeLogo} />
+        <Route path="/DiveIntoDigital" component={DiveIntoDigital} />
+        <Route path="/UniverseConcert" component={UniverseConcert} />
       </Switch>
     </AnimatePresence>
   );

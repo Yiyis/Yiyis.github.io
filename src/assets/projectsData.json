@@ -157,34 +157,62 @@
   },
   {
     "key": 14,
-    "name": "Flyer Design",
+    "name": "Leaflets design",
+    "link": "/leafletsdesign",
     "memo": "In-house Design Studio, Plymouth University, UK",
     "date": "2015",
+    "type": "Leaflets",
+    "tools": "Illustrator, InDesign",
+    "role": "Design",
     "tags": "GraphicDesign",
     "mainPhoto": "pics/projects/Leaflets/Trifold_Leaflet.jpg"
   },
   {
     "key": 15,
     "name": "Floral watercolour",
+    "link": "/FloralWatercolour",
     "memo": "Shanghai & Singapore",
     "date": "2016",
+    "type": "Illustration",
+    "tools": "Watercolour",
+    "role": "Design",
     "tags": "GraphicDesign",
     "mainPhoto": "pics/projects/FloralWatercolour/FloralWatercolour_1.jpg"
   },
   {
     "key": 16,
     "name": "Bluebell Confectionery Logo Design",
+    "link": "/CakeLogo",
     "memo": "Toronto",
     "date": "2019",
+    "type": "Logo",
+    "tools": "Watercolour, Illustrator",
+    "role": "Design",
     "tags": "GraphicDesign",
     "mainPhoto": "pics/projects/CakeLogo/businessmockup.jpg"
   },
   {
     "key": 17,
     "name": "DiveIntoDigital",
+    "link": "/DiveIntoDigital",
     "memo": "OCAD University, Toronto",
     "date": "2018 March",
+    "type": "VR App",
+    "tools": "Unity",
+    "role": "Development",
     "tags": "MR Software",
     "mainPhoto": "pics/projects/DiveIntoDigital/DiveIntoDigital.JPG"
+  },
+  {
+    "key": 18,
+    "name": "Universe Concert",
+    "link": "/UniverseConcert",
+    "memo": "Plymouth University, Plymouth",
+    "date": "2015",
+    "type": "AR Theater",
+    "tools": "Unity",
+    "role": "Design",
+    "tags": "MR",
+    "mainPhoto": "pics/projects/UniverseConcert/UniverseConcert.JPG"
   }
 ]
