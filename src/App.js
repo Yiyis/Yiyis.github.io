@@ -14,6 +14,11 @@ import Thehats from "./components/thehats";
 import Sleepers from "./components/sleepers";
 import Moongaze from "./components/moongaze";
 import Lovemeloveyou from "./components/lovemeloveyou";
+import Pollhuetion from "./components/pollhuetion";
+import Emolace from "./components/emolace";
+import Mai from "./components/mai";
+import ScholarshipPromotion from "./components/scholarshipPromotion";
+import CourseIcon from "./components/courseicon";
 import { AnimatePresence } from "framer-motion";
 import { Route, Switch, useLocation } from "react-router-dom";
 
@@ -33,6 +38,11 @@ function App() {
         <Route path="/sleepers" component={Sleepers} />
         <Route path="/moongaze" component={Moongaze} />
         <Route path="/lovemeloveyou" component={Lovemeloveyou} />
+        <Route path="/pollhuetion" component={Pollhuetion} />
+        <Route path="/emolace" component={Emolace} />
+        <Route path="/mai" component={Mai} />
+        <Route path="/scholarshippromotion" component={ScholarshipPromotion} />
+        <Route path="/courseicon" component={CourseIcon} />
       </Switch>
     </AnimatePresence>
   );

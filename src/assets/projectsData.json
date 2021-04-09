@@ -98,53 +98,62 @@
   {
     "key": 9,
     "name": "PollHUEtion",
+    "link": "/pollhuetion",
     "memo": "OCAD University, Toronto",
     "date": "2018 February",
+    "type": "Installation",
+    "tools": "Arduino",
+    "role": "Development",
     "tags": "Installation",
     "mainPhoto": "pics/projects/PollHUEtion/PollHUEtion.JPG"
   },
   {
     "key": 10,
     "name": "Emolace",
+    "link": "/emolace",
     "memo": "OCAD University, Toronto",
     "date": "2017 December",
+    "type": "Wearables",
+    "tools": "Arduino",
+    "role": "Development",
     "tags": "Wearables",
     "mainPhoto": "pics/projects/EmoLace/EmoLace.jpg"
   },
   {
     "key": 11,
     "name": "Mai",
+    "link": "/mai",
     "memo": "UG Thesis project, UK",
     "date": "2016",
+    "type": "Installation",
+    "tools": "Arduino, Unity, Maya",
+    "role": "Development & Design",
     "tags": "Installation",
     "mainPhoto": "pics/projects/Mai/Mai.gif"
   },
   {
     "key": 12,
     "name": "Scholarship Promotion Design",
+    "link": "/scholarshippromotion",
     "memo": "In-house Design Studio, Plymouth University, UK",
     "date": "2015",
+    "type": "Icons",
+    "tools": "Illustrator",
+    "role": "Design",
     "tags": "GraphicDesign",
     "mainPhoto": "pics/projects/ScholarshipPromotion/ScholarshipPromotionPoster_3.jpg"
   },
   {
     "key": 13,
-    "name": "Sleepy Motion Graphics",
-    "memo": "OCAD University, Toronto",
-    "date": "2018",
-    "tags": "Animation",
-    "mainPhoto": "pics/projects/Sleepy/Sleepy2.gif"
-  },
-  {
-    "key": 14,
     "name": "Course Icon",
+    "link": "/courseicon",
     "memo": "In-house Design Studio, Plymouth University, UK",
     "date": "2015",
     "tags": "GraphicDesign",
     "mainPhoto": "pics/projects/CourseIcon/CourseIcon_2.png"
   },
   {
-    "key": 15,
+    "key": 14,
     "name": "Flyer Design",
     "memo": "In-house Design Studio, Plymouth University, UK",
     "date": "2015",
@@ -152,7 +161,7 @@
     "mainPhoto": "pics/projects/Leaflets/Trifold_Leaflet.jpg"
   },
   {
-    "key": 16,
+    "key": 15,
     "name": "Floral watercolour",
     "memo": "Shanghai & Singapore",
     "date": "2016",
@@ -160,7 +169,7 @@
     "mainPhoto": "pics/projects/FloralWatercolour/FloralWatercolour_1.jpg"
   },
   {
-    "key": 17,
+    "key": 16,
     "name": "Bluebell Confectionery Logo Design",
     "memo": "Toronto",
     "date": "2019",
@@ -168,7 +177,7 @@
     "mainPhoto": "pics/projects/CakeLogo/businessmockup.jpg"
   },
   {
-    "key": 18,
+    "key": 17,
     "name": "DiveIntoDigital",
     "memo": "OCAD University, Toronto",
     "date": "2018 March",
