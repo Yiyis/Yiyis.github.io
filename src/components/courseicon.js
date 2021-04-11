@@ -34,7 +34,7 @@ class CourseIcon extends React.Component {
                 <h3 className="pt-5 text-dark">Summary</h3>
                 <p>
                   Icon and visual design for Plymouth University online course
-                  on iTunes U:
+                  on iTunes U:{" "}
                   <a
                     href="https://itunes.apple.com/ca/course/ios-development-in-swift/id950659946"
                     className="alert-link"
