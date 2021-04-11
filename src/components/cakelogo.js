@@ -48,7 +48,7 @@ class CakeLogo extends React.Component {
                   All copyright of this logo belongs to Bluebell Confectionery.
                 </p>
               </div>
-              <div className="col-md-6 ">
+              <div className="col-md-6">
                 <img
                   src="pics/projects/CakeLogo/Logo1.jpg"
                   className="img_fluid w-100"

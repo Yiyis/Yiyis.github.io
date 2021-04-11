@@ -190,6 +190,15 @@ h2 {
 .p-custom {
   padding: 10%;
 }
+.p-custom-2 {
+  padding: 5% 10%;
+}
+.bg-icon {
+  background: #f2f2f2;
+}
+.bg-icon2 {
+  background: #ddd6fd;
+}
 /*------------For mobile phones------------*/
 @media only screen and (max-width: 620px) {
   .text-center {
