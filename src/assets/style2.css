@@ -199,6 +199,13 @@ h2 {
 .bg-icon2 {
   background: #ddd6fd;
 }
+.bg-green {
+  background: #c0d8b9;
+}
+.alert-link {
+  color: grey;
+  text-decoration: underline;
+}
 /*------------For mobile phones------------*/
 @media only screen and (max-width: 620px) {
   .text-center {
