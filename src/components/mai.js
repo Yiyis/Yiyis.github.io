@@ -95,6 +95,16 @@ class Mai extends React.Component {
             </div>
           </div>
           <div className="container-fluid">
+            <div className="video-wrapper">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/lX1cto1PdMw"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
             <div className="row">
               <div className="col-md-6 offset-md-3">
                 <h3 className="text-dark text-center pt-3 pb-5">
