@@ -19,10 +19,10 @@ class Pollhuetion extends React.Component {
           <div className="img-overlay"></div>
           <h1 className="project-title text-center text-white">PollHUEtion</h1>
           <ProjectInfo
-            year={data[7].date}
-            type={data[7].type}
-            tools={data[7].tools}
-            role={data[7].role}
+            year={data[8].date}
+            type={data[8].type}
+            tools={data[8].tools}
+            role={data[8].role}
           />
         </div>
         <div id="content">
