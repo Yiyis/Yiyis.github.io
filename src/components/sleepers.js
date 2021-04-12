@@ -69,6 +69,7 @@ class Sleepers extends React.Component {
                 <img
                   src="pics/projects/Sleepers/Sleepers_1.jpg"
                   className="img_fluid w-100"
+                  alt="sleepers"
                 />
               </div>
             </div>
@@ -117,10 +118,12 @@ class Sleepers extends React.Component {
                 <img
                   src="pics/projects/Sleepers/Sleepers_2.jpg"
                   className="img_fluid w-100"
+                  alt="making process"
                 />
                 <img
                   src="pics/projects/Sleepers/Sleepers_3.jpg"
                   className="img_fluid w-100"
+                  alt="making process"
                 />
               </div>
             </div>
