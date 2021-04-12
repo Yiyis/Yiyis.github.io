@@ -14,7 +14,7 @@ class Lovemeloveyou extends React.Component {
           <img
             className="project-main img-fluid cover"
             src="pics/projects/LovMeLovU/LovMeLovU_L.jpg"
-            alt="VPIA Platform"
+            alt="LovMeLovU pillows"
           />
           <div className="img-overlay"></div>
           <h1 className="project-title text-center text-white">LovMeLovU</h1>
@@ -59,18 +59,30 @@ class Lovemeloveyou extends React.Component {
                   </a>
                 </p>
               </div>
-              <div class="col-md-6">
+              <div className="col-md-6">
                 <img
                   src="pics/projects/LovMeLovU/LovMeLovU_1.jpg"
                   className="img_fluid w-100"
+                  alt="LovMeLovU"
                 />
               </div>
             </div>
           </div>
           <div className="container-fluid">
+            <div className="video-wrapper">
+              <iframe
+                width="560"
+                height="315"
+                title="LovMeLovU"
+                src="https://www.youtube.com/embed/fNibblmv9b8"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
             <div className="row">
               <div className="col-md-6 offset-md-3">
-                <h3 className="text-dark text-center">Objective </h3>
+                <h3 className="text-dark text-center pt-5">Objective</h3>
                 <p className="pt-3">
                   This project is trying to present the idea of calm technology
                   and also finding a way to embed rigid hardware in a soft and
@@ -93,16 +105,19 @@ class Lovemeloveyou extends React.Component {
                 <img
                   src="pics/projects/LovMeLovU/LovMeLovU_2.JPG"
                   className="img_fluid w-100"
+                  alt="process"
                 />
                 <img
                   src="pics/projects/LovMeLovU/LovMeLovU_3.JPG"
                   className="img_fluid w-100"
+                  alt="particle photon IDE"
                 />
 
                 <h3 className="text-dark text-center pt-5">Exhibits</h3>
                 <img
                   src="pics/projects/LovMeLovU/LovMeLovU_4.JPG"
                   className="img_fluid w-100"
+                  alt="exhibition"
                 />
                 <figcaption className="figure-caption text-center">
                   <i>DF Open Show</i>
