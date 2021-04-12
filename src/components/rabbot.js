@@ -26,9 +26,10 @@ class Rabbot extends React.Component {
           />
         </div>
         <div id="content">
-          <div className="container-fluid">
+          <div className="container-fluid p-custom">
             <div className="row">
-              <div id="projectnormal" className="col-md-4">
+              <div className="col-md-4">
+                <h1 className="pt-5">RABBOT</h1>
                 <p>
                   RABBOT is a three-player AR/VR game, which allows people
                   inside of the VR to play with people outside of the VR.
@@ -40,7 +41,7 @@ class Rabbot extends React.Component {
                   Laser cutting
                 </p>
               </div>
-              <div className="col-8 align-self-center">
+              <div className="col-md-8">
                 <img
                   src="pics/projects/RABBOT/RabbotShowcase.png"
                   alt="RABBOT project showcase"
