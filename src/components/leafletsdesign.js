@@ -27,9 +27,34 @@ class LeafletsDesign extends React.Component {
             role={data[13].role}
           />
         </div>
-        <div id="content"></div>
-        <div className="col text-center pb-5">
-          <ScrollToTop />
+        <div id="content">
+          <div className="container-fluid p-custom">
+            <div className="row">
+              <div className="col-md-6">
+                <h1>Leaflet Design</h1>
+                <p>Created using Adobe Illustrator, Adobe Photoshop</p>
+                <h3 className="pt-5 text-dark">Summary</h3>
+                <p>
+                  Leaflet design for Care Leavers Service at Plymouth University
+                </p>
+              </div>
+              <div className="col-md-6">
+                <img
+                  src="pics/projects/Leaflets/Trifold_Leaflet_2.jpg"
+                  className="img_fluid w-100"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="container-fluid p-0">
+            <img
+              src="pics/projects/Leaflets/Trifold_Leaflet_3.jpg"
+              className="img_fluid w-100"
+            />
+            <div className="col text-center pb-5 pt-5">
+              <ScrollToTop />
+            </div>
+          </div>
         </div>
       </motion.div>
     );
