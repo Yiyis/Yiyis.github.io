@@ -69,6 +69,14 @@ class Vpia extends React.Component {
                 </p>
                 <p className="pt-3">
                   <a
+                    href="https://github.com/Wapatah/VPIA"
+                    className="alert-link"
+                  >
+                    Github repository
+                  </a>
+                </p>
+                <p className="pt-3">
+                  <a
                     href="https://wapatah.com/virtual-platform-for-indigenous-art/"
                     className="alert-link"
                   >
