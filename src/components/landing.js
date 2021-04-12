@@ -7,6 +7,7 @@ import { text } from "./textAnimation";
 import LetterAnimation from "./letterAnimation";
 import { motion } from "framer-motion";
 import Nav from "./nav";
+import Footer from "./footer";
 
 class Landing extends React.Component {
   render() {
@@ -47,6 +48,7 @@ class Landing extends React.Component {
               <LetterAnimation letter="O" />
             </div>
           </div>
+          <Footer />
         </div>
       </motion.section>
     );
