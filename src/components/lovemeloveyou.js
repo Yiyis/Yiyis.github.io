@@ -29,7 +29,6 @@ class Lovemeloveyou extends React.Component {
           <div className="container-fluid p-custom">
             <div className="row">
               <div className="col-md-6">
-                {" "}
                 <h1>LovMeLovU</h1>
                 <p>
                   Created using Particle photon, C++, REST API and 3D printing
