@@ -21,7 +21,7 @@ class Landing extends React.Component {
       <motion.section exit={{ opacity: 0 }}>
         <div className="App">
           <Nav displayLogo={false} />
-          <div id="introcontainer">
+          <div className="w-100 text-center">
             <motion.p
               initial="initial"
               animate="animate"

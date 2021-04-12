@@ -1,5 +1,10 @@
 import React from "react";
 import Nav from "./nav";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
 
 class About extends React.Component {
@@ -20,6 +25,30 @@ class About extends React.Component {
                   className="w-100 img_fluid"
                   alt="Yiyi"
                 />
+                <div className="socialbtns text-center">
+                  <ul className="list-unstyled list-inline">
+                    <li className="list-inline-item p-1">
+                      <a href="https://github.com/Yiyis">
+                        <FontAwesomeIcon icon={faGithub} />
+                      </a>
+                    </li>
+                    <li className="list-inline-item p-1">
+                      <a href="https://www.linkedin.com/in/yiyishao/">
+                        <FontAwesomeIcon icon={faLinkedin} />
+                      </a>
+                    </li>
+                    <li className="list-inline-item p-1">
+                      <a href="https://www.instagram.com/drunkcatthepluto/">
+                        <FontAwesomeIcon icon={faInstagram} />
+                      </a>
+                    </li>
+                    <li className="list-inline-item p-1">
+                      <a href="mailto: yolandayiyishao@gmail.com">
+                        <FontAwesomeIcon icon={faEnvelope} />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
               <div className="col-md-6 p-5 about">
                 <h1 className="pt-5 text-light">About Me</h1>
