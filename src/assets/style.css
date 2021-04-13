@@ -124,18 +124,18 @@ h2 {
   width: calc(100% - 10px);
   height: 160px;
   opacity: 0;
-  transform: translateY(30px);
+  transform: translateY(3rem);
   transition: 0.25s transform linear, 0.3s opacity ease-in-out;
 }
 .info-wrapper .name {
   color: white;
   font-size: 1.5vw;
-  margin-bottom: 5px;
+  margin-bottom: 0.05rem;
 }
 .info-wrapper .memo {
   color: #ddd;
   font-size: 0.8vw;
-  margin-bottom: 8px;
+  margin-bottom: 0.2rem;
 }
 .info-wrapper .date {
   color: white;
