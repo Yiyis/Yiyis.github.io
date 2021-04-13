@@ -1,0 +1,230 @@
+/*This stylesheet is for all the project display*/
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.project-main {
+  height: 100%;
+  width: 100%;
+}
+
+#content {
+  background: white;
+  width: 100%;
+  margin: 0 auto;
+  top: 100%;
+}
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(100, 100, 100, 0.45);
+}
+.cover {
+  object-fit: cover;
+}
+
+img.img_medium {
+  display: block;
+  width: 50%;
+  margin: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.img_large {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+img.img_smallgif {
+  position: relative;
+  float: left;
+  width: auto;
+  height: 100px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 10%;
+}
+
+ul {
+  list-style-type: disc;
+  margin: auto;
+  padding: 10px;
+}
+
+.footer {
+  float: none;
+  margin-left: 36%;
+  text-align: center;
+}
+.project-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8rem;
+}
+/***************Responsive video****************/
+.video-wrapper {
+  position: relative;
+  padding-bottom: 74.25%; /* 4:3 ratio */
+  padding-top: 30px; /* IE6 workaround*/
+  height: 0;
+  overflow: hidden;
+}
+
+.video-wrapper-narrow {
+  padding-bottom: 40%;
+}
+
+iframe,
+object,
+embed,
+video,
+.videoWrapper,
+.video-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-js,
+img.vjs-poster {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100%;
+}
+
+/***********Cutomize Bootstap***************/
+
+#content p {
+  text-align: left;
+  margin: auto;
+}
+.bg-black {
+  background: black;
+}
+#IntroMain {
+  background: black;
+  padding-bottom: 10%;
+}
+#IntroMain p,
+h3 {
+  color: lightgrey;
+}
+.text-center {
+  width: 60%;
+  margin: auto;
+}
+.row.padding-custom {
+  padding-top: 40%;
+}
+.row.row-fullwidth {
+  width: 100%;
+}
+#process h4,
+h2 {
+  margin: auto;
+  padding: 3%;
+  text-align: center;
+}
+#process p {
+  margin: auto;
+  text-align: center;
+}
+
+#process {
+  padding-top: 5%;
+}
+#HeadsetTop {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+#HeadsetTop img.resize {
+  width: 100%;
+  height: auto;
+}
+#HeadsetUnder {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 0;
+}
+#HeadsetUnder img {
+  padding-top: 3%;
+  width: 58%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container#feedback {
+  text-align: left;
+}
+.img-container {
+  position: relative;
+  height: 100vh;
+}
+.project-info {
+  position: absolute;
+  z-index: 2;
+  bottom: 3em;
+}
+.bg-pink {
+  background-color: #ecccda;
+}
+.p-custom {
+  padding: 10%;
+}
+.p-custom-2 {
+  padding: 5% 10%;
+}
+.bg-icon {
+  background: #f2f2f2;
+}
+.bg-icon2 {
+  background: #ddd6fd;
+}
+.bg-green {
+  background: #c0d8b9;
+}
+.alert-link {
+  color: grey;
+  text-decoration: underline;
+}
+/*------------For mobile phones------------*/
+@media only screen and (max-width: 620px) {
+  .text-center {
+    width: 100%;
+    padding-top: 0;
+  }
+  .container-fluid {
+    padding-top: 0;
+  }
+  #content p,
+  h1,
+  h2,
+  h3 {
+    text-align: left;
+    margin: auto;
+    width: 100%;
+    padding: 3%;
+  }
+}
+/*------------For iPad------------*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .text-center {
+    width: 100%;
+  }
+}
