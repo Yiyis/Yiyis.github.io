@@ -14,7 +14,7 @@ class Moongaze extends React.Component {
           <img
             className="project-main img-fluid cover"
             src="pics/projects/MoonGaze/MoonGaze_L.jpg"
-            alt="VPIA Platform"
+            alt="MoonGaze"
           />
           <div className="img-overlay"></div>
           <h1 className="project-title text-center text-white">MoonGaze</h1>
@@ -55,7 +55,7 @@ class Moongaze extends React.Component {
                 <img
                   src="pics/projects/MoonGaze/MoonGaze_1.jpg"
                   className="img_fluid w-100"
-                  alt="moongaze"
+                  alt="moongaze weared on people"
                 />
               </div>
             </div>
@@ -98,20 +98,24 @@ class Moongaze extends React.Component {
                 <img
                   src="pics/projects/MoonGaze/MoonGaze_2.jpg"
                   className="img_fluid w-100 pt-3"
+                  alt="LED assembling"
                 />
                 <img
                   src="pics/projects/MoonGaze/MoonGaze_3.jpg"
                   className="img_fluid w-100"
+                  alt="Feathers assembling"
                 />
                 <img
                   src="pics/projects/MoonGaze/MoonGaze_4.jpg"
                   className="img_fluid w-100"
+                  alt="final sweaters"
                 />
 
                 <h3 className="text-dark text-center pt-5 pb-3">Exhibits</h3>
                 <img
                   src="pics/projects/MoonGaze/MoonGaze.JPG"
                   className="img_fluid w-100"
+                  alt="exhibition"
                 />
                 <figcaption className="figure-caption text-center">
                   <i>DF Open Show</i>

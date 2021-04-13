@@ -43,17 +43,21 @@ class Nav extends React.Component {
         {displayLogo ? (
           <div className="myBrand" id="logo">
             <Link to="/">
-              <img className="nav-logo" src="logo/logo_White.png" />
+              <img
+                className="nav-logo"
+                src="logo/logo_White.png"
+                alt="Yiyi Shao logo"
+              />
             </Link>
           </div>
         ) : (
           ""
         )}
-        <a href="#menu" className="menu-link" onClick={this.handleClick}>
+        <button className="menu-link btn" onClick={this.handleClick}>
           <span className={this.state.open ? "bar1 bar-1" : "bar1"}></span>
           <span className={this.state.open ? "bar2 bar-2" : "bar2"}></span>
           <span className={this.state.open ? "bar3 bar-3" : "bar3"}></span>
-        </a>
+        </button>
         <nav id="menu" className="navbutton three" role="navigation">
           <ul className="d-none d-lg-block d-xl-block d-md-block">
             <li>
@@ -71,10 +75,10 @@ class Nav extends React.Component {
             }
           >
             <li>
-              <a href="#">Portfolio</a>
+              <Link to="/portfolio">Portfolio</Link>
             </li>
             <li>
-              <a href="#">About</a>
+              <Link to="/about">About</Link>
             </li>
           </ul>
         </nav>

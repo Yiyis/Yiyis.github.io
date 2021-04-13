@@ -14,7 +14,7 @@ class DiveIntoDigital extends React.Component {
           <img
             className="project-main img-fluid cover"
             src="pics/projects/DiveIntoDigital/DiveIntoDigital.JPG"
-            alt="VPIA Platform"
+            alt="Dive into Digital"
           />
           <div className="img-overlay"></div>
           <h1 className="project-title text-center text-white">
@@ -49,6 +49,7 @@ class DiveIntoDigital extends React.Component {
                 <img
                   src="pics/projects/DiveIntoDigital/DiveIntoDigital.png"
                   className="img-fluid"
+                  alt="Text cloud"
                 />
               </div>
             </div>
@@ -227,11 +228,13 @@ class DiveIntoDigital extends React.Component {
                 <img
                   src="pics/projects/DiveIntoDigital/DiveIntoDigital_3.png"
                   className="img-fluid"
+                  alt="Work in Unity"
                 />
 
                 <img
                   src="pics/projects/DiveIntoDigital/DiveIntodigital_4.png"
                   className="img-fluid"
+                  alt="Javascript code"
                 />
 
                 <h3 className="text-dark pt-5 text-center">

@@ -14,7 +14,7 @@ class CakeLogo extends React.Component {
           <img
             className="project-main img-fluid cover"
             src="pics/projects/CakeLogo/mockup.jpg"
-            alt="VPIA Platform"
+            alt="Cake logo"
           />
           <div className="img-overlay"></div>
           <h1 className="project-title text-center text-white">
@@ -52,12 +52,14 @@ class CakeLogo extends React.Component {
                 <img
                   src="pics/projects/CakeLogo/Logo1.jpg"
                   className="img_fluid w-100"
+                  alt="cake logo"
                 />
               </div>
               <div className="col-12 p-0">
                 <img
                   src="pics/projects/CakeLogo/sketches.jpg"
                   className="img_fluid w-100"
+                  alt="Logo sketch"
                 />
               </div>
               <div className="col text-center pb-5 pt-5">

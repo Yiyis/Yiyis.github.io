@@ -76,15 +76,18 @@ class FloralWatercolour extends React.Component {
                 <img
                   src="pics/projects/UniverseConcert/UniverseConcert_2.png"
                   className="img_fluid w-100"
+                  alt="color palette"
                 />
                 <h3 className="text-dark pt-5 pb-3">Shaders</h3>
                 <img
                   src="pics/projects/UniverseConcert/UniverseConcert_3.png"
                   className="img_fluid w-100"
+                  alt="Shader"
                 />
                 <img
                   src="pics/projects/UniverseConcert/UniverseConcert.gif"
                   className="img_fluid w-30"
+                  alt="Scene in Unity"
                 />
               </div>
             </div>

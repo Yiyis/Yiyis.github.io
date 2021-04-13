@@ -14,7 +14,7 @@ class LeafletsDesign extends React.Component {
           <img
             className="project-main img-fluid cover"
             src="pics/projects/Leaflets/Trifold_Leaflet.jpg"
-            alt="VPIA Platform"
+            alt="Leaflet"
           />
           <div className="img-overlay"></div>
           <h1 className="project-title text-center text-white">
@@ -42,6 +42,7 @@ class LeafletsDesign extends React.Component {
                 <img
                   src="pics/projects/Leaflets/Trifold_Leaflet_2.jpg"
                   className="img_fluid w-100"
+                  alt="Leaflet design"
                 />
               </div>
             </div>
@@ -50,6 +51,7 @@ class LeafletsDesign extends React.Component {
             <img
               src="pics/projects/Leaflets/Trifold_Leaflet_3.jpg"
               className="img_fluid w-100"
+              alt="Leaflet design"
             />
             <div className="col text-center pb-5 pt-5">
               <ScrollToTop />

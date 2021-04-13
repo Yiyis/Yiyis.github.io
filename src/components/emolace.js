@@ -14,7 +14,7 @@ class Emolace extends React.Component {
           <img
             className="project-main img-fluid cover"
             src="pics/projects/Emolace/Emolace_L.jpg"
-            alt="VPIA Platform"
+            alt="Emolace"
           />
           <div className="img-overlay"></div>
           <h1 className="project-title text-center text-white">Emolace</h1>
@@ -63,10 +63,11 @@ class Emolace extends React.Component {
                   </a>
                 </p>
               </div>
-              <div className="col-md-6 ">
+              <div className="col-md-6">
                 <img
                   src="pics/projects/EmoLace/EmoLace_1.jpg"
                   className="img-fluid"
+                  alt="emolace"
                 />
               </div>
             </div>
@@ -89,22 +90,27 @@ class Emolace extends React.Component {
                 <img
                   src="pics/projects/EmoLace/Emolace_1.png"
                   className="img-fluid"
+                  alt="arduino console"
                 />
                 <img
                   src="pics/projects/EmoLace/Emolace_2.png"
                   className="img-fluid"
+                  alt="code"
                 />
                 <img
                   src="pics/projects/EmoLace/Emolace_3.png"
                   className="img-fluid"
+                  alt="IFTTT"
                 />
                 <img
                   src="pics/projects/EmoLace/Emolace_4.png"
                   className="img-fluid"
+                  alt="IFTTT console"
                 />
                 <img
                   src="pics/projects/EmoLace/Emolace_3.jpg"
                   className="img-fluid"
+                  alt="Firtzing diagram"
                 />
                 <p>
                   <b>Emolace – User Testing Plan</b>
@@ -158,6 +164,7 @@ class Emolace extends React.Component {
                   <iframe
                     width="560"
                     height="315"
+                    title="user testing"
                     src="https://www.youtube.com/embed/aQ7-3Egmzsw"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -168,20 +175,23 @@ class Emolace extends React.Component {
                   <img
                     src="pics/projects/EmoLace/Emolace_7.jpg"
                     className="img-fluid"
+                    alt="exhibition"
                   />
-                  <p class="caption">
+                  <figcaption className="figure-caption text-center">
                     <i>Creation & Computation Final Show</i>
-                  </p>
-                  <p class="caption">
+                  </figcaption>
+                  <figcaption className="figure-caption text-center">
                     Grad Gallery, OCAD University, December 2017
-                  </p>
+                  </figcaption>
                   <img
                     src="pics/projects/EmoLace/Emolace_5.JPG"
                     className="img-fluid"
+                    alt="exhibition"
                   />
                   <img
                     src="pics/projects/EmoLace/Emolace_6.jpg"
                     className="img-fluid"
+                    alt="exhibition"
                   />
                   <figcaption className="figure-caption text-center">
                     <i>DF Open Show</i>

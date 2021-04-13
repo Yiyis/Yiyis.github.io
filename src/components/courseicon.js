@@ -14,7 +14,7 @@ class CourseIcon extends React.Component {
           <img
             className="project-main img-fluid cover"
             src="pics/projects/CourseIcon/CourseIcon_2.png"
-            alt="VPIA Platform"
+            alt="Course icon design"
           />
           <div className="img-overlay"></div>
 
@@ -60,6 +60,7 @@ class CourseIcon extends React.Component {
                 <img
                   src="pics/projects/CourseIcon/CourseIcon_1.jpg"
                   className="img-fluid w-100"
+                  alt="Three courses icon design"
                 />
               </div>
             </div>
@@ -82,6 +83,7 @@ class CourseIcon extends React.Component {
                 <img
                   src="pics/projects/CourseIcon/CourseIcon_3.jpg"
                   className="img-fluid w-100"
+                  alt="Course icon on iTunes U"
                 />
               </div>
             </div>
@@ -92,16 +94,19 @@ class CourseIcon extends React.Component {
                 <img
                   src="pics/projects/CourseIcon/CourseIcon_flyer.jpg"
                   className="img-fluid w-100"
+                  alt="flyer design"
                 />
                 <img
                   src="pics/projects/CourseIcon/CourseIcon_flyer_2.jpg"
                   className="img-fluid w-100"
+                  alt="Online ourse flyer design"
                 />
               </div>
               <div className="col-6 p-0">
                 <img
                   src="pics/projects/CourseIcon/CourseIcon_banner.jpg"
                   className="img-fluid w-100"
+                  alt="Online ourse banner design"
                 />
               </div>
             </div>

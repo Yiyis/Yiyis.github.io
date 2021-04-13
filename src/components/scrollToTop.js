@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 
 export default class ScrollToTop extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   scrollToTop() {
     window.scrollTo({
       top: 0,

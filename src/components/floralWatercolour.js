@@ -14,7 +14,7 @@ class FloralWatercolour extends React.Component {
           <img
             className="project-main img-fluid cover"
             src="pics/projects/FloralWatercolour/FloralWatercolour_3.jpg"
-            alt="VPIA Platform"
+            alt="Floral watercolor"
           />
           <div className="img-overlay"></div>
           <h1 className="project-title text-center text-white">
@@ -55,6 +55,7 @@ class FloralWatercolour extends React.Component {
                 <img
                   src="pics/projects/FloralWatercolour/FloralWatercolour_1.jpg"
                   className="img-fluid w-100"
+                  alt="floral watercolor"
                 />
               </div>
             </div>
@@ -65,22 +66,26 @@ class FloralWatercolour extends React.Component {
                 <img
                   src="pics/projects/FloralWatercolour/FloralWatercolour_2.jpg"
                   className="img-fluid w-100 h-100"
+                  alt="Floral watercolor"
                 />
               </div>
               <div className="col-md-4 p-0">
                 <img
                   src="pics/projects/FloralWatercolour/FloralWatercolour_1.jpeg"
                   className="img-fluid h-50 w-100"
+                  alt="Floral watercolor"
                 />
                 <img
                   src="pics/projects/FloralWatercolour/FloralWatercolour_2.jpeg"
                   className="img-fluid h-50 w-100"
+                  alt="Wedding invitation"
                 />
               </div>
               <div className="col-md-4 p-0">
                 <img
                   src="pics/projects/FloralWatercolour/FloralWatercolour_3.jpeg"
                   className="img-fluid"
+                  alt="Wedding invitation"
                 />
               </div>
             </div>
