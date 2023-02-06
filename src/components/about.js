@@ -49,15 +49,16 @@ class About extends React.Component {
               <div className="col-md-6 p-5 about">
                 <h1 className="pt-5 text-light">About Me</h1>
                 <p className="text-light">
-                  Hi, my name is Yiyi. I'm a maker, designer and developer. I'm
-                  originally from China and now living in downtown Toronto. My
-                  research focuses on combining wearable technology, augmented
-                  reality and IoT to improve shared social awareness in mixed
-                  reality game experiences.
+                  Hello! My name is Yiyi. I am a developer with a background in
+                  design and arts. I am originally from China and now living in
+                  downtown Toronto. I am capable of working with a wide range of
+                  programming tools and digital media to make complex problems
+                  into simple solutions. I love building appealing and intuitive
+                  web apps that reflect users’ needs.
                 </p>
                 <p className="text-light">
-                  A bubbly and amiable character, I love spending time building
-                  aquarium landscape and turning my apartment into a forest.
+                  A bubbly and amiable character, I love spending time making
+                  handicrafts and turning my apartment into a forest.
                 </p>
                 <h1 className="text-light pt-5">Exhibits, Talks & Workshops</h1>
                 <p className="text-light">
