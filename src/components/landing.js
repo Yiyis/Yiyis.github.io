@@ -2,6 +2,8 @@ import React from "react";
 import Lottie from "lottie-react";
 import animation from "./animation.json";
 import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
+import { useCallback } from "react";
 import { particlesOptions } from "./particleAnimation";
 import { text } from "./textAnimation";
 import LetterAnimation from "./letterAnimation";
@@ -10,6 +12,18 @@ import Nav from "./nav";
 import Footer from "./footer";
 
 class Landing extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      engine: null,
+    };
+  }
+
+  async customInit(engine: Engine): Promise<void> {
+    // this adds the bundle to tsParticles
+    await loadFull(engine);
+  }
+
   render() {
     const bodymovinOptions = {
       renderer: "svg",
@@ -33,7 +47,11 @@ class Landing extends React.Component {
             </motion.p>
           </div>
           <div className="container">
-            <Particles params={particlesOptions} />
+            <Particles
+              id="tsparticles"
+              init={this.customInit}
+              options={particlesOptions}
+            />
             <div className="bm">
               <Lottie options={bodymovinOptions} />
             </div>
