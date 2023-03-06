@@ -1,7 +1,7 @@
 import React from "react";
-import Lottie from "react-lottie";
+import Lottie from "lottie-react";
 import animation from "./animation.json";
-import Particles from "react-particles-js";
+import Particles from "react-tsparticles";
 import { particlesOptions } from "./particleAnimation";
 import { text } from "./textAnimation";
 import LetterAnimation from "./letterAnimation";
