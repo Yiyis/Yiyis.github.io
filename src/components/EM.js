@@ -55,7 +55,7 @@ class EM extends React.Component {
                 />
                 {showError && (
                   <div className="text-danger">
-                    Oops, that doesn't seem right
+                    Oops, that doesn't seem right. Please send me an email.
                   </div>
                 )}
                 <button type="submit" className="btn btn-outline-light mt-3">
