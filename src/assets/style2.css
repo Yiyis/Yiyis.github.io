@@ -106,6 +106,9 @@ img.vjs-poster {
   max-width: 100%;
 }
 
+.max-width-password {
+  max-width: 300px;
+}
 /***********Cutomize Bootstap***************/
 
 #content p {
@@ -202,6 +205,9 @@ h2 {
 .alert-link {
   color: grey;
   text-decoration: underline;
+}
+.full-screen-height {
+  height: 100vh;
 }
 /*------------For mobile phones------------*/
 @media only screen and (max-width: 620px) {

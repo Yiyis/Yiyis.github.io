@@ -24,6 +24,7 @@ import FloralWatercolour from "./components/floralWatercolour";
 import CakeLogo from "./components/cakelogo";
 import DiveIntoDigital from "./components/diveIntoDigital";
 import UniverseConcert from "./components/universeConcert";
+import EM from "./components/EM";
 import { AnimatePresence } from "framer-motion";
 import { Route, Switch, useLocation } from "react-router-dom";
 
@@ -53,6 +54,7 @@ function App() {
         <Route path="/CakeLogo" component={CakeLogo} />
         <Route path="/DiveIntoDigital" component={DiveIntoDigital} />
         <Route path="/UniverseConcert" component={UniverseConcert} />
+        <Route path="/EM" component={EM} />
       </Switch>
     </AnimatePresence>
   );
