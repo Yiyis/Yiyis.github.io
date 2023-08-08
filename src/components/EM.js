@@ -21,7 +21,6 @@ class EM extends React.Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-    console.log("pass", process.env.REACT_APP_PORT_PASSWORD);
     if (this.state.inputValue === process.env.REACT_APP_PORT_PASSWORD) {
       this.setState({ showContent: true });
     } else {
