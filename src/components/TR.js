@@ -120,10 +120,7 @@ class EM extends React.Component {
               </div>
               <div className="container-fluid bg-beige">
                 <h3 className="pt-5 text-dark text-center">
-                  <a
-                    href="https://www.elliemaestudios.com/"
-                    className="alert-link"
-                  >
+                  <a href="https://tastyribbon.com" className="alert-link">
                     Visit Site
                   </a>
                 </h3>
