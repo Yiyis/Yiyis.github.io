@@ -104,7 +104,7 @@ class EM extends React.Component {
                     </p>
                     <h3 className="pt-5 text-dark">Platform stack: </h3>
                     <ul>
-                      <li>Frontend: SCSS, Vue, Gulp</li>
+                      <li>Frontend: SCSS, JQuery, Vue, Gulp</li>
                       <li>Backend: Shopify</li>
                     </ul>
                   </div>
