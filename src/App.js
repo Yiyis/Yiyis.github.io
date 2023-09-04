@@ -25,6 +25,7 @@ import CakeLogo from "./components/cakelogo";
 import DiveIntoDigital from "./components/diveIntoDigital";
 import UniverseConcert from "./components/universeConcert";
 import EM from "./components/EM";
+import TR from "./components/TR";
 import { AnimatePresence } from "framer-motion";
 import { Route, Switch, useLocation } from "react-router-dom";
 
@@ -55,6 +56,7 @@ function App() {
         <Route path="/DiveIntoDigital" component={DiveIntoDigital} />
         <Route path="/UniverseConcert" component={UniverseConcert} />
         <Route path="/EM" component={EM} />
+        <Route path="/TR" component={TR} />
       </Switch>
     </AnimatePresence>
   );

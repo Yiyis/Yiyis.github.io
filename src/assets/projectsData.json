@@ -223,7 +223,7 @@
     "date": "2022",
     "type": "Shopify Store",
     "tools": "Shopify",
-    "role": "Development",
+    "role": "Front-end Developer",
     "tags": "Software",
     "mainPhoto": "pics/projects/EM/EM.jpg"
   },
@@ -235,7 +235,7 @@
     "date": "2020",
     "type": "Shopify Store",
     "tools": "Shopify",
-    "role": "Development",
+    "role": "Front-end Developer",
     "tags": "Software",
     "mainPhoto": "pics/projects/TR/TR.jpg"
   },
@@ -246,8 +246,8 @@
     "memo": "Art & Science, Toronto",
     "date": "2023",
     "type": "Website",
-    "tools": "Shopify",
-    "role": "Development",
+    "tools": "Nuxt3, Vue3, Wordpress",
+    "role": "Front-end Developer",
     "tags": "Software",
     "mainPhoto": "pics/projects/E/E.jpg"
   },

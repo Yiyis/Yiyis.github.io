@@ -68,25 +68,25 @@ class EM extends React.Component {
             <div className="img-container">
               <img
                 className="project-main img-fluid cover"
-                src="pics/projects/EM/EM.jpg"
-                alt="Image of the user browsing the Shopify Blog"
+                src="pics/projects/TR/TR.jpg"
+                alt="Image of Shopify Market Place"
               />
               <div className="img-overlay"></div>
               <h1 className="project-title text-center text-white">
-                Shopify Blog Development
+                Shopify Marketplace Development
               </h1>
               <ProjectInfo
-                year={data[19].date}
-                type={data[19].type}
-                tools={data[19].tools}
-                role={data[19].role}
+                year={data[20].date}
+                type={data[20].type}
+                tools={data[20].tools}
+                role={data[20].role}
               />
             </div>
             <div id="content">
               <div className="container-fluid p-custom">
                 <div className="row">
                   <div className="col-md-6">
-                    <h1>Shopify Editorial Blog</h1>
+                    <h1>Ellie Mae Blog</h1>
                     <p className="pt-3">
                       As a developer at Art & Science, I had the opportunity of
                       crafting a dynamic blog platform for Ellie Mae's Shopify
@@ -102,7 +102,7 @@ class EM extends React.Component {
                       Ellie Mae's online presence but also showcased their
                       content in an engaging and user-friendly manner.
                     </p>
-                    <h3 className="pt-5 text-dark">Platform stack: </h3>
+                    <h3 className="pt-5 text-dark">Platfrom stack: </h3>
                     <ul>
                       <li>Frontend: SCSS, Vue, Gulp</li>
                       <li>Backend: Shopify</li>
@@ -110,14 +110,14 @@ class EM extends React.Component {
                   </div>
                   <div className="col-md-6">
                     <img
-                      src="pics/projects/EM/EM-2.jpg"
+                      src="pics/projects/EM/EM.jpg"
                       className="img_fluid w-100"
                       alt="VPIA"
                     />
                   </div>
                 </div>
               </div>
-              <div className="container-fluid bg-beige">
+              <div className="container-fluid bg-green">
                 <h3 className="pt-5 text-dark text-center">
                   <a
                     href="https://www.elliemaestudios.com/"
@@ -127,7 +127,7 @@ class EM extends React.Component {
                   </a>
                 </h3>
                 <img
-                  src="pics/projects/EM/showcase.jpg"
+                  src="pics/projects/VPIA/showcase.jpg"
                   className="img_fluid w-100"
                   alt="VPIA page showcase"
                 />
