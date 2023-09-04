@@ -19,10 +19,10 @@ class Vpia extends React.Component {
           <div className="img-overlay"></div>
           <h1 className="project-title text-center text-white">VPIA</h1>
           <ProjectInfo
-            year={data[1].date}
-            type={data[1].type}
-            tools={data[1].tools}
-            role={data[1].role}
+            year={data[16].date}
+            type={data[16].type}
+            tools={data[16].tools}
+            role={data[16].role}
           />
         </div>
         <div id="content">
