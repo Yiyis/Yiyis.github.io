@@ -26,6 +26,7 @@ import DiveIntoDigital from "./components/diveIntoDigital";
 import UniverseConcert from "./components/universeConcert";
 import EM from "./components/EM";
 import TR from "./components/TR";
+import E from "./components/E";
 import { AnimatePresence } from "framer-motion";
 import { Route, Switch, useLocation } from "react-router-dom";
 
@@ -57,6 +58,7 @@ function App() {
         <Route path="/UniverseConcert" component={UniverseConcert} />
         <Route path="/EM" component={EM} />
         <Route path="/TR" component={TR} />
+        <Route path="/E" component={E} />
       </Switch>
     </AnimatePresence>
   );
