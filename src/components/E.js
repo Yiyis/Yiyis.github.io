@@ -88,25 +88,23 @@ class EM extends React.Component {
                   <div className="col-md-6">
                     <h1>Headless Wordpress Development</h1>
                     <p className="pt-3">
-                      As a developer at Art & Science, I had the privilege of
-                      working on an exciting project for Tasty Ribbon's Shopify
-                      store. My task was to develop a robust marketplace in
-                      addition to their existing Shopify platform. This project
-                      involved implementing a range of functionalities,
-                      including the ability to filter products by collection,
-                      providing quick views and quick shopping options for
-                      products, adding badges to highlight new and sale items,
-                      and enhancing the product detail page for a more
-                      informative and engaging shopping experience. By
-                      seamlessly integrating this marketplace into Tasty
-                      Ribbon's existing setup, we aimed to elevate their online
-                      presence and offer customers a seamless and enjoyable
-                      shopping journey.
+                      As a developer at Art & Science, I had the opportunity to
+                      contribute to an exciting project for Embark. My role
+                      involved developing the frontend for their brand-new
+                      website using a headless WordPress setup. This project was
+                      a total rebuild from the ground up, aimed at creating a
+                      modern, dynamic, and user-friendly online presence. By
+                      leveraging the flexibility of headless WordPress, we were
+                      able to deliver a seamless and responsive experience that
+                      enhances user engagement. Our efforts focused on ensuring
+                      a visually appealing and intuitive interface that aligns
+                      with Embark's vision and provides their audience with an
+                      exceptional digital experience.
                     </p>
                     <h3 className="pt-5 text-dark">Platform stack: </h3>
                     <ul>
-                      <li>Frontend: SCSS, JQuery</li>
-                      <li>Backend: Shopify</li>
+                      <li>Frontend: Nuxt3, Vue3</li>
+                      <li>Backend: Wordpress </li>
                     </ul>
                   </div>
                   <div className="col-md-6">
@@ -127,7 +125,7 @@ class EM extends React.Component {
                 <img
                   src="pics/projects/E/showcase.jpg"
                   className="img_fluid w-100"
-                  alt="VPIA page showcase"
+                  alt="Headless wordpress development showcase"
                 />
                 <div className="col text-center pb-5 pt-5">
                   <ScrollToTop />
