@@ -110,9 +110,10 @@ class EM extends React.Component {
                   </div>
                   <div className="col-md-6">
                     <img
-                      src="pics/projects/EM/EM-2.jpg"
+                      src="pics/projects/EM/EM_Mockup.jpg"
                       className="img_fluid w-100"
-                      alt="VPIA"
+                      alt="Shopify Editorial Blog
+                      "
                     />
                   </div>
                 </div>
