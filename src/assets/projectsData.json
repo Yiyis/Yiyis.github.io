@@ -253,18 +253,6 @@
   },
   {
     "key": 22,
-    "name": "Apostrophe Front-end Development",
-    "link": "/N",
-    "memo": "Art & Science, Toronto",
-    "date": "2022",
-    "type": "Website",
-    "tools": "Apostrophe",
-    "role": "Development",
-    "tags": "Software",
-    "mainPhoto": "pics/projects/N/N.jpg"
-  },
-  {
-    "key": 23,
     "name": "Wordpress Development",
     "link": "/DG",
     "memo": "Art & Science, Toronto",
@@ -274,5 +262,17 @@
     "role": "Development",
     "tags": "Software",
     "mainPhoto": "pics/projects/DG/DG.jpg"
+  },
+  {
+    "key": 23,
+    "name": "Wordpress Development",
+    "link": "/R",
+    "memo": "Art & Science, Toronto",
+    "date": "2023",
+    "type": "Website",
+    "tools": "Wordpress",
+    "role": "Development",
+    "tags": "Software",
+    "mainPhoto": "pics/projects/R/R.png"
   }
 ]
