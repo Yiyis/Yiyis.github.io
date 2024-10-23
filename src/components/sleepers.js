@@ -37,7 +37,12 @@ class Sleepers extends React.Component {
                 <h3 className="pt-5 text-dark">Summary</h3>
                 <p>
                   A experimental research project at{" "}
-                  <a href="http://socialbodylab.com" className="alert-link">
+                  <a
+                    href="http://socialbodylab.com"
+                    className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Social Body Lab
                   </a>
                   . Sleepers are designed to keep the user from staying up too
@@ -51,6 +56,8 @@ class Sleepers extends React.Component {
                   <a
                     href="http://socialbodylab.com/sleepers/"
                     className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     here
                   </a>
@@ -60,6 +67,8 @@ class Sleepers extends React.Component {
                   <a
                     href="https://dl.acm.org/doi/abs/10.1145/3374920.3375004"
                     className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     TEI
                   </a>

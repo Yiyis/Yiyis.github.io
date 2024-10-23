@@ -19,10 +19,10 @@ class Rabbot extends React.Component {
           <div className="img-overlay"></div>
           <h1 className="project-title text-center text-white">RABBOT</h1>
           <ProjectInfo
-            year={data[0].date}
-            type={data[0].type}
-            tools={data[0].tools}
-            role={data[0].role}
+            year={data[17].date}
+            type={data[17].type}
+            tools={data[17].tools}
+            role={data[17].role}
           />
         </div>
         <div id="content">
@@ -93,7 +93,10 @@ class Rabbot extends React.Component {
                   <a
                     href="http://openresearch.ocadu.ca/id/eprint/2512/"
                     className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
+                    {" "}
                     here
                   </a>
                 </p>

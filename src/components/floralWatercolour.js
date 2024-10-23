@@ -40,6 +40,8 @@ class FloralWatercolour extends React.Component {
                   <a
                     href="https://www.instagram.com/tinyrabbithole/?hl=en"
                     className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {" "}
                     Tiny Rabbit Hole

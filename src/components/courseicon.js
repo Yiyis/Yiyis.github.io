@@ -38,6 +38,8 @@ class CourseIcon extends React.Component {
                   <a
                     href="https://itunes.apple.com/ca/course/ios-development-in-swift/id950659946"
                     className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     iOS Development in Swift
                   </a>{" "}
@@ -45,6 +47,8 @@ class CourseIcon extends React.Component {
                   <a
                     href="https://itunes.apple.com/ca/course/digital-electronics-vhdl/id848429948"
                     className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Digital Electronics & VHDL
                   </a>
@@ -106,7 +110,7 @@ class CourseIcon extends React.Component {
                 <img
                   src="pics/projects/CourseIcon/CourseIcon_banner.jpg"
                   className="img-fluid w-100"
-                  alt="Online ourse banner design"
+                  alt="Online course banner design"
                 />
               </div>
             </div>

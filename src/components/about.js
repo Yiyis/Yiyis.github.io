@@ -24,17 +24,29 @@ class About extends React.Component {
                 <div className="socialbtns text-center">
                   <ul className="list-unstyled list-inline">
                     <li className="list-inline-item p-1">
-                      <a href="https://github.com/Yiyis">
+                      <a
+                        href="https://github.com/Yiyis"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <FontAwesomeIcon icon={faGithub} />
                       </a>
                     </li>
                     <li className="list-inline-item p-1">
-                      <a href="https://www.linkedin.com/in/yiyishao/">
+                      <a
+                        href="https://www.linkedin.com/in/yiyishao/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <FontAwesomeIcon icon={faLinkedin} />
                       </a>
                     </li>
                     <li className="list-inline-item p-1">
-                      <a href="https://www.instagram.com/drunkcatthepluto/">
+                      <a
+                        href="https://www.instagram.com/drunkcatthepluto/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <FontAwesomeIcon icon={faInstagram} />
                       </a>
                     </li>
@@ -49,16 +61,26 @@ class About extends React.Component {
               <div className="col-md-6 p-5 about">
                 <h1 className="pt-5 text-light">About Me</h1>
                 <p className="text-light">
-                  Hello! My name is Yiyi. I am a developer with a background in
-                  design and arts. I am originally from China and now living in
-                  downtown Toronto. I am capable of working with a wide range of
-                  programming tools and digital media to make complex problems
-                  into simple solutions. I love building appealing and intuitive
-                  web apps that reflect users’ needs.
+                  Hi! I’m Yiyi, a developer with a background in design and
+                  arts, originally from China and now based in downtown Toronto.
+                  I enjoy working with a variety of programming tools and
+                  digital media to turn complex problems into simple, effective
+                  solutions. I’m passionate about creating visually appealing
+                  and intuitive web applications that meet users’ needs.
                 </p>
                 <p className="text-light">
-                  A bubbly and amiable character, I love spending time making
-                  handicrafts and turning my apartment into a forest.
+                  As a multi-disciplinary developer, I use my skills in digital
+                  media, design, and programming to simplify challenges and
+                  deliver creative solutions. My involvement in research
+                  projects reflects my dedication to exploring innovative
+                  approaches and contributing to the advancement of knowledge in
+                  my field.
+                </p>
+                <p className="text-light">
+                  When I’m not coding, I’m a devoted dog mom who loves outdoor
+                  adventures like rock climbing, diving, hiking, and camping.
+                  I’m also a certified PADI Open Water Diver and AIDA 2
+                  Freediver.
                 </p>
                 <h1 className="text-light pt-5">Exhibits, Talks & Workshops</h1>
                 <p className="text-light">

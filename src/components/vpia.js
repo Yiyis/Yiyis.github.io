@@ -19,10 +19,10 @@ class Vpia extends React.Component {
           <div className="img-overlay"></div>
           <h1 className="project-title text-center text-white">VPIA</h1>
           <ProjectInfo
-            year={data[1].date}
-            type={data[1].type}
-            tools={data[1].tools}
-            role={data[1].role}
+            year={data[16].date}
+            type={data[16].type}
+            tools={data[16].tools}
+            role={data[16].role}
           />
         </div>
         <div id="content">
@@ -33,7 +33,12 @@ class Vpia extends React.Component {
                 <p className="pt-3">
                   This project was led by Dr. Gerald McMaster as part of the
                   larger Entangled Gaze project at OCAD University’s{" "}
-                  <a href="https://wapatah.com/" className="alert-link">
+                  <a
+                    href="https://wapatah.com/"
+                    className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Wapatah Centre for Indigenous Visual Knowledge
                   </a>
                   , the VPIA is designed to facilitate Indigenous access,
@@ -63,7 +68,12 @@ class Vpia extends React.Component {
                 </ul>
                 <p className="pt-3">
                   Visit the plafrom{" "}
-                  <a href="https://vpia.wapatah.com" className="alert-link">
+                  <a
+                    href="https://vpia.wapatah.com"
+                    className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     here
                   </a>
                 </p>
@@ -71,6 +81,8 @@ class Vpia extends React.Component {
                   <a
                     href="https://github.com/Wapatah/VPIA"
                     className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Github repository
                   </a>
@@ -79,6 +91,8 @@ class Vpia extends React.Component {
                   <a
                     href="https://wapatah.com/virtual-platform-for-indigenous-art/"
                     className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Learn more
                   </a>{" "}

@@ -49,6 +49,8 @@ class Portfolio extends React.Component {
   }
 
   render() {
+    //reverse the project data so it displays the most recent one first
+    const reversedData = [...data].reverse();
     return (
       <motion.div initial="initial" animate="animate" exit={{ opacity: 0 }}>
         <Nav displayLogo={true} />
@@ -116,7 +118,7 @@ class Portfolio extends React.Component {
         </div>
         <div className="wrap">
           <div className="grid-sizer"></div>
-          {data.map((project) => (
+          {reversedData.map((project) => (
             <Link
               to={project.link}
               className={`${project.tags} grid-item`}

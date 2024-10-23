@@ -57,6 +57,8 @@ class Emolace extends React.Component {
                   <a
                     href="http://blog.ocad.ca/wordpress/digf6037-fw201702-01/2017/12/emolace/?doing_wp_cron=1560826141.0933818817138671875000"
                     className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {" "}
                     here
