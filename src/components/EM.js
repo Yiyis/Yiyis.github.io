@@ -76,9 +76,9 @@ class EM extends React.Component {
                 </a>
               </h3>
               <img
-                src="pics/projects/EM/showcase.jpg"
+                src="pics/projects/EM/Showcase.jpg"
                 className="img_fluid w-100"
-                alt="VPIA page showcase"
+                alt="Shopify Blog development showcase"
               />
               <div className="col text-center pb-5 pt-5">
                 <ScrollToTop />
