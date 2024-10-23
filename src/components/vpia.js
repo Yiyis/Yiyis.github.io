@@ -33,7 +33,12 @@ class Vpia extends React.Component {
                 <p className="pt-3">
                   This project was led by Dr. Gerald McMaster as part of the
                   larger Entangled Gaze project at OCAD University’s{" "}
-                  <a href="https://wapatah.com/" className="alert-link">
+                  <a
+                    href="https://wapatah.com/"
+                    className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Wapatah Centre for Indigenous Visual Knowledge
                   </a>
                   , the VPIA is designed to facilitate Indigenous access,
@@ -63,7 +68,12 @@ class Vpia extends React.Component {
                 </ul>
                 <p className="pt-3">
                   Visit the plafrom{" "}
-                  <a href="https://vpia.wapatah.com" className="alert-link">
+                  <a
+                    href="https://vpia.wapatah.com"
+                    className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     here
                   </a>
                 </p>
@@ -71,6 +81,8 @@ class Vpia extends React.Component {
                   <a
                     href="https://github.com/Wapatah/VPIA"
                     className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Github repository
                   </a>
@@ -79,6 +91,8 @@ class Vpia extends React.Component {
                   <a
                     href="https://wapatah.com/virtual-platform-for-indigenous-art/"
                     className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Learn more
                   </a>{" "}

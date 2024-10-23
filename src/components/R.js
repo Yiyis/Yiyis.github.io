@@ -62,7 +62,12 @@ class R extends React.Component {
             </div>
             <div className="container-fluid bg-green">
               <h3 className="pt-5 text-dark text-center">
-                <a href="https://www.embark.ca" className="alert-link">
+                <a
+                  href="https://www.embark.ca"
+                  className="alert-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Visit Site
                 </a>
               </h3>

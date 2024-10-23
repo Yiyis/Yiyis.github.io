@@ -69,6 +69,8 @@ class EM extends React.Component {
                 <a
                   href="https://www.elliemaestudios.com/"
                   className="alert-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Visit Site
                 </a>

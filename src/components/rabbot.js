@@ -93,7 +93,10 @@ class Rabbot extends React.Component {
                   <a
                     href="http://openresearch.ocadu.ca/id/eprint/2512/"
                     className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
+                    {" "}
                     here
                   </a>
                 </p>

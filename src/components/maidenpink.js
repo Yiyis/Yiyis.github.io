@@ -51,6 +51,8 @@ class Maidenpink extends React.Component {
                   <a
                     href="https://shao-yiyi.format.com/blog"
                     className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {" "}
                     here
@@ -60,6 +62,10 @@ class Maidenpink extends React.Component {
                   <a
                     href="https://drive.google.com/open?id=138_7HyUf-9qz4ousf2WHVNRlZnB_0A_h"
                     className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {" "}
                     this game

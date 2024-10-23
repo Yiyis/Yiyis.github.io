@@ -46,6 +46,8 @@ class Moongaze extends React.Component {
                   <a
                     href="http://blog.ocad.ca/wordpress/digf6037-fw201702-01/2017/11/moon-gaze/"
                     className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     here
                   </a>

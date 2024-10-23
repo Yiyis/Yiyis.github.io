@@ -53,6 +53,8 @@ class Lovemeloveyou extends React.Component {
                   <a
                     href="https://trello.com/b/af8zZWfd/luv-me-luv-u-3"
                     className="alert-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     here
                   </a>
