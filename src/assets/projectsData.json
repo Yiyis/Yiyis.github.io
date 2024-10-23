@@ -274,5 +274,17 @@
     "role": "Development",
     "tags": "Software",
     "mainPhoto": "pics/projects/R/R.png"
+  },
+  {
+    "key": 24,
+    "name": "Headless Wordpress Front-end Development",
+    "link": "/F",
+    "memo": "Art & Science, Toronto",
+    "date": "2024",
+    "type": "Website",
+    "tools": "Wordpress",
+    "role": "Development",
+    "tags": "Software",
+    "mainPhoto": "pics/projects/F/F_thumbnail.jpg"
   }
 ]

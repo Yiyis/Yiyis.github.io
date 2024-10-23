@@ -27,6 +27,7 @@ import UniverseConcert from "./components/universeConcert";
 import EM from "./components/EM";
 import TR from "./components/TR";
 import E from "./components/E";
+import F from "./components/F";
 import R from "./components/R";
 import DG from "./components/DG";
 import { AnimatePresence } from "framer-motion";
@@ -61,6 +62,7 @@ function App() {
         <Route path="/EM" component={EM} />
         <Route path="/TR" component={TR} />
         <Route path="/E" component={E} />
+        <Route path="/F" component={F} />
         <Route path="/R" component={R} />
         <Route path="/DG" component={DG} />
       </Switch>
