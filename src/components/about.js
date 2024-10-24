@@ -63,18 +63,17 @@ class About extends React.Component {
                 <p className="text-light">
                   Hi! I’m Yiyi, a developer with a background in design and
                   arts, originally from China and now based in downtown Toronto.
-                  I enjoy working with a variety of programming tools and
-                  digital media to turn complex problems into simple, effective
-                  solutions. I’m passionate about creating visually appealing
-                  and intuitive web applications that meet users’ needs.
+                  I love using a range of programming tools and digital media to
+                  craft simple, effective solutions to complex problems. My
+                  focus is on building visually appealing, intuitive web
+                  applications that align with user needs.
                 </p>
                 <p className="text-light">
-                  As a multi-disciplinary developer, I use my skills in digital
-                  media, design, and programming to simplify challenges and
-                  deliver creative solutions. My involvement in research
-                  projects reflects my dedication to exploring innovative
-                  approaches and contributing to the advancement of knowledge in
-                  my field.
+                  With a multidisciplinary approach, I combine my expertise in
+                  design, programming, and digital media to deliver creative,
+                  efficient solutions. I’ve also contributed to research
+                  projects, reflecting my passion for innovation and advancing
+                  knowledge in the tech space.
                 </p>
                 <p className="text-light">
                   When I’m not coding, I’m a devoted dog mom who loves outdoor
