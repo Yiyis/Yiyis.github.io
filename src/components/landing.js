@@ -43,7 +43,7 @@ class Landing extends React.Component {
               variants={text}
               className="block"
             >
-              Maker | Developer | Designer
+              Developer | Designer | Maker
             </motion.p>
           </div>
           <div className="container">
