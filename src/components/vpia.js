@@ -54,17 +54,15 @@ class Vpia extends React.Component {
                 <h3 className="pt-5 text-dark">Platfrom stack: </h3>
                 <ul>
                   <li>
-                    Back-end: Node.js v15.0.0, Express.js 4.17.1 with RESTful
-                    API design, MySQL and Caminte, Progressive Web App (PWA)
+                    Back-end: NodeJS, ExpressJS, RESTful, MySQL and Caminte,
+                    Progressive Web App (PWA)
                   </li>
-                  <li>Front-end: React 16.14.0, Bootstrap 4.3.1 and TinyMCE</li>
-                  <li>Version control: Git, hosted on Github</li>
+                  <li>Front-end: React, Bootstrap and TinyMCE</li>
                   <li>Hosting: AWS, Nginx for reverse proxy</li>
                   <li>Linting tools: Prettier and ESlint</li>
                   <li>Bundling: Webpack</li>
                   <li>PRs testing: LGTM and TravisCI</li>
                   <li>DevOps: TravisCI and AWS Codeploy</li>
-                  <li>Domain management: Reclaim Hosting/Cpanel</li>
                 </ul>
                 <p className="pt-3">
                   Visit the plafrom{" "}
