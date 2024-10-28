@@ -181,7 +181,7 @@ h2 {
 }
 
 .square {
-  font-size: 10em;
+  font-size: 20em;
   font-weight: 500;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -414,7 +414,12 @@ h2 {
   transform: translate(-100%);
   transition: transform 1s ease-in-out;
 }
-
+/*------------For tablet------------*/
+@media only screen and (max-width: 1024px) {
+  .square {
+    font-size: 10em;
+  }
+}
 /*------------For mobile phones------------*/
 @media only screen and (max-width: 620px) {
   .wrapper,
