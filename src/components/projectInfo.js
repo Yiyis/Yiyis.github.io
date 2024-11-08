@@ -9,7 +9,7 @@ class ProjectInfo extends React.Component {
         initial="initial"
         animate="animate"
         variants={text}
-        className="row row-fullwidth project-info align-items-center pb-4"
+        className="row row-fullwidth project-info align-items-center pb-4 text-center"
       >
         <div className="row">
           <div className="col-3 ">
