@@ -230,6 +230,9 @@ h2 {
     width: 100%;
     padding: 3%;
   }
+  .project-title {
+    font-size: 3.5rem;
+  }
 }
 /*------------For iPad------------*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
