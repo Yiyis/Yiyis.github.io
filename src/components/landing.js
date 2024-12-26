@@ -25,13 +25,6 @@ class Landing extends React.Component {
   }
 
   render() {
-    const bodymovinOptions = {
-      renderer: "svg",
-      loop: false,
-      autoplay: true,
-      animationData: animation,
-    };
-
     return (
       <motion.section exit={{ opacity: 0 }}>
         <div className="App">
@@ -52,18 +45,25 @@ class Landing extends React.Component {
               init={this.customInit}
               options={particlesOptions}
             />
-            <div className="bm">
-              <Lottie options={bodymovinOptions} />
-            </div>
-            <div className="line">
-              <LetterAnimation letter="Y" />
-              <LetterAnimation letter="I" />
-              <LetterAnimation letter="Y" />
-              <LetterAnimation letter="I" />
-              <LetterAnimation letter="S" id="custom-space" />
-              <LetterAnimation letter="H" />
-              <LetterAnimation letter="A" />
-              <LetterAnimation letter="O" />
+            <div className="d-flex align-items-center justify-content-center vh-100 flex-column">
+              <div className="bm">
+                <Lottie
+                  animationData={animation}
+                  loop={false}
+                  autoplay={true}
+                  style={{ height: "100%", width: "100%" }}
+                />
+              </div>
+              <div className="line">
+                <LetterAnimation letter="Y" />
+                <LetterAnimation letter="I" />
+                <LetterAnimation letter="Y" />
+                <LetterAnimation letter="I" />
+                <LetterAnimation letter="S" id="custom-space" />
+                <LetterAnimation letter="H" />
+                <LetterAnimation letter="A" />
+                <LetterAnimation letter="O" />
+              </div>
             </div>
           </div>
           <Footer />
