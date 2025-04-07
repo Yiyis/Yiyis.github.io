@@ -30,6 +30,7 @@ import E from "./components/E";
 import F from "./components/F";
 import R from "./components/R";
 import DG from "./components/DG";
+import BS from "./components/BS";
 import { AnimatePresence } from "framer-motion";
 import { Route, Switch, useLocation } from "react-router-dom";
 
@@ -65,6 +66,7 @@ function App() {
         <Route path="/F" component={F} />
         <Route path="/R" component={R} />
         <Route path="/DG" component={DG} />
+        <Route path="/BS" component={BS} />
       </Switch>
     </AnimatePresence>
   );

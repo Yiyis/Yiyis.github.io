@@ -286,5 +286,17 @@
     "role": "Development",
     "tags": "Software",
     "mainPhoto": "pics/projects/F/F_thumbnail.jpg"
+  },
+  {
+    "key": 25,
+    "name": "Shopify Theme Development",
+    "link": "/BS",
+    "memo": "Art & Science, Toronto",
+    "date": "2024",
+    "type": "Website",
+    "tools": "Shopify",
+    "role": "Development",
+    "tags": "Software",
+    "mainPhoto": "pics/projects/BS/BS_thumbnail.jpg"
   }
 ]
