@@ -64,8 +64,6 @@ class Maidenpink extends React.Component {
                     className="alert-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    target="_blank"
-                    rel="noopener noreferrer"
                   >
                     {" "}
                     this game

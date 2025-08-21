@@ -19,7 +19,7 @@ class Landing extends React.Component {
     };
   }
 
-  async customInit(engine: Engine): Promise<void> {
+  async customInit(engine) {
     // this adds the bundle to tsParticles
     await loadFull(engine);
   }
