@@ -205,6 +205,9 @@ h2 {
 .bg-beige {
   background: #e6dac1;
 }
+.bg-light-purple {
+  background: #acaad5;
+}
 .alert-link {
   color: grey;
   text-decoration: underline;

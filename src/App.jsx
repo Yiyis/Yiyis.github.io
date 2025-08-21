@@ -31,6 +31,7 @@ import F from "./components/F.jsx";
 import R from "./components/R.jsx";
 import DG from "./components/DG.jsx";
 import BS from "./components/BS.jsx";
+import GitRepoScope from "./components/GitRepoScope.jsx";
 import { AnimatePresence } from "framer-motion";
 import { Route, Routes, useLocation } from "react-router-dom";
 
@@ -70,6 +71,7 @@ function App() {
         <Route path="/R" element={<R />} />
         <Route path="/DG" element={<DG />} />
         <Route path="/BS" element={<BS />} />
+        <Route path="/GitRepoScope" element={<GitRepoScope />} />
       </Routes>
     </AnimatePresence>
   );
