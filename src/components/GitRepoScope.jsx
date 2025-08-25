@@ -19,7 +19,7 @@ class GitRepoScope extends React.Component {
             />
             <div className="img-overlay"></div>
             <h1 className="project-title text-center text-white">
-              SaaS Fullstack Development
+              AI SaaS Fullstack Development
             </h1>
             <ProjectInfo
               year={data[25].date}
@@ -32,27 +32,27 @@ class GitRepoScope extends React.Component {
             <div className="container-fluid p-custom">
               <div className="row">
                 <div className="col-md-6">
-                  <h1>SaaS Fullstack Development</h1>
+                  <h1>AI SaaS Fullstack Development</h1>
                   <p className="pt-3">
                     I developed Git Repo Scope -- a comprehensive SaaS API
                     management platform that combines modern web development
-                    with AI-powered insights. Built with Next.js 14 and React
-                    18, this full-stack application features a complete
-                    dashboard for API key lifecycle management, including CRUD
-                    operations, usage tracking, and permission-based access
-                    control. The platform integrates Google OAuth authentication
-                    through NextAuth.js and leverages Supabase's PostgreSQL
-                    database with Row Level Security for secure multi-tenancy. A
-                    standout feature is the AI-powered GitHub repository
-                    analysis system, built using LangChain and OpenAI's GPT-4
-                    Nano, which provides intelligent summarization and metadata
-                    extraction from repository documentation. The application
-                    showcases advanced concepts including rate limiting with
-                    atomic usage tracking, parallel API processing for optimal
-                    performance, and a glassmorphism design system implemented
-                    with Tailwind CSS and Shadcn/UI components. This project
-                    demonstrates proficiency in modern fullstack architecture,
-                    AI integration, and production-ready security
+                    with AI-powered insights. Built with Next.js and React ,
+                    this full-stack application features a complete dashboard
+                    for API key lifecycle management, including CRUD operations,
+                    usage tracking, and permission-based access control. The
+                    platform integrates Google OAuth authentication through
+                    NextAuth.js and leverages Supabase's PostgreSQL database
+                    with Row Level Security for secure multi-tenancy. A standout
+                    feature is the AI-powered GitHub repository analysis system,
+                    built using LangChain and OpenAI's GPT-5 Nano, which
+                    provides intelligent summarization and metadata extraction
+                    from repository documentation. The application showcases
+                    advanced concepts including rate limiting with atomic usage
+                    tracking, parallel API processing for optimal performance,
+                    and a glassmorphism design system implemented with Tailwind
+                    CSS and Shadcn/UI components. This project demonstrates
+                    proficiency in modern fullstack architecture, AI
+                    integration, and production-ready security
                     practices—delivering a polished developer tool that bridges
                     API management with intelligent code analysis.
                   </p>
